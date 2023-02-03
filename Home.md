@@ -20,7 +20,7 @@ Here's a list of all the included applets in v1.4.9:
 * **ClockSkip** - randomly skip pulses
 * **Compare** - basic comparator
 * **DrumMap** - clone of Mutable Instruments Grids
-* **DualTM** - the ultimate Turing Machine sequencer
+* **DualTM** - highly configurable pair of Turing Machine shift registers
 * **DualQuant** - basic quantizer
 * **Ebb & LFO** - clone of Mutable Instruments Tides
 * **EnigmaJr** - compact player of curated shift registers
@@ -50,7 +50,7 @@ Here's a list of all the included applets in v1.4.9:
 * **Slew** - smooth things out
 * **Squanch** - another quantizer
 * **Stairs** - stepped CV
-* **Switch** - 
+* **Switch** - CV switch
 * **TB-3PO** - a brilliant 303-style sequencer
 * **TL Neuron** - clever logic gate
 * **Trending** - rising / falling / moving / steady / state change / value change
@@ -59,6 +59,6 @@ Here's a list of all the included applets in v1.4.9:
 * **Tuner** - oscillator frequency detector
 * **VectorEG** - custom envelope shapes
 * **VectorLFO** - custom LFO shapes
-* **VectorMod** - 
-* **VectorMorph** - 
+* **VectorMod** - custom modulation?
+* **VectorMorph** - Morphing! with Vectors!
 * **Voltage** - static output CV
