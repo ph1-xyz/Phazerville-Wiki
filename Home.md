@@ -1,6 +1,6 @@
-Thanks for checking out my firmware. All the full-screen apps from Hemisphere are here - **Captain MIDI, Pong, Enigma, Darkest Timeline** (Neural Net is there but disabled at the moment). If there is enough room, I plan to pull in a few stock o_C apps.
+Thanks for checking out my firmware. All the full-screen apps from Hemisphere are here - **Captain MIDI, Pong, Enigma, Darkest Timeline** & **Neural Net** - as well as several stock O&C firmware apps.
 
-Here's a list of all the included applets in v1.4.9:
+Here's a list of all the included applets in v1.5:
 
 * **AD** - attack / decay envelope
 * **ADSR** - attack / decay / sustain / release envelope
@@ -36,8 +36,8 @@ Here's a list of all the included applets in v1.4.9:
 * **MIDI Out** - from CV to USB
 * **MixerBal** - basic mixer
 * **Palimpsest** - accent sequencer
-* **ProbabilityDivider** - probabalistic clock divider
-* **ProbabilityMelody** - probabalistic pitches
+* **ProbabilityDivider** - probabilistic clock divider
+* **ProbabilityMelody** - probabilistic pitches
 * **RndWalk** - clocked random walk CV generator
 * **RunglBook** - chaotic shift-register modulation
 * **ScaleDuet** - 2 quantizers with independent scale masks
