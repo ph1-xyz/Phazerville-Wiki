@@ -1,5 +1,5 @@
 ### Quad Performance Quantizer + Pitch Fine-Tuning App
-Based on a design spec from Chris Meyer ([Alias Zone](https://aliaszone.com/) / [Learning Modular](https://learningmodular.com/)) - this is a **4-channel Pitch CV fine-tuning tool** with performance-oriented transpose controls. Each channel can be clocked for S&H of the Transposition or the Input as well. There are 4 preset banks to store and quickly switch configurations.
+Based on a design spec from Chris Meyer ([Alias Zone](https://aliaszone.com/) / [Learning Modular](https://learningmodular.com/)) - this is a **4-channel Pitch CV fine-tuning tool** with performance-oriented transpose controls. Each channel can be clocked for latching of the Transpose value or full S&H of the input. There are 4 preset banks to store and quickly switch configurations.
 
 There's a mini applet version called _Calibr8_. Paired with the Tuner applet, this is can be handy for examining the pitch-tracking of your oscillators! Accurate performance will depend on the calibration of your o_C module itself.
 
@@ -9,5 +9,9 @@ There's a mini applet version called _Calibr8_. Paired with the Tuner applet, th
 - Quick-press Left Encoder - switch between Transpose and Fine-Tune controls
 - Quick-press Right Encoder - toggle Scale & Root Note selection
 - Long-press DOWN button - preset switching
-  - press Left Encoder to toggle Save/Load
+  - turn or press Left Encoder to toggle Save/Load
   - use Right Encoder to select
+  - UP or DOWN to cancel
+- Dual-press UP+DOWN for Clock Setup (shared with Hemispheres)
+
+Note: the presets are not stored in EEPROM unless you save the module state (with a Right Encoder Long-press, twice)
