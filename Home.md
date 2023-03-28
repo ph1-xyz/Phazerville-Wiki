@@ -2,7 +2,9 @@ Thanks for checking out my firmware. All the full-screen apps from Hemisphere ar
 
 Check out the new [**Clock Setup**](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Clock-Setup) screen.
 
-Here's a list of all the included applets in v1.5.1:
+NOTE: If applets like Stairs, Carpeggio or Shredder appear unresponsive, you might need to calibrate your module to eliminate an offset on the ADC inputs. This can partially be done without a fancy multimeter - go to the **Setup / About** app and just skip all the other Calibration steps.
+
+### Full List of Applets
 
 * **AD** - attack / decay envelope
 * **ADSR** - attack / decay / sustain / release envelope
