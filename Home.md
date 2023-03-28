@@ -1,4 +1,4 @@
-Thanks for checking out my firmware. All the full-screen apps from Hemisphere are here - **Captain MIDI, Pong, Enigma, Darkest Timeline** & **Neural Net** - as well as several stock O&C firmware apps, depending on which .hex file you used from the Release page.
+Thanks for checking out my firmware. All the full-screen apps from Hemisphere are here - **Captain MIDI, Pong, Enigma, Darkest Timeline** & **Neural Net** - as well as several stock O&C firmware apps, depending on which .hex file you used from the [Release page](https://github.com/djphazer/O_C-BenisphereSuite/releases).
 
 Check out the new [**Clock Setup**](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Clock-Setup) screen.
 
@@ -23,12 +23,12 @@ Here's a list of all the included applets in v1.5.1:
 * **ClockSkip** - randomly skip pulses
 * **Compare** - basic comparator
 * **[DrumMap](https://github.com/benirose/O_C-BenisphereSuite/wiki/DrumMap)** - clone of Mutable Instruments Grids
-* **DualTM** - highly configurable pair of Turing Machine shift registers
+* **DualTM** - highly configurable pair of Turing Machine shift registers (replacement for ShiftReg/TM)
 * **DualQuant** - basic quantizer
 * **Ebb & LFO** - clone of Mutable Instruments Tides
 * **EnigmaJr** - compact player of curated shift registers
 * **EnvFollow** - follows or ducks based on incoming audio
-* **EuclidX** - Euclidean pattern generator
+* **EuclidX** - Euclidean pattern generator (replacement for AnnularFusion)
 * **GateDelay** - simple gate delay
 * **GatedVCA** - simple VCA
 * **LoFi Echo** - super crunchy PCM delay line
