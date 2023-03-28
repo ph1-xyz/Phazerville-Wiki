@@ -1,25 +1,28 @@
-Thanks for checking out my firmware. All the full-screen apps from Hemisphere are here - **Captain MIDI, Pong, Enigma, Darkest Timeline** & **Neural Net** - as well as several stock O&C firmware apps.
+Thanks for checking out my firmware. All the full-screen apps from Hemisphere are here - **Captain MIDI, Pong, Enigma, Darkest Timeline** & **Neural Net** - as well as several stock O&C firmware apps, depending on which .hex file you used from the Release page.
 
-Here's a list of all the included applets in v1.5:
+Check out the new [**Clock Setup**](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Clock-Setup) screen.
+
+Here's a list of all the included applets in v1.5.1:
 
 * **AD** - attack / decay envelope
 * **ADSR** - attack / decay / sustain / release envelope
 * **ASR** - Analog Shift Register
-* **AttenOff** - mix, invert, attenuate
+* **AttenOff** - Attenu-vert, Offset, and Mix inputs
 * **Binary** - 1 bit per input, output as voltage
 * **BootsNCat** - noisy percussion
 * **Brancher** - Bernoulli gate
-* **BugCrack** - sick drums, don't bug out
+* **[BugCrack](https://github.com/benirose/O_C-BenisphereSuite/wiki/Bug-Crack)** - sick drums, don't bug out
 * **Burst** - rapid trigger generator
 * **Button2** - simple trigger or gate from pressing the button
 * **CVRec** - record / playback up to 384 steps on 2 tracks
 * **Calculate** - Min, Max, Diff, Mean, Random, S&H
+* **Calibr8** - 2-channel voltage scaling, bias offset, semitone transpose utility
 * **Carpeggio** - X-Y table of pitches from a scale/chord
 * **Chordinate** - quantizer with scale mask, outputs root + scale degree
 * **ClockDivider** - clock pulse multiplier / divider
 * **ClockSkip** - randomly skip pulses
 * **Compare** - basic comparator
-* **DrumMap** - clone of Mutable Instruments Grids
+* **[DrumMap](https://github.com/benirose/O_C-BenisphereSuite/wiki/DrumMap)** - clone of Mutable Instruments Grids
 * **DualTM** - highly configurable pair of Turing Machine shift registers
 * **DualQuant** - basic quantizer
 * **Ebb & LFO** - clone of Mutable Instruments Tides
@@ -36,22 +39,22 @@ Here's a list of all the included applets in v1.5:
 * **MIDI Out** - from CV to USB
 * **MixerBal** - basic mixer
 * **Palimpsest** - accent sequencer
-* **ProbabilityDivider** - probabilistic clock divider
-* **ProbabilityMelody** - probabilistic pitches
-* **RndWalk** - clocked random walk CV generator
+* **[ProbDiv](https://github.com/benirose/O_C-BenisphereSuite/wiki/ProbDiv)** - stochastic trigger generator
+* **[ProbMeloD](https://github.com/benirose/O_C-BenisphereSuite/wiki/ProbMeloD)** - stochastic melody generator
+* **RndWalk** - clocked random walk CV generator (from [adegani](https://github.com/adegani/O_C-HemisphereSuite))
 * **RunglBook** - chaotic shift-register modulation
 * **ScaleDuet** - 2 quantizers with independent scale masks
 * **Schmitt** - hysteresis filter
 * **Scope** - tiny CV scope and voltmeter
 * **SequenceX** - up to 8 steps of CV, quantized to semitones
 * **ShiftGate** - dual shift register-based gate/trigger sequencer
-* **Shredder** - clone of Mimetic Digitalis
+* **[Shredder](https://github.com/benirose/O_C-BenisphereSuite/wiki/Shredder)** - clone of Mimetic Digitalis
 * **Shuffle** - it don't mean a thing if it ain't got that swing
 * **Slew** - smooth things out
-* **Squanch** - another quantizer
-* **Stairs** - stepped CV
+* **Squanch** - another quantizer, with transpose
+* [**Stairs**](https://github.com/Logarhythm1/O_C-HemisphereSuite/wiki/Stairs) - stepped CV
 * **Switch** - CV switch
-* **TB-3PO** - a brilliant 303-style sequencer
+* [**TB-3PO**](https://github.com/Logarhythm1/O_C-HemisphereSuite/wiki/TB-3PO) - a brilliant 303-style sequencer
 * **TL Neuron** - clever logic gate
 * **Trending** - rising / falling / moving / steady / state change / value change
 * **TrigSeq** - two 8-step trigger sequences
