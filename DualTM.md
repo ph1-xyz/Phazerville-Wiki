@@ -6,7 +6,7 @@ The **Slew** parameter allows extreme smoothing on the output stage for portamen
 
 * Pitch 1 - derived from 8 bits of the FIRST register
 * Pitch 2 - derived from 8 bits of the SECOND register
-* Pitch 1+2 - derived from the average of the two registers, optionally crossfaded via CV
+* Pitch 1+2 - a blend of the two pitches, optionally crossfaded via CV
   - in 1.5.x, it was actually the SUM of the two pitches; changed in v1.6
 * Mod 1 - unquantized bipolar modulation from FIRST register
 * Mod 2 - unquantized bipolar modulation from SECOND register
