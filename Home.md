@@ -2,7 +2,7 @@ Thanks for checking out my firmware. All the full-screen apps from Hemisphere ar
 
 Check out the new [**Clock Setup**](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Clock-Setup) screen.
 
-NOTE: If applets like Stairs, Carpeggio or Shredder appear unresponsive, you might need to calibrate your module to eliminate an offset on the ADC inputs. This can partially be done without a fancy multimeter - go to the **Setup / About** app and just skip all the other Calibration steps.
+NOTE: If applets like Stairs, Carpeggio or Shredder appear unresponsive, you might need to [calibrate your module](https://www.youtube.com/shorts/AIadpDclP7M) to eliminate an offset on the ADC inputs. This can partially be done without a fancy multimeter - go to the **Setup / About** app and just skip all the other Calibration steps.
 
 ### Full List of Applets
 
@@ -31,6 +31,7 @@ NOTE: If applets like Stairs, Carpeggio or Shredder appear unresponsive, you mig
 * **EnigmaJr** - compact player of curated shift registers
 * **EnvFollow** - follows or ducks based on incoming audio
 * **EuclidX** - Euclidean pattern generator (replacement for AnnularFusion)
+* **[GameOfLife](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Conways's-Game-of-Life-(Retired))** - experimental cellular automaton modulation source
 * **GateDelay** - simple gate delay
 * **GatedVCA** - simple VCA
 * **LoFi Echo** - super crunchy PCM delay line
@@ -47,7 +48,7 @@ NOTE: If applets like Stairs, Carpeggio or Shredder appear unresponsive, you mig
 * **RunglBook** - chaotic shift-register modulation
 * **ScaleDuet** - 2 quantizers with independent scale masks
 * **Schmitt** - hysteresis filter
-* **Scope** - tiny CV scope and voltmeter
+* **Scope** - tiny CV scope / voltmeter / BPM counter
 * **SequenceX** - up to 8 steps of CV, quantized to semitones
 * **ShiftGate** - dual shift register-based gate/trigger sequencer
 * **[Shredder](https://github.com/benirose/O_C-BenisphereSuite/wiki/Shredder)** - clone of Mimetic Digitalis
@@ -64,6 +65,6 @@ NOTE: If applets like Stairs, Carpeggio or Shredder appear unresponsive, you mig
 * **Tuner** - oscillator frequency detector
 * **VectorEG** - custom envelope shapes
 * **VectorLFO** - custom LFO shapes
-* **VectorMod** - custom modulation?
-* **VectorMorph** - Morphing! with Vectors!
+* **VectorMod** - custom modulation
+* **VectorMorph** - custom waveshaper tool
 * **Voltage** - static output CV
