@@ -25,7 +25,7 @@ NOTE: If applets like Stairs, Carpeggio or Shredder appear unresponsive, you mig
 * **ClockSkip** - randomly skip pulses
 * **Compare** - basic comparator
 * **[DrumMap](https://github.com/benirose/O_C-BenisphereSuite/wiki/DrumMap)** - clone of Mutable Instruments Grids
-* **DualTM** - highly configurable pair of Turing Machine shift registers (replacement for ShiftReg/TM)
+* **[DualTM](https://github.com/djphazer/O_C-BenisphereSuite/wiki/DualTM)** - highly configurable pair of Turing Machine shift registers (replacement for ShiftReg/TM)
 * **DualQuant** - basic quantizer
 * **Ebb & LFO** - clone of Mutable Instruments Tides
 * **EnigmaJr** - compact player of curated shift registers
