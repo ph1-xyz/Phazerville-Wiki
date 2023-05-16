@@ -9,13 +9,14 @@ NOTE: If applets like Stairs, Carpeggio or Shredder appear unresponsive, you mig
 * **[AD](https://github.com/Chysn/O_C-HemisphereSuite/wiki/AD-EG)** - attack / decay envelope
 * **[ADSR](https://github.com/Chysn/O_C-HemisphereSuite/wiki/ADSR-EG)** - attack / decay / sustain / release envelope
 * **[ASR](https://github.com/Chysn/O_C-HemisphereSuite/wiki/%22A%22SR)** - Analog Shift Register
-* **AttenOff** - Attenu-vert, Offset, and Mix inputs
+* **[AttenOff](https://github.com/Chysn/O_C-HemisphereSuite/wiki/AttenOff)** - Attenu-vert, Offset, and Mix inputs
 * **[Binary](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Binary-Counter-(Retired))** - 1 bit per input, output as voltage
 * **[BootsNCat](https://github.com/Chysn/O_C-HemisphereSuite/wiki/BootsNCat)** - noisy percussion
 * **[Brancher](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Brancher)** - Bernoulli gate
 * **[BugCrack](https://github.com/benirose/O_C-BenisphereSuite/wiki/Bug-Crack)** - sick drums, don't bug out
-* **Burst** - rapid trigger generator
-* **Button2** - simple trigger or gate from pressing the button
+* **[Burst](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Burst)** - rapid trigger generator
+* **[Button](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Button)2** - simple trigger or gate from pressing the button
+  - modified 2-channel version
 * **[CVRec](https://github.com/Chysn/O_C-HemisphereSuite/wiki/CV-Recorder)** - record / playback up to 384 steps on 2 tracks
 * **[Calculate](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Calculate)** - Min, Max, Diff, Mean, Random, S&H
 * **Calibr8** - 2-channel voltage scaling, bias offset, semitone transpose utility
@@ -27,11 +28,11 @@ NOTE: If applets like Stairs, Carpeggio or Shredder appear unresponsive, you mig
 * **[DrumMap](https://github.com/benirose/O_C-BenisphereSuite/wiki/DrumMap)** - clone of Mutable Instruments Grids
 * **[DualTM](https://github.com/djphazer/O_C-BenisphereSuite/wiki/DualTM)** - highly configurable pair of Turing Machine shift registers (replacement for ShiftReg/TM)
 * **[DualQuant](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Dual-Quantizer)** - basic quantizer
-* **Ebb & LFO** - clone of Mutable Instruments Tides
+* **Ebb & LFO** - clone of Mutable Instruments Tides; oscillator / LFO with CV-controllable waveshape, slope, V/Oct, folding
 * **[EnigmaJr](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Enigma,-Jr.)** - compact player of curated shift registers
 * **[EnvFollow](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Envelope-Follower)** - follows or ducks based on incoming audio
   - added Speed control
-* **EuclidX** - Euclidean pattern generator (replacement for AnnularFusion)
+* **EuclidX** - Euclidean pattern generator (replacement for [AnnularFusion](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Annular-Fusion-Euclidean-Drummer))
 * **[GameOfLife](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Conways's-Game-of-Life-(Retired))** - experimental cellular automaton modulation source
 * **[GateDelay](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Gate-Delay)** - simple gate delay
 * **[GatedVCA](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Gated-VCA)** - simple VCA
