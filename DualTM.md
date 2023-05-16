@@ -3,7 +3,7 @@ Adapted from the original [**ShiftReg**](https://github.com/Chysn/O_C-Hemisphere
 The **Slew** parameter allows extreme smoothing on the output stage for portamento and gentle modulation. It acts as a Decay tail on the Trigger output modes. With CV input modulation of Slew, you can modulate the smoothing - CV control over decay envelopes, or variable portamento.
 
 ## Output Modes
-
+Each output can be assigned to one of the following:
 * Pitch 1 - derived from 8 bits of the FIRST register
 * Pitch 2 - derived from 8 bits of the SECOND register
 * Pitch 1+2 - a blend of the two pitches, optionally crossfaded via CV
@@ -17,13 +17,13 @@ The **Slew** parameter allows extreme smoothing on the output stage for portamen
 * Gate 1+2 - two-level gate output from the sum of the current bits
 
 ## Input Modes
-
-* Slew - bipolar modulation of the Slew amount
-* Length - bipolar modulation of the pattern length
-* p - bipolar modulation of probability
-* Range - bipolar modulation of Range
+Each CV input can be assigned to modulate (bi-polar) one of the following:
+* Slew
+* Length
+* p - probability
+* Range
 * Transpose 1 - offset Pitch 1 (basic voltage adder)
 * Transpose 2 - offset Pitch 2
-* Crossfade 1+2 - Affects the combo Pitch 1+2 Output mode
+* Crossfade 1+2 - Affects the combo Pitch 1+2 Output mode only
   - at 0V or unpatched, the two pitches are averaged
   - Positive voltage fades toward Pitch 2; negative voltage toward Pitch 1 (i think, lol, somebody should check my math)
