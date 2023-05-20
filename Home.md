@@ -1,6 +1,6 @@
-Thanks for checking out my firmware. All the full-screen apps from Hemisphere are here - **Captain MIDI, Pong, Enigma, Darkest Timeline** & **Neural Net** - as well as several stock O&C firmware apps, depending on which .hex file you used from the [Release page](https://github.com/djphazer/O_C-BenisphereSuite/releases).
+Thanks for checking out my firmware. All the full-screen apps from Hemisphere are here - **[Captain MIDI](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Captain-MIDI), [Pong](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Pong), [Enigma](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Enigma), [The Darkest Timeline](https://github.com/Chysn/O_C-HemisphereSuite/wiki/The-Darkest-Timeline-2.0)** & **[Neural Net](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Neural-Net)** - plus all of the [stock O&C firmware](https://ornament-and-cri.me/user-manual-v1_3/) apps, albeit in limited combinations depending on which .hex file you grab from the [Release page](https://github.com/djphazer/O_C-BenisphereSuite/releases).
 
-Check out the new [**Clock Setup**](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Clock-Setup) screen.
+Check out the enhanced [**Clock Setup**](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Clock-Setup) screen.
 
 NOTE: If applets like Stairs, Carpeggio or Shredder appear unresponsive, you might need to [calibrate your module](https://www.youtube.com/shorts/AIadpDclP7M) to eliminate an offset on the ADC inputs. This can partially be done without a fancy multimeter - go to the **Setup / About** app and just skip all the other Calibration steps.
 
