@@ -58,7 +58,7 @@ NOTE: If applets like Stairs, Carpeggio or Shredder appear unresponsive, you mig
 * **[Shuffle](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Shuffle)** - it don't mean a thing if it ain't got that swing
   - triplets added on 2nd output
 * **[Slew](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Slew)** - smooth things out
-* **[Squanch](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Squanch---Shifting-Quantizer)** - another quantizer, with transpose
+* **[Squanch](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Squanch---Shifting-Quantizer)** - advanced quantizer with transpose
 * **[Stairs](https://github.com/Logarhythm1/O_C-HemisphereSuite/wiki/Stairs)** - stepped CV
 * **[Switch](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Switch)** - CV switch
 * **[TB-3PO](https://github.com/Logarhythm1/O_C-HemisphereSuite/wiki/TB-3PO)** - a brilliant 303-style sequencer
