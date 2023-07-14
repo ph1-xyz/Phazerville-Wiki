@@ -46,6 +46,7 @@ NOTE: If applets like Stairs, Carpeggio or Shredder appear unresponsive, you mig
 * **[Palimpsest](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Palimpsest-Accent-Sequencer)** - accent sequencer
 * **[ProbDiv](https://github.com/benirose/O_C-BenisphereSuite/wiki/ProbDiv)** - stochastic trigger generator
 * **[ProbMeloD](https://github.com/benirose/O_C-BenisphereSuite/wiki/ProbMeloD)** - stochastic melody generator
+* **ResetClk** - rapidly advance a sequencer to the desired step (from [pkyme](https://github.com/pkyme/O_C-HemisphereSuite/tree/reset-additions))
 * **RndWalk** - clocked random walk CV generator (from [adegani](https://github.com/adegani/O_C-HemisphereSuite))
 * **[RunglBook](https://github.com/Chysn/O_C-HemisphereSuite/wiki/RunglBook)** - chaotic shift-register modulation
 * **[ScaleDuet](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Scale-Duet-Quantizer)** - 2 quantizers with independent scale masks
