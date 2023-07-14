@@ -19,9 +19,9 @@ NOTE: If applets like Stairs, Carpeggio or Shredder appear unresponsive, you mig
   - modified 2-channel version
 * **[CVRec](https://github.com/Chysn/O_C-HemisphereSuite/wiki/CV-Recorder)** - record / playback up to 384 steps on 2 tracks
 * **[Calculate](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Calculate)** - Min, Max, Diff, Mean, Random, S&H
-* **Calibr8** - 2-channel voltage scaling, bias offset, semitone transpose utility
+* **[Calibr8](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Calibr8or)** - 2-channel voltage scaling, bias offset, semitone transpose utility
 * **[Carpeggio](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Carpeggio-Cartesian-Arpeggiator)** - X-Y table of pitches from a scale/chord
-* **Chordinate** - quantizer with scale mask, outputs root + scale degree
+* **Chordinate** - quantizer with scale mask, outputs root + scale degree (from qiemem)
 * **[ClockDivider](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Clock-Divider-Multiplier)** - clock pulse multiplier / divider
 * **[ClockSkip](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Clock-Skipper)** - randomly skip pulses
 * **[Compare](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Compare)** - basic comparator
