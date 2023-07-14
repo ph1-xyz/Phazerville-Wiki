@@ -28,7 +28,7 @@ NOTE: If applets like Stairs, Carpeggio or Shredder appear unresponsive, you mig
 * **[DrumMap](https://github.com/benirose/O_C-BenisphereSuite/wiki/DrumMap)** - clone of Mutable Instruments Grids
 * **[DualTM](https://github.com/djphazer/O_C-BenisphereSuite/wiki/DualTM)** - highly configurable pair of Turing Machine shift registers (replacement for ShiftReg/TM)
 * **[DualQuant](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Dual-Quantizer)** - basic quantizer
-* **Ebb & LFO** - clone of Mutable Instruments Tides; oscillator / LFO with CV-controllable waveshape, slope, V/Oct, folding
+* **[Ebb & LFO](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Ebb-&-LFO)** - clone of Mutable Instruments Tides; oscillator / LFO with CV-controllable waveshape, slope, V/Oct, folding
 * **[EnigmaJr](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Enigma,-Jr.)** - compact player of curated shift registers
 * **[EnvFollow](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Envelope-Follower)** - follows or ducks based on incoming audio
   - added Speed control
