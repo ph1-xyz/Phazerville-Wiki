@@ -32,7 +32,7 @@ NOTE: If applets like Stairs, Carpeggio or Shredder appear unresponsive, you mig
 * **[EnigmaJr](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Enigma,-Jr.)** - compact player of curated shift registers
 * **[EnvFollow](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Envelope-Follower)** - follows or ducks based on incoming audio
   - added Speed control
-* **EuclidX** - Euclidean pattern generator (replacement for [AnnularFusion](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Annular-Fusion-Euclidean-Drummer))
+* **[EuclidX](https://github.com/djphazer/O_C-BenisphereSuite/wiki/EuclidX)** - Euclidean pattern generator (replacement for [AnnularFusion](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Annular-Fusion-Euclidean-Drummer))
 * **[GameOfLife](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Conways's-Game-of-Life-(Retired))** - experimental cellular automaton modulation source
 * **[GateDelay](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Gate-Delay)** - simple gate delay
 * **[GatedVCA](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Gated-VCA)** - simple VCA
