@@ -1,8 +1,18 @@
-Thanks for checking out my firmware. All the full-screen apps from Hemisphere are here - **[Captain MIDI](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Captain-MIDI), [Pong](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Pong), [Enigma](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Enigma), [The Darkest Timeline](https://github.com/Chysn/O_C-HemisphereSuite/wiki/The-Darkest-Timeline-2.0)** & **[Neural Net](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Neural-Net)**, the **[Scale Editor](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Scale-Editor)** & **[Waveform Editor](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Waveform-Editor)** - plus all of the [stock O&C firmware](https://ornament-and-cri.me/user-manual-v1_3/) apps, albeit in limited combinations depending on which .hex file you grab from the [Release page](https://github.com/djphazer/O_C-BenisphereSuite/releases).
+Thanks for checking out my firmware. All the full-screen apps from Hemisphere are here in every build - **[Captain MIDI](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Captain-MIDI), [Pong](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Pong), [Enigma](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Enigma), [The Darkest Timeline](https://github.com/Chysn/O_C-HemisphereSuite/wiki/The-Darkest-Timeline-2.0)** & **[Neural Net](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Neural-Net)**, the **[Scale Editor](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Scale-Editor)** & **[Waveform Editor](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Waveform-Editor)** - plus all of the [stock O&C firmware](https://ornament-and-cri.me/user-manual-v1_3/) apps, albeit in limited combinations depending on which .hex file you grab from the [Release page](https://github.com/djphazer/O_C-BenisphereSuite/releases).
 
-NOTE: If applets like Stairs, Carpeggio or Shredder appear unresponsive, you might need to [calibrate your module](https://www.youtube.com/shorts/AIadpDclP7M) to eliminate an offset on the ADC inputs. This can partially be done without a fancy multimeter - go to the **Setup / About** app and just skip all the other Calibration steps.
+## Build Choices
+(As of v1.6.2)
+All builds include **Hemisphere**, **Pong**, and the **Scale** & **Waveform** Editors. The build differences are:
+* Main builds include **Calibr8or, Quadraturia, Piqued, Low-rents, Enigma, Captain MIDI, Neural Net, Darkest Timeline**
+* Stock builds instead include:
+  - _+stock1_ = **CopierMaschine, Quantermain, Acid Curds, Automatonnetz, Piqued, Sequins**
+  - _+stock2_ = **CopierMaschine, Quantermain, Acid Curds, Automatonnetz, Quadraturia, Meta-Q, Harrington 1200, Dialectic Ping Pong, Viznutcracker Sweet, Low-rents**
 
-### Hemisphere Gestures
+If you have a **Plum Audio / 4ROBOTS** hardware variant with _Variable Output Range_, any of my builds should work, but you will want one of the .hex files with "**+VOR**" in the filename. Standard 8HP and 14HP O&C modules will need one _without_ VOR.
+
+_sideNOTE:_ If applets like Stairs, Carpeggio or Shredder appear unresponsive, you might need to [calibrate your module](https://www.youtube.com/shorts/AIadpDclP7M) to eliminate an offset on the ADC inputs. This can be done without a fancy multimeter - go to the **Setup / About** app and just skip all the other Calibration steps.
+
+## Hemisphere Gestures
 * Dual-press both UP + DOWN buttons to show [**Clock Setup**](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Clock-Setup)
 * [global] Long-press UP button to invoke Screensaver/blank screen
 * Long-press DOWN button for [**Hemisphere Config**](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Hemisphere-Config)
