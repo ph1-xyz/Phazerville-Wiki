@@ -1,4 +1,3 @@
-# Hemisphere Config
 [Long-press DOWN button] to access.
 
 ### Presets
