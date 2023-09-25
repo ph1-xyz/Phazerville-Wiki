@@ -58,8 +58,8 @@ _sideNOTE:_ If applets like Stairs, Carpeggio or Shredder appear unresponsive, y
 * **[Logic](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Logic)** - AND / OR / XOR / NAND / NOR / XNOR
 * **[LowerRenz](https://github.com/Chysn/O_C-HemisphereSuite/wiki/LowerRenz)** - orbiting particles
 * **[Metronome](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Metronome)** - internal clock tempo control + multiplier output
-* **MIDI In** - from USB to CV
-* **MIDI Out** - from CV to USB
+* **[MIDI In](https://github.com/djphazer/O_C-BenisphereSuite/wiki/MIDI-Input)** - from USB to CV
+* **[MIDI Out](https://github.com/Chysn/O_C-HemisphereSuite/wiki/MIDI-Out)** - from CV to USB
 * **[MixerBal](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Mixer:Balance)** - basic mixer
 * **[Palimpsest](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Palimpsest-Accent-Sequencer)** - accent sequencer
 * **[ProbDiv](https://github.com/benirose/O_C-BenisphereSuite/wiki/ProbDiv)** - stochastic trigger generator
