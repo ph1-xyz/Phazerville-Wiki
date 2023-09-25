@@ -1,6 +1,6 @@
 ## Macro CV Switcher/Crossfader
 
-Inspired by the hype of [**Traffic**](https://www.youtube.com/watch?v=SR0HXqEbuaY) by Jasmine & Olive Trees, this app offers 4 "scenes" with 4 CV output values each. There are also 4 presets, using the same mechanism as Calibr8or and Hemisphere (long-press DOWN button to access).
+Inspired by the hype of [**Traffic**](https://www.youtube.com/watch?v=SR0HXqEbuaY) by Jasmine & Olive Trees, this app offers 4 "scenes" with 4 CV output values each. There are also 4 preset banks, using the same mechanism as Calibr8or and Hemisphere (long-press DOWN button to access).
 
 As with Calibr8or, you must store your settings to a Preset _before_ doing an **[EEPROM Save](https://github.com/djphazer/O_C-BenisphereSuite/wiki/EEPROM-Save)**!
 
