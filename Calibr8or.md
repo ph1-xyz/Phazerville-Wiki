@@ -3,7 +3,7 @@ Based on a design spec from Chris Meyer ([Alias Zone](https://aliaszone.com/) / 
 
 The Fine Tune controls at the bottom of the main view apply voltage _Scaling_ and _Bias Offset_ to the output stage, per channel. Scaling is in increments of ±0.01% and Bias is effectively ±1/128th of a semitone.
 
-There's a mini applet version called _Calibr8_. Paired with the Tuner applet, this is can be handy for examining the pitch-tracking of your oscillators! Accurate performance will depend on the calibration of your o_C module itself.
+There's a mini applet version called _Calibr8_ (retired in v1.6.4). Paired with the Tuner applet, this is can be handy for examining the pitch-tracking of your oscillators! Accurate performance will depend on the calibration of your o_C module itself.
 
 ### Calibr8or Controls:
 - UP / DOWN buttons - switch channels
