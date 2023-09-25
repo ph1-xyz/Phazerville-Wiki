@@ -2,12 +2,12 @@
 Thanks for checking out my firmware. I've basically tried to hoard all the notable Apps and Applets in one repo! All the full-screen apps from Hemisphere are here - **[Captain MIDI](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Captain-MIDI), [Pong](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Pong), [Enigma](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Enigma), [The Darkest Timeline](https://github.com/Chysn/O_C-HemisphereSuite/wiki/The-Darkest-Timeline-2.0)** & **[Neural Net](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Neural-Net)**, the **[Scale Editor](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Scale-Editor)** & **[Waveform Editor](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Waveform-Editor)** - plus all of the [stock O&C firmware](https://ornament-and-cri.me/user-manual-v1_3/) apps, albeit in limited combinations depending on which .hex file you grab from the [Release page](https://github.com/djphazer/O_C-BenisphereSuite/releases).
 
 ## Build Choices
-(As of v1.6.2)
-All builds include **Hemisphere**, **Pong**, and the **Scale** & **Waveform** Editors. The build differences are:
-* Main builds include **Calibr8or, Quadraturia, Piqued, Low-rents, Enigma, Captain MIDI, Neural Net, Darkest Timeline**
+(As of v1.6.4)
+All builds include **Hemisphere**, **Pong**, **Low-rents** and the **Scale** & **Waveform** Editors. The build differences are:
+* Main builds include **Calibr8or, Scenes, Quadraturia, Piqued, Enigma, Captain MIDI, Neural Net, Darkest Timeline**
 * Stock builds instead include:
   - _+stock1_ = **CopierMaschine, Quantermain, Acid Curds, Automatonnetz, Piqued, Sequins**
-  - _+stock2_ = **CopierMaschine, Quantermain, Acid Curds, Automatonnetz, Quadraturia, Meta-Q, Harrington 1200, Dialectic Ping Pong, Viznutcracker Sweet, Low-rents**
+  - _+stock2_ = **CopierMaschine, Quantermain, Acid Curds, Automatonnetz, Quadraturia, Meta-Q, Harrington 1200, Dialectic Ping Pong, Viznutcracker Sweet!**
 
 If you have a **Plum Audio / 4ROBOTS** hardware variant with _Variable Output Range_, any of my builds should work, but you will want one of the .hex files with "**+VOR**" in the filename. Standard 8HP and 14HP O&C modules will need one _without_ VOR.
 
@@ -28,6 +28,7 @@ _sideNOTE:_ If applets like Stairs, Carpeggio or Shredder appear unresponsive, y
 * **[ADSR](https://github.com/Chysn/O_C-HemisphereSuite/wiki/ADSR-EG)** - attack / decay / sustain / release envelope
 * **[ASR](https://github.com/Chysn/O_C-HemisphereSuite/wiki/%22A%22SR)** - Analog Shift Register
 * **[AttenOff](https://github.com/Chysn/O_C-HemisphereSuite/wiki/AttenOff)** - Attenu-vert, Offset, and Mix inputs
+  - modified with +/-200% range, mix control
 * **[Binary](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Binary-Counter-(Retired))** - 1 bit per input, output as voltage
 * **[BootsNCat](https://github.com/Chysn/O_C-HemisphereSuite/wiki/BootsNCat)** - noisy percussion
 * **[Brancher](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Brancher)** - Bernoulli gate
@@ -37,7 +38,6 @@ _sideNOTE:_ If applets like Stairs, Carpeggio or Shredder appear unresponsive, y
   - modified 2-channel version
 * **[CVRec](https://github.com/Chysn/O_C-HemisphereSuite/wiki/CV-Recorder)** - record / playback up to 384 steps on 2 tracks
 * **[Calculate](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Calculate)** - Min, Max, Diff, Mean, Random, S&H
-* **[Calibr8](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Calibr8or)** - 2-channel voltage scaling, bias offset, semitone transpose utility
 * **[Carpeggio](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Carpeggio-Cartesian-Arpeggiator)** - X-Y table of pitches from a scale/chord
 * **Chordinate** - quantizer with scale mask, outputs root + scale degree (from qiemem)
 * **[ClockDivider](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Clock-Divider-Multiplier)** - clock pulse multiplier / divider
