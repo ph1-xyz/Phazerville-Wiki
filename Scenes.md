@@ -8,8 +8,10 @@ As with Calibr8or, you must store your settings to a Preset _before_ doing an **
 
 - TR1-TR4 - Jumps to corresponding Scene.
   - Similar to Traffic, these are prioritized so TR1/Scene1 will take precedence if multiple inputs are gated simultaneously.
-- CV1 - smooth crossfading offset, starting at the last triggered Scene. 1V/Scene.
-- CV2, CV3 - _not implemented_
+- CV1 - bipolar smooth crossfade between scenes, centered on the last triggered scene.
+  - 1 Volt == 1 Scene. 4 Volts loops back around.
+- CV2 - (v1.6.5) bias offset for all values
+- CV3 - _not implemented_
 - CV4 - when gated (>2V), enables a random 16-step sequence on Scene 4 using a shuffled combination of all 16 CV values.
   - TR4 will advance the sequence.
   - A new sequence is generated every time the gate goes high
@@ -17,7 +19,7 @@ As with Calibr8or, you must store your settings to a Preset _before_ doing an **
 ### Controls
 
 - UP/DOWN buttons move edit cursor between the 4 scenes.
-- Left encoder press toggles between editing A or B output for selected scene
-- Right encoder press toggles between editing C or D output for selected scene
+- Left Encoder - press to toggle between editing A or B output for selected scene
+- Right Encoder - press to toggle between editing C or D output for selected scene
 - Long-press DOWN button for Preset Menu
 - [global] Long-press UP button to invoke screensaver view
