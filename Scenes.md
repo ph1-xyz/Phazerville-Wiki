@@ -1,3 +1,8 @@
+## Videos
+- [Smooth Crossfade Demo](http://www.youtube.com/watch?v=6YzXK8O0tT4 "O_C Scenes App Demo")
+- [Trigger Demo](https://www.instagram.com/p/CxaiU_rr6ue/)
+- [Random Sequence Demo](https://www.instagram.com/p/Cxmyv6euch0/)
+
 ## Macro CV Switcher/Crossfader
 
 Inspired by the hype of [**Traffic**](https://www.youtube.com/watch?v=SR0HXqEbuaY) by Jasmine & Olive Trees, this app offers 4 "scenes" with 4 CV output values each. There are also 4 preset banks, using the same mechanism as Calibr8or and Hemisphere (long-press DOWN button to access).
