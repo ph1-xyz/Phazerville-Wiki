@@ -1,3 +1,6 @@
+## Video
+[![MIDI Mapping Video Demo](http://img.youtube.com/vi/SpgH4tNvikc/0.jpg)](http://www.youtube.com/watch?v=SpgH4tNvikc "MIDI Input Mapping")
+
 ## Advanced MIDI-to-CV For Hemispheres
 
 (v1.6.4) After substantial refactoring internally, I've expanded on the capabilities of the original [**MIDI In** applet](https://github.com/Chysn/O_C-HemisphereSuite/wiki/MIDI-In). MIDI messages coming in via USB are parsed and handled at a high level; the applet acts as a configuration UI, and also passes signals to the outputs.
