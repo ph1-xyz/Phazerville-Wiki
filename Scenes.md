@@ -1,4 +1,5 @@
 ## Videos
+- [Performance Controller Demo on OCP X](https://www.youtube.com/watch?v=N-0qtiLb8bg)
 - [Smooth Crossfade Demo](http://www.youtube.com/watch?v=6YzXK8O0tT4 "O_C Scenes App Demo")
 - [Trigger Demo](https://www.instagram.com/p/CxaiU_rr6ue/)
 - [Random Sequence Demo](https://www.instagram.com/p/Cxmyv6euch0/)
