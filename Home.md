@@ -2,12 +2,12 @@
 Thanks for checking out my firmware. I've basically tried to hoard all the notable Apps and Applets in one repo! All the full-screen apps from Hemisphere are here - **[Captain MIDI](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Captain-MIDI), [Pong](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Pong), [Enigma](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Enigma), [The Darkest Timeline](https://github.com/Chysn/O_C-HemisphereSuite/wiki/The-Darkest-Timeline-2.0)** & **[Neural Net](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Neural-Net)**, the **[Scale Editor](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Scale-Editor)** & **[Waveform Editor](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Waveform-Editor)** - plus all of the [stock O&C firmware](https://ornament-and-cri.me/user-manual-v1_3/) apps, albeit in limited combinations depending on which .hex file you grab from the [Release page](https://github.com/djphazer/O_C-BenisphereSuite/releases).
 
 ## Build Choices
-(As of v1.6.4)
-All builds include **Hemisphere**, **Pong**, **Low-rents** and the **Scale** & **Waveform** Editors. The build differences are:
+(As of v1.6.6)
+All builds include **Hemisphere**, **Pong**, and the **Scale** & **Waveform** Editors. The build differences are:
 * Main builds include **Calibr8or, Scenes, Quadraturia, Piqued, Enigma, Captain MIDI, Neural Net, Darkest Timeline**
 * Stock builds instead include:
-  - _+stock1_ = **CopierMaschine, Quantermain, Acid Curds, Automatonnetz, Piqued, Sequins**
-  - _+stock2_ = **CopierMaschine, Quantermain, Acid Curds, Automatonnetz, Quadraturia, Meta-Q, Harrington 1200, Dialectic Ping Pong, Viznutcracker Sweet!**
+  - _+stock1_ = **CopierMaschine, Quantermain, Acid Curds, Automatonnetz, Low-rents, Piqued, Sequins**
+  - _+stock2_ = **CopierMaschine, Quantermain, Acid Curds, Automatonnetz, Low-rents, Quadraturia, Meta-Q, Harrington 1200, Dialectic Ping Pong, Viznutcracker Sweet!**
 
 If you have a **Plum Audio / 4ROBOTS** hardware variant with _Variable Output Range_, any of my builds should work, but you will want one of the .hex files with "**+VOR**" in the filename. Standard 8HP and 14HP O&C modules will need one _without_ VOR.
 
