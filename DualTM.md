@@ -5,7 +5,7 @@ The **Slew** parameter allows extreme smoothing on the output stage for portamen
 ## Parameters:
 * Length - how many bits are looped in the registers
 * p=Probability (%) - when unlocked with the cursor or a gate input on TR2, how likely the current bit will be flipped
-* Scale / Root Note - for pitch quantization
+* Scale (and Root Note in v1.6.6) - for pitch quantization
 * Range - how many discrete notes, in scale degrees (only applies to pitches)
 * Slew - smoothing parameter (hybrid linear/logarithmic function)
 * Input modes CV1 and CV2 - see below
