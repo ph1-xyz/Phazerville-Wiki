@@ -16,7 +16,6 @@ Synchronization is one of the biggest challenges in the hardware world, which is
   - handy for advancing or resetting sequencers, etc.
 
 ### Notes
-Realtime MIDI messages for Start, Stop, & Clock (at 24ppqn) are sent via USB automatically. An option to disable this is planned.
-
-Clock Setup is available in Hemispheres as well as the [Calibr8or](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Calibr8or) app. However, the Clock settings are only stored in the active Preset in Hemisphere.
-There is currently experimental support for incoming MIDI Start/Stop/Clock sync in Calibr8or; the same feature is planned for Hemispheres, but will require an overhaul of MIDI message handling.
+* Outgoing MIDI messages for Start, Stop, & Clock (at 24ppqn) are sent via USB automatically. An option to disable this is planned.
+* Incoming MIDI Start/Stop/Clock messages intuitively start the internal clock and feed it sync pulses at 2ppqn. The clock speed can then be reinterpreted differently with the PPQN parameter.
+* Clock Setup is available in Hemispheres as well as the [Calibr8or](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Calibr8or) app. However, the Clock settings are only stored in the active Preset in Hemisphere.
