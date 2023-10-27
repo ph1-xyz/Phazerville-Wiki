@@ -5,7 +5,7 @@
 
 (v1.6.4) After substantial refactoring internally, I've expanded on the capabilities of the original [**MIDI In** applet](https://github.com/Chysn/O_C-HemisphereSuite/wiki/MIDI-In). MIDI messages coming in via USB are parsed and handled at a high level; the applet acts as a configuration UI, and also passes signals to the outputs.
 
-If you switch to a different applet, the configured incoming MIDI messages are rerouted to the _inputs_ of the selected applet, _overriding the physical CV or trigger input_. This allows things like modulating parameters via MIDI CC or Pitch Bend, quantizing MIDI Notes to a scale, or triggering sequencer applets with MIDI Notes on a specific channel. You can use **AttenOff** to scale and offset MIDI CC values. You can transpose **TB-3PO** patterns via MIDI Note and modulate Density with the Velocity, or Aftertouch, etc.
+If you switch to a different applet, the configured incoming MIDI messages are rerouted to the _inputs_ of the selected applet. (As of v1.6.6, this is _combined with the physical CV or trigger input_.) This allows things like modulating parameters via MIDI CC or Pitch Bend, quantizing MIDI Notes to a scale, or triggering sequencer applets with MIDI Note-On. You can use **AttenOff** to scale and offset MIDI CC values. You can transpose **TB-3PO** patterns via MIDI Note and modulate Density with the Velocity, or Aftertouch, etc.
 
 MIDI _Clock_, _Start_, and _Stop_ messages are also handled automatically by the internal **[Clock Setup](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Clock-Setup)** applet. Incoming MIDI Clock is translated from 24 PPQN to 2 PPQN internally.
 
@@ -21,12 +21,11 @@ The available modes are:
 - **None** - disabled
 - **Note#** - semitone-quantized pitch CV
 - **Trig** - standard trigger pulse from _NoteOn_
-  - overrides Clock pulses at corresponding trigger input
+  - generates Clock pulses at corresponding trigger input
 - **Gate** - held high at _NoteOn_, respecting polyphony; goes low when all Notes are Off
-  - overrides trigger input Gate, but does not generate a Clock pulse
+  - holds trigger input high, but does not generate a Clock pulse
 - **Veloc** - Positive CV from the _Velocity_ of the most recent _NoteOn_
 - **CC#** (auto-learn) - Positive CV from assigned _CC#_
-  - replaces Mod wheel, which is just _CC#1_
   - when selected, it will display `CC#-1` until a MIDI CC message on the selected MIDI Channel is received, at which point it latches onto the CC# of the message. Basically, select CC mode and wiggle a knob to auto-learn!
 - **Aft** - Positive CV from _Aftertouch_
 - **Bend** - Bipolar CV from _Pitch Bend_
