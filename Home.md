@@ -1,5 +1,7 @@
+You can find links to documentation for (almost) every single O_C function on this page.
+
 # Phazerville Suite
-Thanks for checking out my firmware. I've basically tried to hoard all the notable Apps and Applets in one repo! All the full-screen apps from Hemisphere are here - **[Captain MIDI](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Captain-MIDI), [Pong](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Pong), [Enigma](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Enigma), [The Darkest Timeline](https://github.com/Chysn/O_C-HemisphereSuite/wiki/The-Darkest-Timeline-2.0)** & **[Neural Net](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Neural-Net)**, the **[Scale Editor](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Scale-Editor)** & **[Waveform Editor](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Waveform-Editor)** - plus all of the [stock O&C firmware](https://ornament-and-cri.me/user-manual-v1_3/) apps, albeit in limited combinations depending on which .hex file you grab from the [Release page](https://github.com/djphazer/O_C-BenisphereSuite/releases).
+Thanks for checking out my firmware. I've basically tried to hoard all the notable Apps and Applets in one repo! All the full-screen apps from Hemisphere are here, plus all of the [stock O&C firmware](https://ornament-and-cri.me/user-manual-v1_3/) apps, albeit in limited combinations depending on which .hex file you grab from the [Release page](https://github.com/djphazer/O_C-BenisphereSuite/releases).
 
 ## Build Choices
 (As of v1.6.6)
@@ -19,10 +21,34 @@ _sideNOTE:_ If applets like Stairs, Carpeggio or Shredder appear unresponsive, y
 * Long-press DOWN button for [**Hemisphere Config**](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Hemisphere-Config)
 * Long-press Left Encoder to cycle Clock state: [Stop]->[Paused]->[Start]->[Stop]
 * [global] Long-press Right Encoder to Return to main menu - execution continues in the background
+  - Long-press Right Encoder on main menu to [Save Settings to EEPROM](https://github.com/djphazer/O_C-BenisphereSuite/wiki/EEPROM-Save)
 * [VOR] Dual-press both Encoders to cycle VBias offset: -5V, -3V, 0V - same as VOR button on some models
 * _Easter Egg:_ On the main menu, press the Left Encoder to find the secret Debug Screen!
 
-## Full List of Applets
+# Documentation
+## Apps:
+* [Captain MIDI](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Captain-MIDI)
+* [Pong](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Pong)
+* [Enigma](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Enigma)
+* [The Darkest Timeline](https://github.com/Chysn/O_C-HemisphereSuite/wiki/The-Darkest-Timeline-2.0)
+* [Neural Net](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Neural-Net)
+* [Scale Editor](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Scale-Editor)
+* [Waveform Editor](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Waveform-Editor)
+* [CopierMaschine](https://ornament-and-cri.me/user-manual-v1_3/#anchor-copiermaschine)
+* [Harrington 1200](https://ornament-and-cri.me/user-manual-v1_3/#anchor-harrington-1200)
+* [Automatonnetz](https://ornament-and-cri.me/user-manual-v1_3/#anchor-automatonnetz)
+* [Quantermain](https://ornament-and-cri.me/user-manual-v1_3/#anchor-quantermain)
+* [Meta-Q](https://ornament-and-cri.me/user-manual-v1_3/#anchor-meta-q)
+* [Quadraturia](https://ornament-and-cri.me/user-manual-v1_3/#anchor-quadraturia)
+* [Low-rents](https://ornament-and-cri.me/user-manual-v1_3/#anchor-low-rents)
+* [Piqued](https://ornament-and-cri.me/user-manual-v1_3/#anchor-piqued)
+* [Sequins](https://ornament-and-cri.me/user-manual-v1_3/#anchor-sequins)
+* [Dialectic Ping Pong](https://ornament-and-cri.me/user-manual-v1_3/#anchor-dialectic-ping-pong)
+* [Viznutcracker, sweet!](https://ornament-and-cri.me/user-manual-v1_3/#anchor-viznutcracker-sweet)
+* [Acid Curds](https://ornament-and-cri.me/user-manual-v1_3/#anchor-acid-curds)
+* [References](https://ornament-and-cri.me/user-manual-v1_3/#anchor-references)
+
+## Applets
 
 * **[AD](https://github.com/Chysn/O_C-HemisphereSuite/wiki/AD-EG)** - attack / decay envelope
 * **[ADSR](https://github.com/Chysn/O_C-HemisphereSuite/wiki/ADSR-EG)** - attack / decay / sustain / release envelope
@@ -62,6 +88,7 @@ _sideNOTE:_ If applets like Stairs, Carpeggio or Shredder appear unresponsive, y
 * **[MIDI Out](https://github.com/Chysn/O_C-HemisphereSuite/wiki/MIDI-Out)** - from CV to USB
 * **[MixerBal](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Mixer:Balance)** - basic mixer
 * **[Palimpsest](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Palimpsest-Accent-Sequencer)** - accent sequencer
+* **[Pigeons](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Pigeons)** - dual Fibonacci-style melody generator
 * **[ProbDiv](https://github.com/benirose/O_C-BenisphereSuite/wiki/ProbDiv)** - stochastic trigger generator
 * **[ProbMeloD](https://github.com/benirose/O_C-BenisphereSuite/wiki/ProbMeloD)** - stochastic melody generator
 * **ResetClk** - rapidly advance a sequencer to the desired step (from [pkyme](https://github.com/pkyme/O_C-HemisphereSuite/tree/reset-additions))
