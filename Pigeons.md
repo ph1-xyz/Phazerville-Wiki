@@ -4,4 +4,4 @@ There are two **Pigeons** (channels). They are each singing a _note_ (a number r
 
 Pigeons are easily triggered - by the physical trigger inputs, internal clock pulses, or neighboring applets that generate triggers (like [ProbDiv](https://github.com/benirose/O_C-BenisphereSuite/wiki/ProbDiv)).
 
-The CV inputs change the _modulo_ number for each channel, affecting the range of the generated melodic sequence.
+The CV inputs change the _modulo_ number for each channel, affecting the range of the generated melodic sequence. It is possible to cause both note values to drop to 0 (the root note), in which case, you've scared all the Pigeons away! But if you put one back somehow, they will return... ;)
