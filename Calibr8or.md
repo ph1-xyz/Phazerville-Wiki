@@ -11,9 +11,10 @@ Accurate performance will depend on the calibration of your o_C module itself.
 
 ### Calibr8or Controls:
 - UP / DOWN buttons - switch channels
-- Long-press Left Encoder - cycle Clocked Transpose / S&H modes per channel
 - Quick-press Left Encoder - switch between Transpose and Fine-Tune controls
 - Quick-press Right Encoder - toggle Scale & Root Note selection
+- Long-press Left Encoder with cursor on Transpose - cycle Clocked Transpose / S&H modes per channel
+- (new in v1.6.777) Long-press Left Encoder with cursor on Fine-Tune controls - Auto-tuner closed loop DAC calibration routine, ported from References
 - Long-press DOWN button - preset switching
   - turn or press Left Encoder to toggle Save/Load
   - use Right Encoder to select
