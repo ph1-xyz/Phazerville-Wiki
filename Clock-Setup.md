@@ -1,3 +1,5 @@
+![PXL_20231228_051510847~2.jpg](https://github.com/djphazer/O_C-BenisphereSuite/assets/109086194/16bb6eda-0d75-4ca0-9379-093eb5bf3ab8)
+
 (Updated for v1.6.999+)
 The **Clocks/Triggers** screen, fka Clock Setup, is accessed by dual-pressing both _UP+DOWN_ buttons. The top half of the screen provides internal clock controls for standalone operation. The multipliers determine how internally generated clock triggers are fed to the applets. The clock will sync to external pulses on TR1 while it's running. The bottom half of the screen has settings for remapping the physical trigger inputs (to avoid the need for mults) as well as manual triggers for convenience.
 
