@@ -12,8 +12,9 @@ In previous versions of v1.6.x, all builds included **Hemisphere**, **Pong**, an
   - _+stock1_ = **CopierMaschine, Quantermain, Acid Curds, Automatonnetz, Low-rents, Piqued, Sequins**
   - _+stock2_ = **CopierMaschine, Quantermain, Acid Curds, Automatonnetz, Low-rents, Quadraturia, Meta-Q, Harrington 1200, Dialectic Ping Pong, Viznutcracker Sweet!**
 
-Files with "**+VOR**" are for **Plum Audio / 4ROBOTS** hardware variants equipped with a _Variable Output Range_ circuit.
-Standard 8HP and 14HP O&C modules should be installed _without_ VOR - your outputs will behave strangely if you do!
+Files with "**+VOR**" are for **Plum Audio / 4ROBOTS** hardware variants equipped with a _Variable Output Range_ circuit - O&C Plus, 1uO_c, & OCP X.
+
+Standard 8HP uO_C, uO_C 1U, or full-size 14HP O_C modules should be installed _without_ VOR - your outputs will behave strangely if you do!
 
 _sideNOTE:_ If applets like Stairs, Carpeggio or Shredder appear unresponsive, you might need to [calibrate your ADC](https://www.youtube.com/shorts/AIadpDclP7M) to eliminate an offset on the inputs. This can be done without a fancy multimeter - go to the **Setup / About** app and just skip all the other Calibration steps.
 
