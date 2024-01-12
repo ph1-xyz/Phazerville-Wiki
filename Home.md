@@ -6,25 +6,27 @@ Thanks for checking out my firmware. I've basically tried to hoard all the notab
 ## Build Choices
 As of v1.6.999, you can request a custom build with a bot command on [this discussion post](https://github.com/djphazer/O_C-BenisphereSuite/discussions/38).
 
-In v1.6.6, all builds included **Hemisphere**, **Pong**, and the **Scale** & **Waveform** Editors. The build differences are:
-* Main builds include **Calibr8or, Scenes, Quadraturia, Piqued, Enigma, Captain MIDI, Neural Net, Darkest Timeline**
+In previous versions of v1.6.x, all builds included **Hemisphere**, **Pong**, and the **Scale** & **Waveform Editor**s and a selection of different Apps. The build differences are:
+* Main builds include: **Calibr8or, Scenes, Quadraturia, Piqued, Enigma, Captain MIDI, Neural Net, Darkest Timeline**
 * Stock builds instead include:
   - _+stock1_ = **CopierMaschine, Quantermain, Acid Curds, Automatonnetz, Low-rents, Piqued, Sequins**
   - _+stock2_ = **CopierMaschine, Quantermain, Acid Curds, Automatonnetz, Low-rents, Quadraturia, Meta-Q, Harrington 1200, Dialectic Ping Pong, Viznutcracker Sweet!**
 
-If you have a **Plum Audio / 4ROBOTS** hardware variant with _Variable Output Range_, any of my builds should work, but you will want one of the .hex files with "**+VOR**" in the filename. Standard 8HP and 14HP O&C modules will need one _without_ VOR.
+Files with "**+VOR**" are for **Plum Audio / 4ROBOTS** hardware variants equipped with a _Variable Output Range_ circuit.
+Standard 8HP and 14HP O&C modules should be installed _without_ VOR - your outputs will behave strangely if you do!
 
-_sideNOTE:_ If applets like Stairs, Carpeggio or Shredder appear unresponsive, you might need to [calibrate your module](https://www.youtube.com/shorts/AIadpDclP7M) to eliminate an offset on the ADC inputs. This can be done without a fancy multimeter - go to the **Setup / About** app and just skip all the other Calibration steps.
+_sideNOTE:_ If applets like Stairs, Carpeggio or Shredder appear unresponsive, you might need to [calibrate your ADC](https://www.youtube.com/shorts/AIadpDclP7M) to eliminate an offset on the inputs. This can be done without a fancy multimeter - go to the **Setup / About** app and just skip all the other Calibration steps.
 
 ## Hemisphere Gestures
+* [VOR] Dual-press both Encoders - cycle VBias offset: -5V, -3V, 0V
 * Dual-press both UP + DOWN buttons - [**Clock Setup**](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Clock-Setup) ("Clocks/Triggers" in v1.6.999+)
 * [global] Long-press UP button - invoke screensaver/blank screen
 * Long-press DOWN button - [**Hemisphere Config**](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Hemisphere-Config)
-* Long-press Left Encoder - cycle clock state: [Stop]->[Paused]->[Start]->[Stop]
+* Long-press Left Encoder - cycle Clock state: [Stop]->[Paused]->[Start]->[Stop]
+  - the extra VOR button on units that have it also Starts/Stops the Clock (v1.6.999)
 * [global] Long-press Right Encoder - Return to main menu
   - execution continues in the background
   - Long-press Right Encoder again on main menu to manually [Save Settings to EEPROM](https://github.com/djphazer/O_C-BenisphereSuite/wiki/EEPROM-Save)
-* [VOR] Dual-press both Encoders - cycle VBias offset: -5V, -3V, 0V
 * _Easter Egg:_ On the main menu, press the Left Encoder to find the secret Debug Screen!
 
 # Documentation
