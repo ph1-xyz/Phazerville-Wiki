@@ -1,16 +1,17 @@
 You can find links to documentation for (almost) every single O_C function on this page.
 
 # Phazerville Suite
-Thanks for checking out my firmware. I've basically tried to hoard all the notable Apps and Applets in one repo! All the full-screen apps from [Hemisphere](https://github.com/Chysn/O_C-HemisphereSuite/wiki) are here, plus all of the [stock O&C firmware](https://ornament-and-cri.me/user-manual-v1_3/) apps and a few new ones, albeit in limited combinations depending on which .hex file you grab from the [Release page](https://github.com/djphazer/O_C-BenisphereSuite/releases).
+Thanks for checking out my firmware. I've basically tried to hoard all the notable Apps and Applets in one repo! All the full-screen apps from [Hemisphere](https://github.com/Chysn/O_C-HemisphereSuite/wiki) are here, plus all of the [stock O&C firmware](https://ornament-and-cri.me/user-manual-v1_3/) apps and a few new ones, albeit in limited combinations depending on which .hex file you grabbed from the [Release page](https://github.com/djphazer/O_C-BenisphereSuite/releases).
 
-## Build Choices
 As of v1.6.999, you can request a custom build with a simple bot command on [this discussion post](https://github.com/djphazer/O_C-BenisphereSuite/discussions/38).
 
-In previous versions of v1.6.x, all builds included **Hemisphere**, **Pong**, and the **Scale** & **Waveform Editor**s and a selection of different Apps. The build differences are:
+## Build Choices
+
+In previous versions of v1.6.x, all builds included **Hemisphere**, **Pong**, and the **Scale** & **Waveform Editor**s, and a selection of different Apps. The build differences are:
 * Main builds include: **Calibr8or, Scenes, Quadraturia, Piqued, Enigma, Captain MIDI, Neural Net, Darkest Timeline**
 * Stock builds instead include:
-  - _+stock1_ = **CopierMaschine, Quantermain, Acid Curds, Automatonnetz, Low-rents, Piqued, Sequins**
-  - _+stock2_ = **CopierMaschine, Quantermain, Acid Curds, Automatonnetz, Low-rents, Quadraturia, Meta-Q, Harrington 1200, Dialectic Ping Pong, Viznutcracker Sweet!**
+  * _+stock1_ = **CopierMaschine, Quantermain, Acid Curds, Automatonnetz, Low-rents, Piqued, Sequins**
+  * _+stock2_ = **CopierMaschine, Quantermain, Acid Curds, Automatonnetz, Low-rents, Quadraturia, Meta-Q, Harrington 1200, Dialectic Ping Pong, Viznutcracker Sweet!**
 
 Files with "**+VOR**" are for **Plum Audio / 4ROBOTS** hardware variants equipped with a _Variable Output Range_ circuit - O&C Plus, 1uO_c, & OCP X.
 
@@ -27,10 +28,10 @@ Applet settings are not remembered unless you store to a Preset, or turn on Auto
 * Long-press UP button [global] - invoke screensaver/blank screen
 * Long-press DOWN button - [**Hemisphere Config**](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Hemisphere-Config)
 * Long-press Left Encoder - cycle Clock state: [Stop]->[Paused]->[Start]->[Stop]
-  - the extra VOR button on units that have it also Starts/Stops the Clock (v1.6.999)
+  - extra VOR button on units that have it also Starts/Stops the Clock (v1.6.999)
 * Long-press Right Encoder [global] - Return to main menu
   - execution continues in the background
-  - Long-press Right Encoder again on main menu to manually [Save Settings to EEPROM](https://github.com/djphazer/O_C-BenisphereSuite/wiki/EEPROM-Save) (unnecessary as of v1.6.999 for Hemisphere; use Presets instead)
+  - Long-press Right Encoder again on main menu to manually [Save Settings to EEPROM](https://github.com/djphazer/O_C-BenisphereSuite/wiki/EEPROM-Save) (unnecessary in v1.6.999 for Hemisphere; use Presets instead)
 * _Easter Egg:_ On the main menu, press the Left Encoder to find the secret Debug Screen!
 
 # Documentation
