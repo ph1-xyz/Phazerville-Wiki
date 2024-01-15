@@ -4,7 +4,7 @@ You can find links to documentation for (almost) every single O_C function on th
 Thanks for checking out my firmware. I've basically tried to hoard all the notable Apps and Applets in one repo! All the full-screen apps from [Hemisphere](https://github.com/Chysn/O_C-HemisphereSuite/wiki) are here, plus all of the [stock O&C firmware](https://ornament-and-cri.me/user-manual-v1_3/) apps and a few new ones, albeit in limited combinations depending on which .hex file you grab from the [Release page](https://github.com/djphazer/O_C-BenisphereSuite/releases).
 
 ## Build Choices
-As of v1.6.999, you can request a custom build with a bot command on [this discussion post](https://github.com/djphazer/O_C-BenisphereSuite/discussions/38).
+As of v1.6.999, you can request a custom build with a simple bot command on [this discussion post](https://github.com/djphazer/O_C-BenisphereSuite/discussions/38).
 
 In previous versions of v1.6.x, all builds included **Hemisphere**, **Pong**, and the **Scale** & **Waveform Editor**s and a selection of different Apps. The build differences are:
 * Main builds include: **Calibr8or, Scenes, Quadraturia, Piqued, Enigma, Captain MIDI, Neural Net, Darkest Timeline**
@@ -18,16 +18,19 @@ Standard 8HP uO_C, uO_C 1U, or full-size 14HP O_C modules should be installed _w
 
 _sideNOTE:_ If applets like Stairs, Carpeggio or Shredder appear unresponsive, you might need to [calibrate your ADC](https://www.youtube.com/shorts/AIadpDclP7M) to eliminate an offset on the inputs. This can be done without a fancy multimeter - go to the **Setup / About** app and just skip all the other Calibration steps.
 
+## Presets for Hemisphere
+Applet settings are not remembered unless you store to a Preset, or turn on Auto Save - both are inside [**Hemisphere Config**](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Hemisphere-Config). When storing a Preset, it immediately triggers an EEPROM Save (with a potential 2ms interruption, fyi) so there is no need to also long-press-save on the main menu.
+
 ## Hemisphere Gestures
-* [VOR] Dual-press both Encoders - cycle VBias offset: -5V, -3V, 0V
+* Dual-press both Encoders [VOR-only] - cycle VBias offset: -5V, -3V, 0V
 * Dual-press both UP + DOWN buttons - [**Clock Setup**](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Clock-Setup) ("Clocks/Triggers" in v1.6.999+)
-* [global] Long-press UP button - invoke screensaver/blank screen
+* Long-press UP button [global] - invoke screensaver/blank screen
 * Long-press DOWN button - [**Hemisphere Config**](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Hemisphere-Config)
 * Long-press Left Encoder - cycle Clock state: [Stop]->[Paused]->[Start]->[Stop]
   - the extra VOR button on units that have it also Starts/Stops the Clock (v1.6.999)
-* [global] Long-press Right Encoder - Return to main menu
+* Long-press Right Encoder [global] - Return to main menu
   - execution continues in the background
-  - Long-press Right Encoder again on main menu to manually [Save Settings to EEPROM](https://github.com/djphazer/O_C-BenisphereSuite/wiki/EEPROM-Save)
+  - Long-press Right Encoder again on main menu to manually [Save Settings to EEPROM](https://github.com/djphazer/O_C-BenisphereSuite/wiki/EEPROM-Save) (unnecessary as of v1.6.999 for Hemisphere; use Presets instead)
 * _Easter Egg:_ On the main menu, press the Left Encoder to find the secret Debug Screen!
 
 # Documentation
