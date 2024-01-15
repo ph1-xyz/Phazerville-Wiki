@@ -1,7 +1,9 @@
-This applet generates two Pitch CV values at the Outputs, quantized using a given Scale and Root Note. The core mathematical concept is related to the Fibonacci Sequence, based on [this most excellent video](https://www.youtube.com/watch?v=_aIf4WUCNZU).
+## What is the Pigeonhole Principle?
+This applet generates two Pitch CV values at the Outputs, quantized using a given Scale and Root Note. The core mathematical concept is related to the Fibonacci Sequence, based on [this most excellent video](https://www.youtube.com/watch?v=_aIf4WUCNZU). Something about the way numbers behave in modular arithmetic being akin to a limited number of pigeonholes for an infinite number of pigeons...
 
-There are two **Pigeons** (channels). They are each singing a _note_ (a number representing scale degree) and - when triggered - one adds it to the previous _note_, divides by a _number_, and uses the remainder for the next _note_.
+## How does the applet work?
+There are two **Pigeons** (channels), independently triggered. They are each singing a _note_ (a number representing scale degree) and have a certain number of holes they can visit (the _modulus_). When triggered, each one adds the current and previous _notes_ together, divides by the _modulus_ value, and uses the remainder for the next _note_. The pair of notes represents the coordinates of the current hole; your Pigeon is guaranteed to revisit the same holes eventually.
 
-Pigeons are easily triggered - by the physical trigger inputs, internal clock pulses, or neighboring applets that generate triggers (like [ProbDiv](https://github.com/benirose/O_C-BenisphereSuite/wiki/ProbDiv)).
+Pigeons are easily triggered - by the physical trigger inputs, internal clock pulses, or neighboring trigger sequencer applets (like [ProbDiv](https://github.com/benirose/O_C-BenisphereSuite/wiki/ProbDiv)).
 
-The CV inputs change the _modulo_ number for each channel, affecting the range of the generated melodic sequence. It is possible to cause both note values to drop to 0 (the root note), in which case, you've scared all the Pigeons away! But if you put one back somehow, they will return... ;)
+The **CV inputs** change the _modulus_ value for each channel, affecting the range of the generated melodic sequence. It is possible to cause both note values to drop to 0 (the root note), and your Pigeon will take a nap there. If that happens, you'll have to nudge it with the encoder, or maybe load a Preset with a MIDI PC message...
