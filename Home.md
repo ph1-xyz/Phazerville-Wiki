@@ -13,7 +13,7 @@ In previous versions of v1.6.x, all builds included **Hemisphere**, **Pong**, an
   * _+stock1_ = **CopierMaschine, Quantermain, Acid Curds, Automatonnetz, Low-rents, Piqued, Sequins**
   * _+stock2_ = **CopierMaschine, Quantermain, Acid Curds, Automatonnetz, Low-rents, Quadraturia, Meta-Q, Harrington 1200, Dialectic Ping Pong, Viznutcracker Sweet!**
 
-Files with "**+VOR**" are for **Plum Audio / 4ROBOTS** hardware variants equipped with a _Variable Output Range_ circuit - O&C Plus, 1uO_c, & OCP X.
+Files with "**+VOR**" are only for **Plum Audio / 4ROBOTS** hardware variants equipped with a _Variable Output Range_ circuit - O&C Plus, 1uO_c, & OCP X.
 
 Standard 8HP uO_C, uO_C 1U, or full-size 14HP O_C modules should be installed _without_ VOR - your outputs will behave strangely if you do!
 
