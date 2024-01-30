@@ -35,7 +35,10 @@ Applet settings are not remembered unless you store to a Preset, or turn on Auto
 * _Easter Egg:_ On the main menu, press the Left Encoder to find the secret Debug Screen!
 
 # Documentation
-## Apps:
+## Apps
+* Hemisphere (obviously, lol)
+* [Calibr8or](https://github.com/djphazer/O_C-Phazerville/wiki/Calibr8or)
+* [Scenes](https://github.com/djphazer/O_C-Phazerville/wiki/Scenes)
 * [Captain MIDI](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Captain-MIDI)
 * [Pong](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Pong)
 * [Enigma](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Enigma)
