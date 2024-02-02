@@ -1,3 +1,5 @@
+[![Stolen Ornaments: Pigeons](http://img.youtube.com/vi/J1OH-oomvMA/0.jpg)](http://www.youtube.com/watch?v=J1OH-oomvMA "Stolen Ornaments: Pigeons, PolyDiv & DivSeq | O_C Phazerville Suite")
+
 ## What is the Pigeonhole Principle?
 The core mathematical concept is related to the Fibonacci Sequence, based on [this most excellent video](https://www.youtube.com/watch?v=_aIf4WUCNZU). Something about the way numbers behave in modular arithmetic being akin to a limited number of pigeonholes for an infinite number of pigeons...
 
