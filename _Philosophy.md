@@ -16,13 +16,13 @@ Henceforth, my development efforts are driven by a few core desires:
 * Simplify & Optimize by using _Functional_ design paradigms instead of OOP
 * Explore ways of using Git collaboratively
   - Exercise social coordination, encourage team efforts
-  - Good communication means code readability and atomic commits
+  - Good communication - code readability, atomic commits, effective documentation
 * Learn advanced C++ language features
 * Gain a deeper understanding of Music Theory and Sound Synthesis fundamentals through software implementation
 * Explore ways to improve UI/UX design
   - Never blame users for misunderstanding an interface! If something is not naturally intuitive, change it.
 * "What's the worst that could happen?"
-  - Don't be afraid to try stuff, especially if it might bother some people... open source is all about flexibility of choice.
+  - Don't be afraid to try stuff, especially if it might bother some people... Open Source is all about flexibility and choices.
   - A bug or broken feature might just bother someone else enough to join in and fix it - this one could be wishful thinking ;)
 
 I hope to educate and inspire others along the way!
