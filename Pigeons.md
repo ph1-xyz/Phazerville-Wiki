@@ -1,7 +1,7 @@
 [![Stolen Ornaments: Pigeons](http://img.youtube.com/vi/J1OH-oomvMA/0.jpg)](http://www.youtube.com/watch?v=J1OH-oomvMA "Stolen Ornaments: Pigeons, PolyDiv & DivSeq | O_C Phazerville Suite")
 
 ## What is the Pigeonhole Principle?
-The core mathematical concept is related to the Fibonacci Sequence, based on [this most excellent video](https://www.youtube.com/watch?v=_aIf4WUCNZU). Something about the way numbers behave in modular arithmetic being akin to a limited number of pigeonholes for an infinite number of pigeons...
+The core concept is related to the Fibonacci Sequence, based on [**this most excellent video**](https://www.youtube.com/watch?v=_aIf4WUCNZU) by Marc Evanstein. Something about the way numbers behave in modular arithmetic being akin to a limited number of pigeonholes for an infinite number of pigeons...
 
 ## How does the applet work?
 This applet generates two Pitch CV values at the Outputs, quantized using a given Scale and Root Note.
