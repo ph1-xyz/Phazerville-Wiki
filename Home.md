@@ -3,19 +3,15 @@ You can find links to documentation for (almost) every single O_C function on th
 # Phazerville Suite
 Thanks for checking out my firmware. I've basically tried to hoard all the notable Apps and Applets in one repo! All the full-screen apps from [Hemisphere](https://github.com/Chysn/O_C-HemisphereSuite/wiki) are here, plus all of the [stock O&C firmware](https://ornament-and-cri.me/user-manual-v1_3/) apps and a few new ones, albeit in limited combinations depending on which .hex file you grabbed from the [Release page](https://github.com/djphazer/O_C-BenisphereSuite/releases).
 
-As of v1.6.999, you can request a custom build with a simple bot command on [this discussion post](https://github.com/djphazer/O_C-BenisphereSuite/discussions/38).
+As of v1.6.999, you can request a **Custom Build** with a simple bot command on [this discussion post](https://github.com/djphazer/O_C-BenisphereSuite/discussions/38).
 
 ## Build Choices
 
-In previous versions of v1.6.x, all builds included **Hemisphere**, **Pong**, and the **Scale** & **Waveform Editor**s, and a selection of different Apps. The build differences are:
-* Main builds include: **Calibr8or, Scenes, Quadraturia, Piqued, Enigma, Captain MIDI, Neural Net, Darkest Timeline**
-* Stock builds instead include:
-  * _+stock1_ = **CopierMaschine, Quantermain, Acid Curds, Automatonnetz, Low-rents, Piqued, Sequins**
-  * _+stock2_ = **CopierMaschine, Quantermain, Acid Curds, Automatonnetz, Low-rents, Quadraturia, Meta-Q, Harrington 1200, Dialectic Ping Pong, Viznutcracker Sweet!**
+In previous versions of v1.6.x, all builds included **Hemisphere**, **Pong**, and the **Scale** & **Waveform Editor**s, plus a selection of different Apps mentioned in the notes.
 
 Files with "**+VOR**" are only for **Plum Audio / 4ROBOTS** hardware variants equipped with a _Variable Output Range_ circuit - O&C Plus, 1uO_c, & OCP X.
 
-Standard 8HP uO_C, uO_C 1U, or full-size 14HP O_C modules should be installed _without_ VOR - your outputs will behave strangely if you do!
+Standard 8HP uO_C, After Later uO_C 1U, or full-size 14HP O_C modules should be installed _without_ VOR - your outputs will behave strangely if you do!
 
 _sideNOTE:_ If applets like Stairs, Carpeggio or Shredder appear unresponsive, you might need to [calibrate your ADC](https://www.youtube.com/shorts/AIadpDclP7M) to eliminate an offset on the inputs. This can be done without a fancy multimeter - go to the **Setup / About** app and just skip all the other Calibration steps.
 
@@ -104,7 +100,7 @@ Applet settings are not remembered unless you store to a Preset, or turn on Auto
 * **[Pigeons](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Pigeons)** - dual Fibonacci-style melody generator
 * **[ProbDiv](https://github.com/benirose/O_C-BenisphereSuite/wiki/ProbDiv)** - stochastic trigger generator
 * **[ProbMeloD](https://github.com/benirose/O_C-BenisphereSuite/wiki/ProbMeloD)** - stochastic melody generator
-* **ResetClk** - rapidly advance a sequencer to the desired step (from [pkyme](https://github.com/pkyme/O_C-HemisphereSuite/tree/reset-additions))
+* **[ResetClk](https://youtu.be/i1xU6-oPwfA)** - rapidly advance a sequencer to the desired step (from [pkyme](https://github.com/pkyme/O_C-HemisphereSuite/tree/reset-additions))
 * **RndWalk** - clocked random walk CV generator (from [adegani](https://github.com/adegani/O_C-HemisphereSuite))
 * **[RunglBook](https://github.com/Chysn/O_C-HemisphereSuite/wiki/RunglBook)** - chaotic shift-register modulation
 * **[ScaleDuet](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Scale-Duet-Quantizer)** - 2 quantizers with independent scale masks
