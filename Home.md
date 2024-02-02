@@ -5,6 +5,8 @@ Thanks for checking out my firmware. I've basically tried to hoard all the notab
 
 As of v1.6.999, you can request a **Custom Build** with a simple bot command on [this discussion post](https://github.com/djphazer/O_C-BenisphereSuite/discussions/38).
 
+Read a bit about my [Development Philosophy](https://github.com/djphazer/O_C-Phazerville/wiki/_Philosophy) to understand my motives behind this project.
+
 ## Build Choices
 
 In previous versions of v1.6.x, all builds included **Hemisphere**, **Pong**, and the **Scale** & **Waveform Editor**s, plus a selection of different Apps mentioned in the notes.
