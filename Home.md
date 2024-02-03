@@ -80,6 +80,7 @@ Applet settings are not remembered unless you store to a Preset, or turn on Auto
 * **[ClockDivider](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Clock-Divider-Multiplier)** - clock pulse multiplier / divider
 * **[ClockSkip](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Clock-Skipper)** - randomly skip pulses
 * **[Compare](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Compare)** - basic comparator
+* **[DivSeq](https://www.youtube.com/watch?v=J1OH-oomvMA)** - two sequences of clock dividers
 * **[DrumMap](https://github.com/benirose/O_C-BenisphereSuite/wiki/DrumMap)** - clone of Mutable Instruments Grids
 * **[DualTM](https://github.com/djphazer/O_C-BenisphereSuite/wiki/DualTM)** - highly configurable pair of Turing Machine shift registers (replacement for ShiftReg/TM)
 * **[DualQuant](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Dual-Quantizer)** - basic quantizer
@@ -100,6 +101,7 @@ Applet settings are not remembered unless you store to a Preset, or turn on Auto
 * **[MixerBal](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Mixer:Balance)** - basic mixer
 * **[Palimpsest](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Palimpsest-Accent-Sequencer)** - accent sequencer
 * **[Pigeons](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Pigeons)** - dual Fibonacci-style melody generator
+* **[PolyDiv](https://www.youtube.com/watch?v=J1OH-oomvMA)** - four concurrent clock dividers with assignable outputs
 * **[ProbDiv](https://github.com/benirose/O_C-BenisphereSuite/wiki/ProbDiv)** - stochastic trigger generator
 * **[ProbMeloD](https://github.com/benirose/O_C-BenisphereSuite/wiki/ProbMeloD)** - stochastic melody generator
 * **[ResetClk](https://youtu.be/i1xU6-oPwfA)** - rapidly advance a sequencer to the desired step (from [pkyme](https://github.com/pkyme/O_C-HemisphereSuite/tree/reset-additions))
