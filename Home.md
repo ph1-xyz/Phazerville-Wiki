@@ -1,5 +1,7 @@
 You can find links to documentation for (almost) every single O_C function on this page.
 
+[Download a **Release**](https://github.com/djphazer/O_C-BenisphereSuite/releases) or [Request a **Custom Build**](https://github.com/djphazer/O_C-Phazerville/discussions/38).
+
 # Phazerville Suite
 Thanks for checking out my firmware. I've basically tried to hoard all the notable Apps and Applets in one repo! All the full-screen apps from [Hemisphere](https://github.com/Chysn/O_C-HemisphereSuite/wiki) are here, plus all of the [stock O&C firmware](https://ornament-and-cri.me/user-manual-v1_3/) apps and a few new ones, albeit in limited combinations depending on which .hex file you grabbed from the [Release page](https://github.com/djphazer/O_C-BenisphereSuite/releases).
 
