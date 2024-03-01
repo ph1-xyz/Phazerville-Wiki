@@ -13,7 +13,7 @@ AttenOff is a dual attenuverter with a -200% to +200% range plus an offset volta
 * Ch 1 Attenuversion
 * Ch 2 Offset voltage
 * Ch 2 Attenuversion
-* Sum Ch 1 into Ch 2
+* Toggle summing Ch 1 into Ch 2
 
 
 Adapted from [AttenOff](https://github.com/Chysn/O_C-HemisphereSuite/wiki/AttenOff) © 2018-2022, Jason Justian and Beige Maze Laboratories. 
