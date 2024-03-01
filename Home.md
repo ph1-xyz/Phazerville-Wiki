@@ -19,6 +19,8 @@ Standard 8HP uO_C, After Later uO_C 1U, or full-size 14HP O_C modules should be 
 
 _sideNOTE:_ If applets like Stairs, Carpeggio or Shredder appear unresponsive, you might need to [calibrate your ADC](https://www.youtube.com/shorts/AIadpDclP7M) to eliminate an offset on the inputs. This can be done without a fancy multimeter - go to the **Setup / About** app and just skip all the other Calibration steps.
 
+_sideNOTE:_ You can reverse the scrolling direction of either/both of your encoders via the **Setup / About** app at the end of the Calibration process.
+
 ## Presets for Hemisphere
 Applet settings are not remembered unless you store to a Preset, or turn on Auto Save - both are inside [**Hemisphere Config**](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Hemisphere-Config). When storing a Preset, it immediately triggers an EEPROM Save (with a potential 2ms interruption, fyi) so there is no need to also long-press-save on the main menu.
 
