@@ -15,4 +15,4 @@ Note that triggering the envelope in reverse does not change the CV modulation c
 * Decay Duration 
 
 
-Adapted from [AD-EG](https://github.com/Chysn/O_C-HemisphereSuite/wiki/AD-EG) © 2018-2022, Jason Justian and Beige Maze Laboratories. 
+Adapted from [AD EG](https://github.com/Chysn/O_C-HemisphereSuite/wiki/AD-EG) © 2018-2022, Jason Justian and Beige Maze Laboratories. 
