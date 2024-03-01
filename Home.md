@@ -66,8 +66,8 @@ Applet settings are not remembered unless you store to a Preset, or turn on Auto
 
 ## Applets
 
-* **[AD](https://github.com/Chysn/O_C-HemisphereSuite/wiki/AD-EG)** - attack / decay envelope
-* **[ADSR](https://github.com/Chysn/O_C-HemisphereSuite/wiki/ADSR-EG)** - attack / decay / sustain / release envelope
+* **[AD EG](https://github.com/djphazer/O_C-Phazerville/wiki/AD-EG)** - Attack / decay envelope
+* **[ADSR](https://github.com/djphazer/O_C-Phazerville/wiki/ADSR-EG)** - Dual attack / decay / sustain / release envelope
 * **[ASR](https://github.com/Chysn/O_C-HemisphereSuite/wiki/%22A%22SR)** - Analog Shift Register
 * **[AttenOff](https://github.com/Chysn/O_C-HemisphereSuite/wiki/AttenOff)** - Attenu-vert, Offset, and Mix inputs
   - modified with +/-200% range, mix control
