@@ -26,12 +26,12 @@ Applet settings are not remembered unless you store to a Preset, or turn on Auto
 
 ## Hemisphere Gestures
 * [**Clock / Trigger Setup**](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Clock-Setup) — Dual-press both UP + DOWN buttons
-* **Cycle VBias offset** -5V, -3V, 0V — Dual-press both Encoders [VOR-only]
-* **invoke screensaver/blank screen** - Long-press UP button [global] 
-* [**Hemisphere Config**](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Hemisphere-Config) - Long-press DOWN button
-  - Load/save presets, adjust trigger length, screensaver, and cursor mode.
 * **Cycle Clock state** [Stop]->[Armed]->[Start] - Long-press Left Encoder
   - extra VOR button on units that have it also Starts/Stops the Clock (v1.6.999)
+* **Cycle VBias offset** -5V, -3V, 0V — Dual-press both Encoders [VOR-only]
+* [**Hemisphere Config**](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Hemisphere-Config) - Long-press DOWN button
+  - Load/save presets, adjust trigger length, screensaver, and cursor mode.
+* **Invoke screensaver/blank screen** - Long-press UP button [global] 
 * **Return to main menu** - Long-press Right Encoder [global]
   - Execution continues in the background
   - Long-press Right Encoder again on main menu to manually [Save Settings to EEPROM](https://github.com/djphazer/O_C-BenisphereSuite/wiki/EEPROM-Save) (unnecessary in v1.6.999 for Hemisphere; use [Presets](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Hemisphere-Config) instead)
