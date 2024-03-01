@@ -4,7 +4,7 @@
 
 |                |              1/3            |                   2/4                                    |
 | -------------- |:---------------------------:|:--------------------------------------------------------:|
-| Trig (Digital) | Clock (Advance buffer)      | Freeze writing buffer (Gate)                             |
+| Trig (Digital) | Clock (Advance buffer)      | Gate freeze writing buffer                         |
 | CV In          | Signal to be sampled        | Index (n) modulation (bipolar between -32 and 32 steps)  |
 | Output         | Most recent value in buffer | Buffer value n steps back                         |
 
