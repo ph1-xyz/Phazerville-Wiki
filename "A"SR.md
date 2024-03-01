@@ -6,33 +6,18 @@
 | -------------- |:---------------------------:|:--------------------------------------------------------:|
 | Trig (Digital) | Clock (Advance buffer)      | Freeze writing buffer (Gate)                             |
 | CV In          | Signal to be sampled        | Index (n) modulation (bipolar between -32 and 32 steps)  |
-| Output         | Most recent value in buffer | Buffer value n steps in the past                         |
+| Output         | Most recent value in buffer | Buffer value n steps back                         |
 
 ### I/O (Linked Mode)
-When linked, the scale may be different for each hemisphere, but the base index will be the same.
+When linked, the scale may be different for each hemisphere, but the base index will be the same (and may be modulated independently).
 
 |                |              1              |                   2                                      | 3 | 4 |
 | -------------- |:---------------------------:|:--------------------------------------------------------:|:------:|:-------|
 | Trig (Digital) | Clock (Advance buffer)      | No effect                            | No effect | No effect |
-| CV In          | Signal to be sampled        | Index (n) modulation   | No effect | Index (m) modulation)
-| Output         | n steps  |                       |
+| CV In          | Signal to be sampled        | Index (n) modulation   | No effect | Index (m) modulation) |
+| Output         | n steps back in buffer  |    2n steps back in buffer                   | 3m steps back in buffer | 4m steps back in buffer |
 
 Note: At an index of 0, all outputs will be the same. When the index value is modulated by CV, a small CV indicator displays below the value.
-
-
-Linked Operation
-
-When linked, the scale may be different for each hemisphere, but the base index will be the same. Digital 1, Digital 2, and CV 1 do nothing. The index for each side may be modulated independently using CV 2. When the index value is modulated by CV, a small CV indicator displays below the value.
-
-Linked outputs are routed as follows:
-
-Out A: The most recent sample
-Out B: n steps back
-Out C: 2n steps back
-Out D: 3n steps back
-where n is the index.
-
-
 
 ### UI Parameters
 * Index
