@@ -14,7 +14,7 @@ When linked, the scale may be different for each hemisphere, but the base index 
 |                |              1              |         2               | 3                       | 4                       |
 | -------------- |:---------------------------:|:-----------------------:|:-----------------------:|:-----------------------:|
 | Trig (Digital) | Clock (Advance buffer)      | No effect               | No effect               | No effect               |
-| CV In          | Signal to be sampled        | Index (n) modulation    | No effect               | Index (m) modulation)   |
+| CV In          | Signal to be sampled        | Index (n) modulation    | No effect               | Index (m) modulation   |
 | Output         | n steps back in buffer      | 2n steps back in buffer | 3m steps back in buffer | 4m steps back in buffer |
 
 Note: At an index of 0, all outputs will be the same. When the index value is modulated by CV, a small CV indicator displays below the value.
