@@ -1,4 +1,4 @@
-AttenOff is a dual attenuator/offset.
+AttenOff is a dual attenuverter/offset.
 
 ### I/O
 
@@ -6,7 +6,7 @@ AttenOff is a dual attenuator/offset.
 | -------------- |:---------------------------:|:-------------------------------------:|
 | Trig (Digital) |  No effect                                  | No effect |
 | CV In          | Channel 1 Input                                  |      Channel 2 Input       |
-| Output         | Attenuated Ch 1 input + offset  |          Attenuated Ch 2 input + offset     |
+| Output         | Attenuverted Ch 1 input + offset  |          Attenuverted Ch 2 input + offset     |
 
 ### UI Parameters
 * Ch 1 Offset voltage
