@@ -25,16 +25,16 @@ _sideNOTE:_ You can reverse the scrolling direction of either/both of your encod
 Applet settings are not remembered unless you store to a Preset, or turn on Auto Save - both are inside [**Hemisphere Config**](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Hemisphere-Config). When storing a Preset, it immediately triggers an EEPROM Save (with a potential 2ms interruption, fyi) so there is no need to also long-press-save on the main menu.
 
 ## Hemisphere Gestures
-* Dual-press both Encoders [VOR-only] - cycle VBias offset: -5V, -3V, 0V
-* Dual-press both UP + DOWN buttons - [**Clock Setup**](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Clock-Setup) ("Clocks/Triggers" in v1.6.999+)
-* Long-press UP button [global] - invoke screensaver/blank screen
-* Long-press DOWN button - [**Hemisphere Config**](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Hemisphere-Config)
+* [**Clock / Trigger Setup**](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Clock-Setup) — Dual-press both UP + DOWN buttons
+* **Cycle VBias offset** -5V, -3V, 0V — Dual-press both Encoders [VOR-only]
+* **invoke screensaver/blank screen** - Long-press UP button [global] 
+* [**Hemisphere Config**](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Hemisphere-Config) - Long-press DOWN button
   - Load/save presets, adjust trigger length, screensaver, and cursor mode.
-* Long-press Left Encoder - cycle Clock state: [Stop]->[Paused]->[Start]->[Stop]
+* **Cycle Clock state** [Stop]->[Armed]->[Start] - Long-press Left Encoder
   - extra VOR button on units that have it also Starts/Stops the Clock (v1.6.999)
-* Long-press Right Encoder [global] - Return to main menu
-  - execution continues in the background
-  - Long-press Right Encoder again on main menu to manually [Save Settings to EEPROM](https://github.com/djphazer/O_C-BenisphereSuite/wiki/EEPROM-Save) (unnecessary in v1.6.999 for Hemisphere; use Presets instead)
+* **Return to main menu** - Long-press Right Encoder [global]
+  - Execution continues in the background
+  - Long-press Right Encoder again on main menu to manually [Save Settings to EEPROM](https://github.com/djphazer/O_C-BenisphereSuite/wiki/EEPROM-Save) (unnecessary in v1.6.999 for Hemisphere; use [Presets](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Hemisphere-Config) instead)
 * _Easter Egg:_ On the main menu, press the Left Encoder to find the secret Debug Screen!
 
 # Documentation
