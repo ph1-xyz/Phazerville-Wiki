@@ -27,6 +27,7 @@ Applet settings are not remembered unless you store to a Preset, or turn on Auto
 * Dual-press both UP + DOWN buttons - [**Clock Setup**](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Clock-Setup) ("Clocks/Triggers" in v1.6.999+)
 * Long-press UP button [global] - invoke screensaver/blank screen
 * Long-press DOWN button - [**Hemisphere Config**](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Hemisphere-Config)
+  - Load/save presets, adjust trigger length, screensaver, and cursor mode.
 * Long-press Left Encoder - cycle Clock state: [Stop]->[Paused]->[Start]->[Stop]
   - extra VOR button on units that have it also Starts/Stops the Clock (v1.6.999)
 * Long-press Right Encoder [global] - Return to main menu
