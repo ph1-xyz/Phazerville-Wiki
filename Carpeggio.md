@@ -16,7 +16,7 @@ Carpeggio is an arpeggiator/sequencer that uses coordinates on a 4x4 Cartesian p
 
 _Note: edited notes are shuffled when random note order is toggled. However, returning to linear note order erases any note edits._
 
-###Cartesian Operation
+### Cartesian Operation
 Provide x and y CV (0-5V) to the CV inputs. The position will be displayed with cross hairs on the grid. To select the note at the current position for playing, provide a clock signal to Digital 1.
 
 ### Linear Operation
