@@ -76,7 +76,7 @@ Applet settings are not remembered unless you store to a Preset, or turn on Auto
 * **[BugCrack](https://github.com/djphazer/O_C-Phazerville/wiki/BugCrack)** - sick drums, don't bug out
 * **[Burst](https://github.com/djphazer/O_C-Phazerville/wiki/Burst)** - rapid trigger generator
 * **[Button2](https://github.com/djphazer/O_C-Phazerville/wiki/Button2)** - 2 simple triggers or latching gates. Press the button!
-* **[Calculate](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Calculate)** - Min, Max, Diff, Mean, Random, S&H
+* **[Calculate](https://github.com/djphazer/O_C-Phazerville/wiki/Calculate)** - Min, Max, Diff, Mean, Random, S&H
 * **[Carpeggio](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Carpeggio-Cartesian-Arpeggiator)** - X-Y table of pitches from a scale/chord
 * **Chordinate** - quantizer with scale mask, outputs root + scale degree (from qiemem)
 * **[ClockDivider](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Clock-Divider-Multiplier)** - clock pulse multiplier / divider
