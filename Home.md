@@ -71,7 +71,7 @@ Applet settings are not remembered unless you store to a Preset, or turn on Auto
 * **[ASR](https://github.com/djphazer/O_C-Phazerville/wiki/%22A%22SR)** - Analog Shift Register
 * **[AttenOff](https://github.com/djphazer/O_C-Phazerville/wiki/AttenOff)** - Attenu-vert, Offset, and Mix inputs
   - modified with +/-200% range, mix control
-* **[Binary](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Binary-Counter-(Retired))** - 1 bit per input, output as voltage
+* **[Binary Counter](https://github.com/djphazer/O_C-Phazerville/wiki/Binary-Counter)** - 1 bit per input, output as voltage
 * **[BootsNCat](https://github.com/Chysn/O_C-HemisphereSuite/wiki/BootsNCat)** - noisy percussion
 * **[Brancher](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Brancher)** - Bernoulli gate
 * **[BugCrack](https://github.com/benirose/O_C-BenisphereSuite/wiki/Bug-Crack)** - sick drums, don't bug out
