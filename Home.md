@@ -73,7 +73,7 @@ Applet settings are not remembered unless you store to a Preset, or turn on Auto
   - modified with +/-200% range, mix control
 * **[Binary Counter](https://github.com/djphazer/O_C-Phazerville/wiki/Binary-Counter)** - 1 bit per input, output as voltage
 * **[BootsNCat](https://github.com/djphazer/O_C-Phazerville/wiki/BootsNCat)** - noisy percussion
-* **[Brancher](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Brancher)** - Bernoulli gate
+* **[Brancher](https://github.com/djphazer/O_C-Phazerville/wiki/Brancher)** - Bernoulli gate
 * **[BugCrack](https://github.com/benirose/O_C-BenisphereSuite/wiki/Bug-Crack)** - sick drums, don't bug out
 * **[Burst](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Burst)** - rapid trigger generator
 * **[Button](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Button)2** - simple trigger or gate from pressing the button
