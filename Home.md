@@ -69,15 +69,13 @@ Applet settings are not remembered unless you store to a Preset, or turn on Auto
 * **[AD EG](https://github.com/djphazer/O_C-Phazerville/wiki/AD-EG)** - Attack / decay envelope
 * **[ADSR](https://github.com/djphazer/O_C-Phazerville/wiki/ADSR-EG)** - Dual attack / decay / sustain / release envelope
 * **[ASR](https://github.com/djphazer/O_C-Phazerville/wiki/%22A%22SR)** - Analog Shift Register
-* **[AttenOff](https://github.com/djphazer/O_C-Phazerville/wiki/AttenOff)** - Attenu-vert, Offset, and Mix inputs
-  - modified with +/-200% range, mix control
+* **[AttenOff](https://github.com/djphazer/O_C-Phazerville/wiki/AttenOff)** - Attenu-vert, Offset, and Mix inputs (now with +/-200% range, mix control)
 * **[Binary Counter](https://github.com/djphazer/O_C-Phazerville/wiki/Binary-Counter)** - 1 bit per input, output as voltage
 * **[BootsNCat](https://github.com/djphazer/O_C-Phazerville/wiki/BootsNCat)** - noisy percussion
 * **[Brancher](https://github.com/djphazer/O_C-Phazerville/wiki/Brancher)** - Bernoulli gate
 * **[BugCrack](https://github.com/djphazer/O_C-Phazerville/wiki/BugCrack)** - sick drums, don't bug out
 * **[Burst](https://github.com/djphazer/O_C-Phazerville/wiki/Burst)** - rapid trigger generator
-* **[Button](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Button)2** - simple trigger or gate from pressing the button
-  - modified 2-channel version
+* **[Button2](https://github.com/djphazer/O_C-Phazerville/wiki/Button2)** - simple 2-channel triggers or latching gates
 * **[CVRec](https://github.com/Chysn/O_C-HemisphereSuite/wiki/CV-Recorder)** - record / playback up to 384 steps on 2 tracks
 * **[Calculate](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Calculate)** - Min, Max, Diff, Mean, Random, S&H
 * **[Carpeggio](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Carpeggio-Cartesian-Arpeggiator)** - X-Y table of pitches from a scale/chord
