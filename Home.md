@@ -75,7 +75,7 @@ Applet settings are not remembered unless you store to a Preset, or turn on Auto
 * **[BootsNCat](https://github.com/djphazer/O_C-Phazerville/wiki/BootsNCat)** - noisy percussion
 * **[Brancher](https://github.com/djphazer/O_C-Phazerville/wiki/Brancher)** - Bernoulli gate
 * **[BugCrack](https://github.com/djphazer/O_C-Phazerville/wiki/BugCrack)** - sick drums, don't bug out
-* **[Burst](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Burst)** - rapid trigger generator
+* **[Burst](https://github.com/djphazer/O_C-Phazerville/wiki/Burst)** - rapid trigger generator
 * **[Button](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Button)2** - simple trigger or gate from pressing the button
   - modified 2-channel version
 * **[CVRec](https://github.com/Chysn/O_C-HemisphereSuite/wiki/CV-Recorder)** - record / playback up to 384 steps on 2 tracks
