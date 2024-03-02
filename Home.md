@@ -78,7 +78,7 @@ Applet settings are not remembered unless you store to a Preset, or turn on Auto
 * **[Button2](https://github.com/djphazer/O_C-Phazerville/wiki/Button2)** - 2 simple triggers or latching gates. Press the button!
 * **[Calculate](https://github.com/djphazer/O_C-Phazerville/wiki/Calculate)** - Min, Max, Diff, Mean, Random, S&H
 * **[Calibr8](https://github.com/djphazer/O_C-Phazerville/wiki/Calibr8)** - a 2-channel, mini [Calibr8or](https://github.com/djphazer/O_C-Phazerville/wiki/Calibr8or) for v/Oct correction
-* **[Carpeggio](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Carpeggio-Cartesian-Arpeggiator)** - X-Y table of pitches from a scale/chord
+* **[Carpeggio](https://github.com/djphazer/O_C-Phazerville/wiki/Carpeggio)** - X-Y table of pitches from a scale/chord
 * **Chordinate** - quantizer with scale mask, outputs root + scale degree (from qiemem)
 * **[ClockDivider](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Clock-Divider-Multiplier)** - clock pulse multiplier / divider
 * **[ClockSkip](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Clock-Skipper)** - randomly skip pulses
