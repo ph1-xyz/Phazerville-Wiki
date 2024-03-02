@@ -66,8 +66,8 @@ Applet settings are not remembered unless you store to a Preset, or turn on Auto
 
 ## Applets
 
-* **[AD EG](https://github.com/djphazer/O_C-Phazerville/wiki/AD-EG)** - Attack / decay envelope
 * **[ADSR](https://github.com/djphazer/O_C-Phazerville/wiki/ADSR-EG)** - Dual attack / decay / sustain / release envelope
+* **[AD EG](https://github.com/djphazer/O_C-Phazerville/wiki/AD-EG)** - Attack / decay envelope
 * **[ASR](https://github.com/djphazer/O_C-Phazerville/wiki/%22A%22SR)** - Analog Shift Register
 * **[AttenOff](https://github.com/djphazer/O_C-Phazerville/wiki/AttenOff)** - Attenu-vert, Offset, and Mix inputs (now with +/-200% range, mix control)
 * **[Binary Counter](https://github.com/djphazer/O_C-Phazerville/wiki/Binary-Counter)** - 1 bit per input, output as voltage
@@ -76,13 +76,13 @@ Applet settings are not remembered unless you store to a Preset, or turn on Auto
 * **[BugCrack](https://github.com/djphazer/O_C-Phazerville/wiki/BugCrack)** - sick drums, don't bug out
 * **[Burst](https://github.com/djphazer/O_C-Phazerville/wiki/Burst)** - rapid trigger generator
 * **[Button2](https://github.com/djphazer/O_C-Phazerville/wiki/Button2)** - 2 simple triggers or latching gates. Press the button!
-* **[CVRec](https://github.com/djphazer/O_C-Phazerville/wiki/CV-Recorder)** - record / smooth / playback CV up to 384 steps on 2 tracks
 * **[Calculate](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Calculate)** - Min, Max, Diff, Mean, Random, S&H
 * **[Carpeggio](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Carpeggio-Cartesian-Arpeggiator)** - X-Y table of pitches from a scale/chord
 * **Chordinate** - quantizer with scale mask, outputs root + scale degree (from qiemem)
 * **[ClockDivider](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Clock-Divider-Multiplier)** - clock pulse multiplier / divider
 * **[ClockSkip](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Clock-Skipper)** - randomly skip pulses
 * **[Compare](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Compare)** - basic comparator
+* **[CVRec](https://github.com/djphazer/O_C-Phazerville/wiki/CV-Recorder)** - record / smooth / playback CV up to 384 steps on 2 tracks
 * **[DivSeq](https://www.youtube.com/watch?v=J1OH-oomvMA)** - two sequences of clock dividers
 * **[DrumMap](https://github.com/benirose/O_C-BenisphereSuite/wiki/DrumMap)** - clone of Mutable Instruments Grids
 * **[DualTM](https://github.com/djphazer/O_C-BenisphereSuite/wiki/DualTM)** - highly configurable pair of Turing Machine shift registers (replacement for ShiftReg/TM)
