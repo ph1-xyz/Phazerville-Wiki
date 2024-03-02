@@ -18,7 +18,7 @@ Note that triggering the envelope in reverse does not change the CV modulation c
 * Blend
 
 **Tone**
-Each drum has a Tone control that sets the basic sound of the drum. For the bass drum, Tone controls the frequency, with higher values indicating a higher frequency. For the snare drum, the Tone control is more like a low-pass filter, with high values indicating a higher cutoff frequency.
+* Each drum has a Tone control that sets the basic sound of the drum. For the bass drum, Tone controls the frequency, with higher values indicating a higher frequency. For the snare drum, the Tone control is more like a low-pass filter, with high values indicating a higher cutoff frequency.
 
 **Decay**
 * Each drum has a Decay control that sets the decay of the drum between about 1/10 of a second and 1 second, with higher values indicating longer decay.
