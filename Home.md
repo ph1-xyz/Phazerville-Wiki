@@ -75,7 +75,7 @@ Applet settings are not remembered unless you store to a Preset, or turn on Auto
 * **[Brancher](https://github.com/djphazer/O_C-Phazerville/wiki/Brancher)** - Bernoulli gate
 * **[BugCrack](https://github.com/djphazer/O_C-Phazerville/wiki/BugCrack)** - sick drums, don't bug out
 * **[Burst](https://github.com/djphazer/O_C-Phazerville/wiki/Burst)** - rapid trigger generator
-* **[Button2](https://github.com/djphazer/O_C-Phazerville/wiki/Button2)** - simple 2-channel triggers or latching gates
+* **[Button2](https://github.com/djphazer/O_C-Phazerville/wiki/Button2)** - 2 simple triggers or latching gates. Press the button!
 * **[CVRec](https://github.com/Chysn/O_C-HemisphereSuite/wiki/CV-Recorder)** - record / playback up to 384 steps on 2 tracks
 * **[Calculate](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Calculate)** - Min, Max, Diff, Mean, Random, S&H
 * **[Carpeggio](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Carpeggio-Cartesian-Arpeggiator)** - X-Y table of pitches from a scale/chord
