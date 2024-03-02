@@ -12,16 +12,16 @@ Hear it in action: https://youtu.be/ToZaxJ_7NpM
 
 
 ### UI Parameters
-* Kick drum tone (frequency)
-* Kick drum decay
-* Kick drum punch
-* Kick drum drop
-* CV1 assignment (Kick drum attenuation, tone, decay, FM, drop)
-* Snare drum tone (frequency)
-* Snare drum decay
-* Snare drum snap
-* Snare drum blend
-* CV2 assignment (Snare drum attenuation, tone, decay, FM, blend)
+* Kick tone (frequency)
+* Kick decay
+* Kick punch
+* Kick drop
+* CV1 (Kick) assignment (attenuation, tone, decay, FM, drop)
+* Snare tone (frequency)
+* Snare decay
+* Snare snap
+* Snare blend
+* CV2 (Snare) assignment (attenuation, tone, decay, FM, blend)
 
 **Frequency (ton) - Kick and Snare**
 The base frequency of the drum. Kick has a range of 30-60Hz, snare has a range of 100-700Hz.
