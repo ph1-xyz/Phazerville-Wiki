@@ -8,7 +8,7 @@ Calibr8 is a 2 channel pitch calibration tool to compensate for imperfect v/Oct 
 | CV In          | Pitch CV input 1 |      Pitch CV input 2       |
 | Output         |          Calibrated pitch CV 1           |           Calibrated pitch CV 2         |
 
-Note: the outputs of Calibr8 are quantized to semitones
+_Note: the outputs of Calibr8 are quantized to semitones_
 
 ### UI Parameters
 * Pitch CV1 scaling factor
