@@ -72,16 +72,16 @@ Applet settings are not remembered unless you store to a Preset, or turn on Auto
 * **[ASR](https://github.com/djphazer/O_C-Phazerville/wiki/%22A%22SR)** - Analog Shift Register
 * **[AttenOff](https://github.com/djphazer/O_C-Phazerville/wiki/AttenOff)** - Attenu-vert, Offset, and Mix inputs (now with +/-200% range, mix control)
 * **[Binary Counter](https://github.com/djphazer/O_C-Phazerville/wiki/Binary-Counter)** - 1 bit per input, output as voltage
-* **[BootsNCat](https://github.com/djphazer/O_C-Phazerville/wiki/BootsNCat)** - noisy percussion
+* **[BootsNCat](https://github.com/djphazer/O_C-Phazerville/wiki/BootsNCat)** - Noisy percussion
 * **[Brancher](https://github.com/djphazer/O_C-Phazerville/wiki/Brancher)** - Bernoulli gate
-* **[BugCrack](https://github.com/djphazer/O_C-Phazerville/wiki/BugCrack)** - sick drums, don't bug out
-* **[Burst](https://github.com/djphazer/O_C-Phazerville/wiki/Burst)** - rapid trigger generator
+* **[BugCrack](https://github.com/djphazer/O_C-Phazerville/wiki/BugCrack)** - Sick drums, don't bug out
+* **[Burst](https://github.com/djphazer/O_C-Phazerville/wiki/Burst)** - Rapid trigger / ratchet generator
 * **[Button2](https://github.com/djphazer/O_C-Phazerville/wiki/Button2)** - 2 simple triggers or latching gates. Press the button!
 * **[Calculate](https://github.com/djphazer/O_C-Phazerville/wiki/Calculate)** - Min, Max, Diff, Mean, Random, S&H
-* **[Calibr8](https://github.com/djphazer/O_C-Phazerville/wiki/Calibr8)** - a 2-channel, mini [Calibr8or](https://github.com/djphazer/O_C-Phazerville/wiki/Calibr8or) for v/Oct correction
+* **[Calibr8](https://github.com/djphazer/O_C-Phazerville/wiki/Calibr8)** - 2-channel, mini [Calibr8or](https://github.com/djphazer/O_C-Phazerville/wiki/Calibr8or) for v/Oct correction
 * **[Carpeggio](https://github.com/djphazer/O_C-Phazerville/wiki/Carpeggio)** - X-Y table of pitches from a scale/chord
-* **[Chordinate](https://github.com/djphazer/O_C-Phazerville/wiki/Chordinate)** - quantizer with scale mask, outputs root + scale degree (from qiemem)
-* **[ClockDivider](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Clock-Divider-Multiplier)** - clock pulse multiplier / divider
+* **[Chordinate](https://github.com/djphazer/O_C-Phazerville/wiki/Chordinate)** - Quantizer with scale mask, outputs root + scale degree (from qiemem)
+* **[ClockDivider](https://github.com/djphazer/O_C-Phazerville/wiki/ClockDivider)** - Dual 2-stage clock pulse multiplier / divider.
 * **[ClockSkip](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Clock-Skipper)** - randomly skip pulses
 * **[Compare](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Compare)** - basic comparator
 * **[CVRec](https://github.com/djphazer/O_C-Phazerville/wiki/CV-Recorder)** - record / smooth / playback CV up to 384 steps on 2 tracks
