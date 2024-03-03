@@ -81,7 +81,7 @@ Applet settings are not remembered unless you store to a Preset, or turn on Auto
 * **[Calibr8](https://github.com/djphazer/O_C-Phazerville/wiki/Calibr8)** - 2-channel, mini [Calibr8or](https://github.com/djphazer/O_C-Phazerville/wiki/Calibr8or) for v/Oct correction
 * **[Carpeggio](https://github.com/djphazer/O_C-Phazerville/wiki/Carpeggio)** - X-Y table of pitches from a scale/chord
 * **[Chordinate](https://github.com/djphazer/O_C-Phazerville/wiki/Chordinate)** - Quantizer with scale mask, outputs root + scale degree (from qiemem)
-* **[ClockDivider](https://github.com/djphazer/O_C-Phazerville/wiki/ClockDivider)** - Dual 2-stage clock pulse multiplier / divider.
+* **[ClockDivider](https://github.com/djphazer/O_C-Phazerville/wiki/ClockDivider)** - Dual complex clock pulse multiplier / divider.
 * **[ClockSkip](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Clock-Skipper)** - randomly skip pulses
 * **[Compare](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Compare)** - basic comparator
 * **[CVRec](https://github.com/djphazer/O_C-Phazerville/wiki/CV-Recorder)** - record / smooth / playback CV up to 384 steps on 2 tracks
