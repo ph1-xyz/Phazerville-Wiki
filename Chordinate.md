@@ -8,7 +8,7 @@ Chordinate is a quantizer with scale mask, outputting a root note pitch and a sc
 | CV In          | Root note pitch input |      Scale degree offset      |
 | Output         |        Root note pitch (thru)           |         Scale degree pitch          |
 
-_Note that sending a trigger to either digital input will initiate sample & hold mode, which will persist until power cycling. Root note and scale degree may be held independently, allowing for syncopated voicing changes_
+_Note that sending a trigger to either digital input will initiate a clocked S&H mode, which will persist until power cycling. Root note and scale degree may be held independently, allowing for syncopated voicing changes_
 
 ### UI Parameters
 * Quantizer scale
