@@ -10,7 +10,7 @@ Ever just need a button, to trigger something or toggle something? Me too! Butto
 
 ### UI Parameters
 * Channel selection (scroll clockwise)
-* Button mode (scroll counterclockwise)
+* Button mode: trigger, latch (scroll counterclockwise)
 * Press selected button (push encoder)
 
 _Note: Button2 overrides your Hemisphere cursor mode. In this applet, scrolling clockwise switches between selecting button channels, scrolling counterclockwise switches the selected channel between a trigger mode (clock icon) and a latching toggle mode (switch icon)_
