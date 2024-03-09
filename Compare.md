@@ -1,4 +1,4 @@
-Compare is a comparator applet with complementary gate outputs.
+Compare is a comparator applet with complementary gate outputs, indicating when an input voltage is greater or less than a set (or modulated) threshold.
 
 ### I/O
 
