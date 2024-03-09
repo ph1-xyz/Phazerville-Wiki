@@ -86,7 +86,7 @@ Applet settings are not remembered unless you store to a Preset, or turn on Auto
 * **[Compare](https://github.com/djphazer/O_C-Phazerville/wiki/Compare)** - Basic comparator
 * **[CVRec](https://github.com/djphazer/O_C-Phazerville/wiki/CV-Recorder)** - Record / smooth / playback CV up to 384 steps on 2 tracks
 * **[DivSeq](https://github.com/djphazer/O_C-Phazerville/wiki/DivSeq)** - Two sequences of clock dividers
-* **[DrumMap](https://github.com/benirose/O_C-BenisphereSuite/wiki/DrumMap)** - clone of Mutable Instruments Grids
+* **[DrumMap](https://github.com/djphazer/O_C-Phazerville/wiki/DrumMap)** - clone of Mutable Instruments Grids
 * **[DualTM](https://github.com/djphazer/O_C-BenisphereSuite/wiki/DualTM)** - highly configurable pair of Turing Machine shift registers (replacement for ShiftReg/TM)
 * **[DualQuant](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Dual-Quantizer)** - basic quantizer
 * **[Ebb & LFO](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Ebb-&-LFO)** - clone of Mutable Instruments Tides; oscillator / LFO with CV-controllable waveshape, slope, V/Oct, folding
