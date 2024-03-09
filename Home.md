@@ -83,7 +83,7 @@ Applet settings are not remembered unless you store to a Preset, or turn on Auto
 * **[Chordinate](https://github.com/djphazer/O_C-Phazerville/wiki/Chordinate)** - Quantizer with scale mask, outputs root + scale degree (from qiemem)
 * **[ClockDivider](https://github.com/djphazer/O_C-Phazerville/wiki/ClockDivider)** - Dual complex clock pulse multiplier / divider.
 * **[ClockSkip](https://github.com/djphazer/O_C-Phazerville/wiki/Clock-Skipper)** - Randomly skip pulses
-* **[Compare](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Compare)** - basic comparator
+* **[Compare](https://github.com/djphazer/O_C-Phazerville/wiki/Compare)** - Basic comparator
 * **[CVRec](https://github.com/djphazer/O_C-Phazerville/wiki/CV-Recorder)** - record / smooth / playback CV up to 384 steps on 2 tracks
 * **[DivSeq](https://www.youtube.com/watch?v=J1OH-oomvMA)** - two sequences of clock dividers
 * **[DrumMap](https://github.com/benirose/O_C-BenisphereSuite/wiki/DrumMap)** - clone of Mutable Instruments Grids
