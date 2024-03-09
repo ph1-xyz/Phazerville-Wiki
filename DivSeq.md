@@ -1,6 +1,6 @@
 DivSeq is a dual sequential clock divider with a single input clock. Each of the two channels is composed of a sequence of up to 5 clock dividers. Under normal operation, a step "n" triggers 1 clock pulse, skips n-1 pulses, and then steps to the next clock divider.
 
-Under CV modulation, each channel may also be in inverted mode (skip 1, trigger n-1 pulses, step) with positive voltage, or cross-channel XOR mode with negative voltage. There is a virtual detent around 0v for normal mode.
+Via the CV inputs, each channel may also be in inverted mode (skip 1, trigger n-1 pulses, step) with positive voltage, or cross-channel XOR mode with negative voltage. There is a virtual detent around 0v for normal mode.
 
 Performance mutes may be manually toggled for each divider step. Each step may be set to a divider of 0 (off) up to 63.
 
