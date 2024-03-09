@@ -6,7 +6,8 @@ DivSeq is a dual sequential clock divider with a single input clock. Each of the
 |                |              1/3           |                   2/4                |
 | -------------- |:---------------------------:|:-------------------------------------:|
 | Trig (Digital) |  Clock   | Reset |
-| CV In          | Ch 1 mode modulation: inverted (positive), XOR (negative) |     Ch 2 mode modulation: inverted (positive), XOR (negative) |        | Output         |          Ch 1 trigger sequence           |         Ch 2 trigger sequence           |
+| CV In          | Ch 1 mode modulation: inverted (positive), XOR (negative) | Ch 2 mode modulation: inverted (positive), XOR (negative) |
+| Output         |          Ch 1 trigger sequence           |         Ch 2 trigger sequence           |
 
 
 ### UI Parameters
