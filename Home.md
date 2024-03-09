@@ -84,8 +84,8 @@ Applet settings are not remembered unless you store to a Preset, or turn on Auto
 * **[ClockDivider](https://github.com/djphazer/O_C-Phazerville/wiki/ClockDivider)** - Dual complex clock pulse multiplier / divider.
 * **[ClockSkip](https://github.com/djphazer/O_C-Phazerville/wiki/Clock-Skipper)** - Randomly skip pulses
 * **[Compare](https://github.com/djphazer/O_C-Phazerville/wiki/Compare)** - Basic comparator
-* **[CVRec](https://github.com/djphazer/O_C-Phazerville/wiki/CV-Recorder)** - record / smooth / playback CV up to 384 steps on 2 tracks
-* **[DivSeq](https://github.com/djphazer/O_C-Phazerville/wiki/DivSeq)** - two sequences of clock dividers
+* **[CVRec](https://github.com/djphazer/O_C-Phazerville/wiki/CV-Recorder)** - Record / smooth / playback CV up to 384 steps on 2 tracks
+* **[DivSeq](https://github.com/djphazer/O_C-Phazerville/wiki/DivSeq)** - Two sequences of clock dividers
 * **[DrumMap](https://github.com/benirose/O_C-BenisphereSuite/wiki/DrumMap)** - clone of Mutable Instruments Grids
 * **[DualTM](https://github.com/djphazer/O_C-BenisphereSuite/wiki/DualTM)** - highly configurable pair of Turing Machine shift registers (replacement for ShiftReg/TM)
 * **[DualQuant](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Dual-Quantizer)** - basic quantizer
