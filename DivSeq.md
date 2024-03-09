@@ -13,7 +13,7 @@ See it in action: https://youtu.be/J1OH-oomvMA?si=Z97wJ3HXe0HocaBa&t=357
 | -------------- |:---------------------------:|:-------------------------------------:|
 | Trig (Digital) |  Clock   | Reset |
 | CV In          | Ch 1 mode: inverted (positive), XOR (negative) | Ch 2 mode: inverted, XOR |
-| Output         |          Ch 1 trigger sequence           |         Ch 2 trigger sequence           |
+| Output         |          Ch 1 Trigger sequence           |         Ch 2 Trigger sequence           |
 
 
 ### UI Parameters
