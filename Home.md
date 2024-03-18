@@ -1,11 +1,11 @@
 You can find links to documentation for (almost) every single O_C function on this page.
 
-[Download a **Release**](https://github.com/djphazer/O_C-BenisphereSuite/releases) or [Request a **Custom Build**](https://github.com/djphazer/O_C-Phazerville/discussions/38).
+[Download a **Release**](https://github.com/djphazer/O_C-Phazerville/releases) or [Request a **Custom Build**](https://github.com/djphazer/O_C-Phazerville/discussions/38).
 
 # Phazerville Suite
-Thanks for checking out my firmware. I've basically tried to hoard all the notable Apps and Applets in one repo! All the full-screen apps from [Hemisphere](https://github.com/Chysn/O_C-HemisphereSuite/wiki) are here, plus all of the [stock O&C firmware](https://ornament-and-cri.me/user-manual-v1_3/) apps and a few new ones, albeit in limited combinations depending on which .hex file you grabbed from the [Release page](https://github.com/djphazer/O_C-BenisphereSuite/releases).
+Thanks for checking out my firmware. I've basically tried to hoard all the notable Apps and Applets in one repo! All the full-screen apps from [Hemisphere](https://github.com/Chysn/O_C-HemisphereSuite/wiki) are here, plus all of the [stock O&C firmware](https://ornament-and-cri.me/user-manual-v1_3/) apps and a few new ones, albeit in limited combinations depending on which .hex file you grabbed from the [Release page](https://github.com/djphazer/O_C-Phazerville/releases).
 
-As of v1.6.999, you can request a **Custom Build** with a simple bot command on [this discussion post](https://github.com/djphazer/O_C-BenisphereSuite/discussions/38).
+As of v1.6.999, you can request a **Custom Build** with a simple bot command on [this discussion post](https://github.com/djphazer/O_C-Phazerville/discussions/38).
 
 Read a bit about my [Development Philosophy](https://github.com/djphazer/O_C-Phazerville/wiki/_Philosophy) to understand my motives behind this project.
 
@@ -22,20 +22,20 @@ _sideNOTE:_ If applets like Stairs, Carpeggio or Shredder appear unresponsive, y
 You can reverse the scrolling direction of either/both of your encoders via the **Setup / About** app at the end of the Calibration process.
 
 ## Presets for Hemisphere
-Applet settings are not remembered unless you store to a Preset, or turn on Auto Save - both are inside [**Hemisphere Config**](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Hemisphere-Config). When storing a Preset, it immediately triggers an EEPROM Save (with a potential 2ms interruption, fyi) so there is no need to also long-press-save on the main menu.
+Applet settings are not remembered unless you store to a Preset, or turn on Auto Save - both are inside [**Hemisphere Config**](https://github.com/djphazer/O_C-Phazerville/wiki/Hemisphere-Config). When storing a Preset, it immediately triggers an EEPROM Save (with a potential 2ms interruption, fyi) so there is no need to also long-press-save on the main menu.
 
 ## Hemisphere Gestures
-* [**Clock / Trigger Setup**](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Clock-Setup) — Dual-press both UP + DOWN buttons
+* [**Clock / Trigger Setup**](https://github.com/djphazer/O_C-Phazerville/wiki/Clock-Setup) — Dual-press both UP + DOWN buttons
   - Adjust BPM, external sync, and per-trigger clock mult/div; remap trigger inputs; and manually perform triggers.
 * **Cycle Clock state** [Stop]->[Armed]->[Start] — Long-press Left Encoder
   - Extra VOR button on units that have it also Starts/Stops the Clock (v1.6.999)
 * **Cycle VBias offset** -5V, -3V, 0V — Dual-press both Encoders [VOR-only]
-* [**Hemisphere Config**](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Hemisphere-Config) — Long-press DOWN button
+* [**Hemisphere Config**](https://github.com/djphazer/O_C-Phazerville/wiki/Hemisphere-Config) — Long-press DOWN button
   - Load/save presets, adjust trigger length, screensaver, and cursor mode.
 * **Invoke screensaver/blank screen** — Long-press UP button [global] 
 * **Return to main menu** — Long-press Right Encoder [global]
   - Execution continues in the background
-  - Long-press Right Encoder again on main menu to manually [Save Settings to EEPROM](https://github.com/djphazer/O_C-BenisphereSuite/wiki/EEPROM-Save) (unnecessary in v1.6.999 for Hemisphere; use [Presets](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Hemisphere-Config) instead)
+  - Long-press Right Encoder again on main menu to manually [Save Settings to EEPROM](https://github.com/djphazer/O_C-Phazerville/wiki/EEPROM-Save) (unnecessary in v1.6.999 for Hemisphere; use [Presets](https://github.com/djphazer/O_C-Phazerville/wiki/Hemisphere-Config) instead)
 * _Easter Egg_ — On the main menu, press the Left Encoder to find the secret Debug Screen!
 
 # Documentation
@@ -89,11 +89,11 @@ Applet settings are not remembered unless you store to a Preset, or turn on Auto
 * **[DrumMap](https://github.com/djphazer/O_C-Phazerville/wiki/DrumMap)** - Clone of Mutable Instruments Grids
 * **[DualQuant](https://github.com/djphazer/O_C-Phazerville/wiki/Dual-Quantizer)** - Basic 2-channel quantizer with sample and hold
 * **[DualTM](https://github.com/djphazer/O_C-Phazerville/wiki/DualTM)** - Highly configurable pair of Turing Machine shift registers (replacement for ShiftReg/TM)
-* **[Ebb & LFO](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Ebb-&-LFO)** - clone of Mutable Instruments Tides; oscillator / LFO with CV-controllable waveshape, slope, V/Oct, folding
+* **[Ebb & LFO](https://github.com/djphazer/O_C-Phazerville/wiki/Ebb-&-LFO)** - clone of Mutable Instruments Tides; oscillator / LFO with CV-controllable waveshape, slope, V/Oct, folding
 * **[EnigmaJr](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Enigma,-Jr.)** - compact player of curated shift registers
 * **[EnvFollow](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Envelope-Follower)** - follows or ducks based on incoming audio
   - added Speed control
-* **[EuclidX](https://github.com/djphazer/O_C-BenisphereSuite/wiki/EuclidX)** - Euclidean pattern generator (replacement for [AnnularFusion](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Annular-Fusion-Euclidean-Drummer))
+* **[EuclidX](https://github.com/djphazer/O_C-Phazerville/wiki/EuclidX)** - Euclidean pattern generator (replacement for [AnnularFusion](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Annular-Fusion-Euclidean-Drummer))
 * **[GameOfLife](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Conways's-Game-of-Life-(Retired))** - experimental cellular automaton modulation source
 * **[GateDelay](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Gate-Delay)** - simple gate delay
 * **[GatedVCA](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Gated-VCA)** - simple VCA
@@ -101,11 +101,11 @@ Applet settings are not remembered unless you store to a Preset, or turn on Auto
 * **[Logic](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Logic)** - AND / OR / XOR / NAND / NOR / XNOR
 * **[LowerRenz](https://github.com/Chysn/O_C-HemisphereSuite/wiki/LowerRenz)** - orbiting particles
 * **[Metronome](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Metronome)** - internal clock tempo control + multiplier output
-* **[MIDI In](https://github.com/djphazer/O_C-BenisphereSuite/wiki/MIDI-Input)** - from USB to CV
+* **[MIDI In](https://github.com/djphazer/O_C-Phazerville/wiki/MIDI-Input)** - from USB to CV
 * **[MIDI Out](https://github.com/Chysn/O_C-HemisphereSuite/wiki/MIDI-Out)** - from CV to USB
 * **[MixerBal](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Mixer:Balance)** - basic mixer
 * **[Palimpsest](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Palimpsest-Accent-Sequencer)** - accent sequencer
-* **[Pigeons](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Pigeons)** - dual Fibonacci-style melody generator
+* **[Pigeons](https://github.com/djphazer/O_C-Phazerville/wiki/Pigeons)** - dual Fibonacci-style melody generator
 * **[PolyDiv](https://www.youtube.com/watch?v=J1OH-oomvMA)** - four concurrent clock dividers with assignable outputs
 * **[ProbDiv](https://github.com/benirose/O_C-BenisphereSuite/wiki/ProbDiv)** - stochastic trigger generator
 * **[ProbMeloD](https://github.com/benirose/O_C-BenisphereSuite/wiki/ProbMeloD)** - stochastic melody generator

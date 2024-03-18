@@ -7,11 +7,11 @@
 
 If you switch to a different applet, the configured incoming MIDI messages are rerouted to the _inputs_ of the selected applet. (As of v1.6.6, this is _combined with the physical CV or trigger input_.) This allows things like modulating parameters via MIDI CC or Pitch Bend, quantizing MIDI Notes to a scale, or triggering sequencer applets with MIDI Note-On. You can use **AttenOff** to scale and offset MIDI CC values. You can transpose **TB-3PO** patterns via MIDI Note and modulate Density with the Velocity, or Aftertouch, etc.
 
-MIDI _Clock_, _Start_, and _Stop_ messages are also handled automatically by the internal **[Clock Setup](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Clock-Setup)** applet. Incoming MIDI Clock is translated from 24 PPQN to 2 PPQN internally.
+MIDI _Clock_, _Start_, and _Stop_ messages are also handled automatically by the internal **[Clock Setup](https://github.com/djphazer/O_C-Phazerville/wiki/Clock-Setup)** applet. Incoming MIDI Clock is translated from 24 PPQN to 2 PPQN internally.
 
 ### Channel Settings
 
-By default, all channels are set to "None". A pair of the MIDI In applets can be [saved as a Preset](https://github.com/djphazer/O_C-BenisphereSuite/wiki/Hemisphere-Config) to quickly recall settings.
+By default, all channels are set to "None". A pair of the MIDI In applets can be [saved as a Preset](https://github.com/djphazer/O_C-Phazerville/wiki/Hemisphere-Config) to quickly recall settings.
 
 Each channel filters and translates incoming MIDI messages as output CV from **MIDI In** applet, or to a corresponding logical input for other applets.
 - **MIDI Channel** (independent for all 4 slots)

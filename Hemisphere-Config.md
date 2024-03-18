@@ -1,4 +1,4 @@
-![PXL_20231220_003642373~4.jpg](https://github.com/djphazer/O_C-BenisphereSuite/assets/109086194/49456906-d902-4d1d-bdab-4106a5575a6b)
+![PXL_20231220_003642373~4.jpg](https://github.com/djphazer/O_C-Phazerville/assets/109086194/49456906-d902-4d1d-bdab-4106a5575a6b)
 
 [Long-press DOWN button] to access. As of v1.7, the menu is split into two pages, which may be navigated by rotating either encoder through the various menu items.
 
