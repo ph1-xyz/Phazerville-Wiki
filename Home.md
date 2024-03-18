@@ -69,7 +69,7 @@ Applet settings are not remembered unless you store to a Preset, or turn on Auto
 
 * **[ADSR](https://github.com/djphazer/O_C-Phazerville/wiki/ADSR-EG)** - Dual attack / decay / sustain / release envelope
 * **[AD EG](https://github.com/djphazer/O_C-Phazerville/wiki/AD-EG)** - Attack / decay envelope
-* **[ASR](https://github.com/djphazer/O_C-Phazerville/wiki/%22A%22SR)** - Analog Shift Register
+* **[ASR](https://github.com/djphazer/O_C-Phazerville/wiki/ASR)** - Analog Shift Register
 * **[AttenOff](https://github.com/djphazer/O_C-Phazerville/wiki/AttenOff)** - Attenu-vert, Offset, and Mix inputs (now with +/-200% range, mix control)
 * **[Binary Counter](https://github.com/djphazer/O_C-Phazerville/wiki/Binary-Counter)** - 1 bit per input, output as voltage
 * **[BootsNCat](https://github.com/djphazer/O_C-Phazerville/wiki/BootsNCat)** - Noisy percussion
