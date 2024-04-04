@@ -1,3 +1,5 @@
+#utility #dualInput #dualOutput #gate 
+
 Voltage is a dual gate-activated fixed-voltage emitter.
 
 Controls

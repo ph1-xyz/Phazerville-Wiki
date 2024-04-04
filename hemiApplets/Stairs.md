@@ -1,3 +1,5 @@
+#masterClockOnCH1 #resetOnCH2 #gateOnCH2 #CVgenerator #BoC-EoC 
+
 Stairs is a stepped, clocked voltage generator based on the Noise Engineering Clep Diaz's 'step' and 'rand' modes. On each input clock pulse, the output voltage advances to the next 'step,' where the first step is always 0v and the last always 5v, with even voltage divisions on the intermediate steps.
 
 Controls

@@ -1,3 +1,5 @@
+#sequencer #masterClockOnCH1 #gateOnCH2 #triggerGenerator
+
 ShiftGate is a dual shift register-based gate/trigger sequencer for creating aleatoric rhythm patterns.
 
 Controls

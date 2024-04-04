@@ -1,3 +1,5 @@
+#envelopeGenerator #triggerable  #dualInput #dualOutput #independentChannels 
+
 VectorMod is a dual triggered one-shot or cycling modulation source based on Vector Oscillator waveforms. There is a variety of built-in waveforms from which to choose, or you can create your own with the [Waveform Editor](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Waveform-Editor).
 
 Controls

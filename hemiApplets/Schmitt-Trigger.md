@@ -1,3 +1,5 @@
+#dualCVInput #gateGenerator #dualOutput 
+
 This applet is a dual Schmitt Trigger with a programmable threshold range.
 
 Controls

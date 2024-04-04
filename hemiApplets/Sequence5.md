@@ -1,3 +1,5 @@
+#sequencer #masterClockOnCH1  #resetOnCH2 
+
 https://youtu.be/zsqAbNRgHJI
 
 Sequence5 is a five-step quantized sequencer.

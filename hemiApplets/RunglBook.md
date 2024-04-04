@@ -1,3 +1,5 @@
+#masterClockOnCH1 #gateOnCH2  
+
 RunglBook is a chaotic shift-register modulation based on Rob Hordijk's rungler circuit.
 
 Controls

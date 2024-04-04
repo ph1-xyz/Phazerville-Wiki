@@ -1,3 +1,5 @@
+#masterClockOnCH1 #resetOnCH2 #triggerGenerator #sequencer 
+
 https://youtu.be/qPRspJApd1Y
 
 Trigger Sequencer is a dual eight-step trigger sequencer.

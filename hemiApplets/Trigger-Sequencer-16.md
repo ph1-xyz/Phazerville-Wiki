@@ -1,3 +1,5 @@
+#masterClockOnCH1 #resetOnCH2 #triggerGenerator #sequencer 
+
 Trigger Sequencer 16 is a 16-step trigger sequencer. It's visually and functionally similar to Trigger Sequencer, except it's 1x16 instead of 2x8.
 
 Controls

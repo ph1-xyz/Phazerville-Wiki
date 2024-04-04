@@ -1,3 +1,5 @@
+#utility #dualTriggerInput #dualCVInput 
+
 https://youtu.be/juu65pJyXlY
 
 Switch is a two-channel switch with two switching methods: sequential and gated.

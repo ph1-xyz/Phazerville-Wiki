@@ -1,3 +1,5 @@
+#tool
+
 Scope is a simple CV and clock monitoring tool.
 
 Controls

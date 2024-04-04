@@ -1,3 +1,5 @@
+#masterClockOnCH1 #dualTriggerInput
+
 _Palimpsest_ is an accent sequencer that composes a pattern by way of a repeated sequence of trigger impressions.
 
 Controls

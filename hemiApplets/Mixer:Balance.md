@@ -1,3 +1,5 @@
+#utility #mixer #dualCVInput #dualOutput 
+
 Mixer:Balance is a two-input CV mixer with a balance control and two complementary outputs.
 
 Controls

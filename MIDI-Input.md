@@ -1,3 +1,5 @@
+#MIDI
+
 ## Video
 [![MIDI Mapping Video Demo](http://img.youtube.com/vi/SpgH4tNvikc/0.jpg)](http://www.youtube.com/watch?v=SpgH4tNvikc "MIDI Input Mapping")
 

@@ -1,4 +1,4 @@
- #CVgenerator #logic #random #sampler #independentChannels #dualInput #dualOutput 
+ #CVgenerator #logic #random #CVsampler #independentChannels #dualInput #dualOutput 
 
 Calculate can perform two separate arithmetical operations on two CV inputs: each outputting either the minimum voltage, the maximum, the sum, the difference, or the avarage.
 

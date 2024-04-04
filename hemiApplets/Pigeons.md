@@ -1,4 +1,4 @@
-#quantizedPitch  #generator #dual #sharedClock
+#quantizedPitch  #CVgenerator #dual #sharedClock
 
 [![Stolen Ornaments: Pigeons](http://img.youtube.com/vi/J1OH-oomvMA/0.jpg)](http://www.youtube.com/watch?v=J1OH-oomvMA "Stolen Ornaments: Pigeons, PolyDiv & DivSeq | O_C Phazerville Suite")
 

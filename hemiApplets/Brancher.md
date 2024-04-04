@@ -1,4 +1,4 @@
-#triggerGenerator #gate #probability #dualOutput #singleInput
+#triggerGenerator #gate #probability #dualOutput #masterClockOnCH1 
 
 *Brancher* is a Bernoulli Gate, inspired by Mutable Instruments Branches. It sends incoming gate or clock to one of two outputs, based on a selected probability.
 

@@ -1,3 +1,5 @@
+#CVgenerator 
+
 https://youtu.be/WrENiAQHhq0
 
 VectMorph is morph controller inspired by the Doepfer A-144, and based on Vector Oscillator waveforms. There is a variety of built-in waveforms from which to choose, or you can create your own with the [Waveform Editor](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Waveform-Editor).

@@ -1,3 +1,5 @@
+#logic #gate #dualInput #multiInput 
+
 https://youtu.be/NdHY-eDipkY
 
 Threshold Logic Neuron is a three-input programmable logic gate.

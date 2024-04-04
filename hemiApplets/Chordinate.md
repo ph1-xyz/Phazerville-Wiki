@@ -1,4 +1,4 @@
- #quantizedPitch #sampler #dualInput #singleInput 
+ #quantizedPitch #CVsampler #dualInput 
 
 Chordinate is a quantizer with a scale mask: outputting a basis pitch (i.e. the root note, notwithstanding any transposition) and a scale degree offset. The scale mask allows only user-determined intervals relative to the root note to be a valid output on CV 2/4.
 

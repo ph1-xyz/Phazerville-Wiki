@@ -1,3 +1,5 @@
+#LFO #BoC-EoC #envelopeGenerator 
+
 https://youtu.be/N0Cii0Hq2Ls
 
 Skewed LFO is a low frequency oscillator with a waveshape that's adjustable from sawtooth, to triangle, to ramp.

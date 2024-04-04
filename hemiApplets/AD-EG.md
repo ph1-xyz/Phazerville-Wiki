@@ -1,4 +1,4 @@
-#envelopeGenerator #triggerable #singleOutput #dualInput
+#envelopeGenerator #triggerable #singleOutput #dualInput #BoC-EoC 
 
 *AD-EG* is an attack/decay envelope generator with forward and reverse trigger inputs, and end-of-cycle trigger output.
 

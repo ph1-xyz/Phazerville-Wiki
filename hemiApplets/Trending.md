@@ -1,3 +1,5 @@
+#dualCVInput #dualOutput #CVgenerator 
+
 Trending is a dual slope detector with assignable outputs.
 
 Controls

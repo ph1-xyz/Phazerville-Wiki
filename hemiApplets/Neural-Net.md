@@ -1,3 +1,5 @@
+#logic 
+
 Neural Net is a highly-configurable logic processor with six _Neurons_, each of which can contain one of [11 different logic gates](#logic-gate-reference), including a Threshold Logic Neuron. Sources for each logic gate can be any of the eight inputs, any of the six Neurons, or a consistent ON/OFF value. Four Setups can be saved for later use, and Setups can be saved and loaded via MIDI system exclusive.
 
 ## Basic Controls and Navigation

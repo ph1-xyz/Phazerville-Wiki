@@ -1,4 +1,4 @@
-#CVgenerator #sequencer #sampler #resetOnCH2 #dual #masterClockOnCH1 #dualOutput #dualCVInput
+#CVgenerator #sequencer #CVsampler #resetOnCH2 #dual #masterClockOnCH1 #dualOutput #dualCVInput
 
 CV Recorder is a two-track 384-step CV recorder with smoothing (linear interpolation) and adjustable start/end points.
 
