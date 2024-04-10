@@ -1,4 +1,4 @@
-#utility #polarizer #mixer  #gateOnCH2 #dualOutput #dualCVInput 
+#utility #polarizer #mixer #dualInput/inCVs #dualOutput/CVs  #CH1/trig/none #CH2/gate 
 
 *AttenOff* is a dual attenuverter with a -200% to +200% range plus an offset voltage. Offsets are selectable in increments of one semitone, approximately 0.08V.
 

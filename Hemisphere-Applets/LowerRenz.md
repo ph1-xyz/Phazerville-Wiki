@@ -1,4 +1,4 @@
-#LFO #gateOnCH2 
+#generator/LFO #CH2/gate/hold 
 
 LowerRenz is a single Lorenz-only modulation generator based on the O_C's own Low-Rentz Dual Lorenz/Rössler Generator, which is itself based on an Easter Egg from Mutable Instruments Streams.
 

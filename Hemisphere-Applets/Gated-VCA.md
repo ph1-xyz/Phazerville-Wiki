@@ -1,4 +1,4 @@
-#dualInput #dualOutput #VCA
+#dualInput/inCVs #dualOutput/CVs #VCA
 
 Gated VCA is a VCA for CV, with the ability to gate the first output. It can sort of be used for audio, but works best as an extra CV VCA.
 

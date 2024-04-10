@@ -1,4 +1,4 @@
-#logic #gate #dualInput #multiInput 
+#logic #dualInput/inTrigs/asGates #CH1/CV/asGate #CH2/CV/none #generator/gate 
 
 https://youtu.be/NdHY-eDipkY
 

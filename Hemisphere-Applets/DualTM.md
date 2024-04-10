@@ -1,4 +1,4 @@
-#quantizedPitch #CVgenerator #sequencer #probability #gateable #slew #independentChannels #masterClockOnCH1 #gateOnCH2 
+#generator/CV/quantized #generator/CV #generator/trigger #generator/gate #generator/CV/sequencer #aleatoric #slew #dualChannels #CH1/trig/mainClock #CH2/gate
 
 Adapted from the original [**ShiftReg**](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Shift-Register-(formerly-Turing)) applet, this pair of 32-bit shift registers is designed to be the ultimate source of generative sequences. Digital inputs 1 & 2 are still _Clock_ & _p-gate_, respectively. The CV inputs and outputs are assignable.
 

@@ -1,4 +1,5 @@
-#audioInput #audioGenerator #BoC-EoC
+#generator/audio #secondaryOut/trig/EOC #dualInput/inTrigs/asGates #dualInput/inCVs/asAudio
+
 
 https://youtu.be/p1SUj-F7i28
 

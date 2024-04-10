@@ -1,4 +1,4 @@
-#audioGenerator #drum #independentChannels #dualOutput #dualInput 
+#generator/audio #generator/audio/dualOutput/drum #dualChannels #dualOutput #dualInput 
 
 Bug Crack is a hi-fi replacement for BootsNCats. It has a nice and boomy kick, as well as a versatile snare/percussion channel. The snare is inspired by the FM drum voice in [Peaks](https://mutable-instruments.net/modules/peaks/), by Mutable Instruments, and can blend between a sine wave oscillator and noise source.
 

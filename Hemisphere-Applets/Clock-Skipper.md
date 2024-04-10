@@ -1,4 +1,4 @@
-#triggerGenerator #probability #independentChannels #dualInput #dualOutput #dualCVInput 
+#generator/trigger #aleatoric #dualChannels #dualInput #dualOutput #dualInput/inCVs 
 
 Clock Skipper is a dual probability skipper, with independent inputs.
 

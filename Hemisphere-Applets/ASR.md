@@ -1,4 +1,4 @@
-#CVgenerator #sampler #sequencer  #stepped #gateOnCH2 #dualOutput #masterClockOnCH1 
+#generator/CV #sampler #generator/CV/sequencer  #stepped #CH2/gate/freeze #dualOutput/CVs #CH1/trig/mainClock 
 
 *"A"SR* is an "Analog" Shift Register simulation with a 256-step ring buffer.
 

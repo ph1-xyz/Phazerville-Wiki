@@ -1,4 +1,4 @@
-#triggerGenerator 
+#generator/trigger 
 
 Burst is a burst generator based loosely on the Ladik S-075.
 

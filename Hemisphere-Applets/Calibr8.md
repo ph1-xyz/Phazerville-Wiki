@@ -1,4 +1,4 @@
-#dualOutput #dualCVInput 
+#dualOutput #dualInput/inCVs 
 
 Calibr8 is a 2 channel pitch calibration tool to compensate for imperfect v/Oct tracking in your oscillators. For a 4 channel version with many more features (flexible quantization, sample and hold, auto-calibration), use the full [Calibr8or](https://github.com/djphazer/O_C-Phazerville/wiki/Calibr8or) app.
 

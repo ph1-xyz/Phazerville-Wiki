@@ -1,4 +1,4 @@
-#utility #dualTriggerInput #dualCVInput 
+#utility #CH1/trig #CH2/gate #dualInput/inCVs #dualOutput/CVs  
 
 https://youtu.be/juu65pJyXlY
 

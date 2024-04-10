@@ -1,4 +1,4 @@
-#LFO #BoC-EoC #envelopeGenerator 
+#generator/LFO #secondaryOut/trig/EOC #generator/envelope 
 
 https://youtu.be/N0Cii0Hq2Ls
 

@@ -1,4 +1,4 @@
-#triggerGenerator #resetOnCH2 #dual #dualOutput #dualCVInput  #masterClockOnCH1 
+#generator/trigger #dualInput/inCVs  #CH1/trig/mainClock #CH2/trig/reset #dualOutput/triggers
 
 Complex clock divisions / multiplications made easy! ClockDiv is a dual, complex clock divider and multiplier, using a single clock source. Each stage can divide from 1:1 to 1:32 (for a maximum of 1:1024), or multiply from 1:1 to 32:1 (for a theoretical maximum of 1024:1 — although in practice you're unlikely to exceed 180:1 without strange behaviour). Voltage control is available for the first stage of each channel (displaying a CV icon when engaged).
 

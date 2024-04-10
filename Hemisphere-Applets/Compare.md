@@ -1,4 +1,4 @@
-#gate #CVgenerator #logic 
+#dualInput/none #generator/gate #logic 
 
 Compare is a comparator applet with complementary gate outputs, indicating when an input voltage is greater or less than a set (or modulated) threshold.
 

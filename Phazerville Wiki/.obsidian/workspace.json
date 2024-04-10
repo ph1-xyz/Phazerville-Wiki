@@ -1,22 +1,36 @@
 {
   "main": {
-    "id": "b7db1b0923475295",
+    "id": "69ffa87499b9d566",
     "type": "split",
     "children": [
       {
-        "id": "92089ae0b505272a",
+        "id": "1cf5b44ffa5fd296",
         "type": "tabs",
         "children": [
           {
-            "id": "f4bc7c90d30241be",
+            "id": "7a88c34822823af6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hemisphere-Applets/AttenOff.md",
+                "file": "Welcome.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "21548a9399eafbcd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf1dd767709bb75c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -25,15 +39,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a77e834097702dc0",
+    "id": "7c75bba6c5a59e33",
     "type": "split",
     "children": [
       {
-        "id": "56efc620cbad6473",
+        "id": "7fa62babcfc0f9b5",
         "type": "tabs",
         "children": [
           {
-            "id": "20dc4d15c4f602f9",
+            "id": "cc97018c1df52320",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,50 +57,49 @@
             }
           },
           {
-            "id": "5aedbde35972a348",
+            "id": "1a46af56c954b8f9",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#polarizer",
-                "matchingCase": true,
+                "query": "",
+                "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "35bbc72acd124af4",
+            "id": "1f267bc92ecfca20",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
   "right": {
-    "id": "2bd876b0c2aa96f5",
+    "id": "ca8e5f0f182b6ece",
     "type": "split",
     "children": [
       {
-        "id": "b87adfdc2e8de7bd",
+        "id": "29bb7fe02423bb51",
         "type": "tabs",
         "children": [
           {
-            "id": "46f5a0778e3905e0",
+            "id": "0c65638662c653e9",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hemisphere-Applets/AttenOff.md",
+                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,19 +111,19 @@
             }
           },
           {
-            "id": "92d23553c5880cb7",
+            "id": "ee675705fa12ece5",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hemisphere-Applets/AttenOff.md",
+                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "1d1d1f76bdf35f2e",
+            "id": "dd6c7bc6423337b0",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -121,21 +134,21 @@
             }
           },
           {
-            "id": "e63edec7f4c8a241",
+            "id": "9d5bf45b389a8d2e",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hemisphere-Applets/AttenOff.md"
+                "file": "Welcome.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,38 +160,8 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f4bc7c90d30241be",
+  "active": "cc97018c1df52320",
   "lastOpenFiles": [
-    "Hemisphere-Applets/Envelope-Follower.md",
-    "Hemisphere-Applets/DrumMap.md",
-    "tags.md",
-    "Hemisphere-Applets/Sequence5.md",
-    "Hemisphere-Applets/Scale-Duet-Quantizer.md",
-    "Hemisphere-Applets/Pigeons.md",
-    "Hemisphere-Applets/Enigma,-Jr..md",
-    "Hemisphere-Applets/DivSeq.md",
-    "Hemisphere-Applets/CV-Recorder.md",
-    "Hemisphere-Applets/Gated-VCA.md",
-    "Hemisphere-Applets/DualTM.md",
-    "Hemisphere-Applets/AttenOff.md",
-    "Hemisphere-Applets/Dual-Quantizer.md",
-    "Hemisphere-Applets/Compare.md",
-    "Hemisphere-Applets/Chordinate.md",
-    "Hemisphere-Applets/Calibr8.md",
-    "Hemisphere-Applets/Squanch---Shifting-Quantizer.md",
-    "Hemisphere-Applets/ClockDivider.md",
-    "Hemisphere-Applets/Ebb-&-LFO.md",
-    "Hemisphere-Applets/Palimpsest-Accent-Sequencer.md",
-    "Hemisphere-Applets/TB-3PO.md",
-    "Hemisphere-Applets/Schmitt-Trigger.md",
-    "Hemisphere-Applets/Logic.md",
-    "Hemisphere-Applets/BugCrack.md",
-    "Home.md",
-    "Apps/Waveform-Editor.md",
-    "Hemisphere-Icons/vOct.png",
-    "Hemisphere-Icons",
-    "Settings",
-    "Apps",
-    "Hemisphere-Applets"
+    "Welcome.md"
   ]
 }

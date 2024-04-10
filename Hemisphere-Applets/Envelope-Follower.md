@@ -1,4 +1,4 @@
-#audioInput #envelopeGenerator 
+#dualInput/inCVs/asAudio #dualOutput/CVs #generator/envelope #encoder/performanceReady
 
 EnvFollow is an envelope follower and ducker.
 

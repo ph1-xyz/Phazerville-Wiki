@@ -1,4 +1,4 @@
-#logic #gateGenerator 
+#logic #generator/gate 
 https://youtu.be/mHZCaMH_Dgk
 
 Logic is a two-input logic module that performs two logical operations at once.

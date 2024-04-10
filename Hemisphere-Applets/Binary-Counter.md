@@ -1,4 +1,5 @@
-#CVgenerator #logic #gateable #stepped #dualInput #multiInput #singleOutput 
+#generator/CV #logic #dualInput/inTrigs/asGates #dualInput/inCVs/asGates 
+#stepped #dualOutput/CVs  
 
 *Binary Counter* is weird. It takes four logic inputs (high or low) and provides a binary-summed output and a count output.
 

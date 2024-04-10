@@ -1,4 +1,4 @@
-#audioGenerator #drum #independentChannels  #dualInput #dualOutput 
+#generator/audio/dualOutput/drum #dualChannels  #dualInput/inTrigs #dualInput/inCVs 
 
 *Boots 'n Cats* (BootsNCat) is a simple bass/snare drum synthesizer with stereo audio outputs.
 

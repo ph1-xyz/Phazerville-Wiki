@@ -1,4 +1,4 @@
-#masterClockOnCH1 #resetOnCH2 #triggerGenerator #sequencer 
+#CH1/trig/mainClock #CH2/trig/reset #generator/trigger #generator/CV/sequencer 
 
 https://youtu.be/qPRspJApd1Y
 

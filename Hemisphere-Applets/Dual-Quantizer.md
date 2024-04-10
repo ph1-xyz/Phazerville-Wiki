@@ -1,4 +1,4 @@
-#quantizedPitch #CVsampler #independentChannels 
+#generator/CV/quantized #generator/CV/sampler #dualInput/inTrigs #dualInput/inCVs #dualOutput/CVs 
 
 Dual Quantizer converts 2 independent CV inputs to pitches of specific musical scales. Clocked (sample & hold) operation is available for each channel.
 

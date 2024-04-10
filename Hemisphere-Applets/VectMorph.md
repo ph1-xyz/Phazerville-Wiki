@@ -1,4 +1,4 @@
-#CVgenerator 
+#generator/CV 
 
 https://youtu.be/WrENiAQHhq0
 

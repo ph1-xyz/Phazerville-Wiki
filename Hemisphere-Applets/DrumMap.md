@@ -1,4 +1,4 @@
-#triggerGenerator #resetOnCH2 #independentChannels 
+#generator/trigger #CH2/trig/reset #dualChannels 
 
 DrumMap is a 2 channel port of the popular rhythm sequencer [Grids](https://mutable-instruments.net/modules/grids/), from Mutable Instruments. You are able to select any of the 3 parts to assign to each channel. In addition, the 2nd channel can be used as the accent channel of the 1st channel. Traverse a map of rhythms by X and Y coordinates!
 

@@ -1,4 +1,4 @@
-#dualCVInput #dualOutput #CVgenerator 
+#dualInput/inCVs #dualOutput #generator/CV 
 
 Slew is a simple slew (or lag) processor. Two independent channels share the same settings. Channel 1's output is linear, and Channel 2's output is exponential.
 

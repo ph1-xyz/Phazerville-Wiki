@@ -1,4 +1,4 @@
-#masterClockOnCH1 #gateOnCH2 #resetOnCH2 #triggerGenerator 
+#CH1/trig/mainClock #CH2/gate #CH2/trig/reset #generator/trigger 
 
 Shuffle is a two-step clock offset. Each step can be delayed by between 0% and 99% of the incoming clock tempo.
 

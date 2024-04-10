@@ -1,4 +1,4 @@
-#envelopeGenerator #triggerable #gate #dualInput #dualOutput #independentChannels 
+#generator/envelope #dualInput/inTrigs/asTrigs  #dualInput/inTrigs/asGates #dualOutput/envelopes #dualChannels 
 
 ADSR EG is a linear envelope generator with two independent channels.
 

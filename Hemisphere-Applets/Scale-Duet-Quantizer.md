@@ -1,4 +1,4 @@
-#quantizedPitch #singleOutput #masterClockOnCH1 #gateOnCH2 
+#generator/CV/quantized #singleOutput #CH1/trig/mainClock #CH2/gate 
 
 Scale Duet is a single-channel quantizer that allows you to switch between two user-defined scales. The scales are edited with an on-screen keyboard.
 

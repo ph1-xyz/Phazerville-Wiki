@@ -1,4 +1,4 @@
-#utility #dualInput #dualOutput #gate 
+#utility #dualInput/inTrigs/asGates #dualInput/inCVs/none #dualOutput/CVs #generator/CV 
 
 Voltage is a dual gate-activated fixed-voltage emitter.
 

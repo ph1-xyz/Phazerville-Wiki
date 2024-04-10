@@ -1,4 +1,4 @@
-#audioGenerator #LFO #resetOnCH2 #syncable 
+#generator/audio #generator/LFO #CH2/trig/reset #CH1/sync 
 
 This is a single Tides-like oscillator. Both inputs and outputs are configurable. The outputs are visualized on the screen.
 

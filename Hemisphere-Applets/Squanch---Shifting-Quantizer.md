@@ -1,4 +1,4 @@
-#quantizedPitch #CVsampler #gateOnCH2
+#generator/CV/quantized #generator/CV/sampler #CH2/gate
 
 Squanch is a pitch-shifting quantizer with a single input and two pitch-shifted outputs. It can be used as a voltage adder.
 

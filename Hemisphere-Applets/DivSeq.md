@@ -1,4 +1,4 @@
-#triggerGenerator #resetOnCH2  #independentChannels #dualCVInput #masterClockOnCH1 
+#generator/trigger #CH2/trig/reset  #dualChannels #dualInput/inCVs #CH1/trig/mainClock 
 
 DivSeq is a dual sequential clock divider with a single input clock. Each of the two channels is composed of a sequence of up to 5 clock dividers. Under normal operation, a step "n" triggers 1 clock pulse, skips n-1 pulses, and then steps to the next clock divider.
 

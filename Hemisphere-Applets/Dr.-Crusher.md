@@ -1,4 +1,4 @@
-#audioGenerator 
+#generator/audio 
 
 Dr. Crusher is a single-channel sample rate and bit resolution reducer for CV or audio signals.
 

@@ -1,4 +1,4 @@
-#controller #dualInput #dualOutput #independentChannels 
+#controller #dualInput #dualOutput #dualChannels 
 
 Ever just need a button, to trigger something or toggle something? Me too! Button functions as a dual trigger and/or latching toggle (both 5V when high).
 

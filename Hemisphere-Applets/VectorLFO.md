@@ -1,4 +1,4 @@
-#LFO #triggerable #syncable #dualInput #dualOutput #independentChannels 
+#generator/LFO #dualInput/sync #dualOutput #dualChannels 
 
 Vector LFO is a dual low-frequency oscillator based on Vector Oscillator waveforms. There is a variety of built-in waveforms from which to choose, or you can create your own with the [Waveform Editor](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Waveform-Editor).
 
