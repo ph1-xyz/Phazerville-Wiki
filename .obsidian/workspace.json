@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fullApplets/O_C.wiki/CopierMaschine.md",
+                "file": "fullApplets/Original Apps/CopierMaschine.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fullApplets/O_C.wiki/zz_Credits, thanks, acknowledgements, and sources of inspiration.md",
+                "file": "hemiApplets/Burst.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fullApplets/O_C.wiki/zz_Credits, thanks, acknowledgements, and sources of inspiration.md",
+                "file": "hemiApplets/Burst.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fullApplets/O_C.wiki/zz_Credits, thanks, acknowledgements, and sources of inspiration.md",
+                "file": "hemiApplets/Burst.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fullApplets/O_C.wiki/zz_Credits, thanks, acknowledgements, and sources of inspiration.md"
+                "file": "hemiApplets/Burst.md"
               }
             }
           }
@@ -162,33 +162,33 @@
   },
   "active": "744da600edee79d1",
   "lastOpenFiles": [
-    "fullApplets/O_C.wiki/Low-rents.md",
-    "fullApplets/O_C.wiki/Meta-Q.md",
-    "fullApplets/O_C.wiki/zz_Credits, thanks, acknowledgements, and sources of inspiration.md",
-    "fullApplets/O_C.wiki/Viznutcracker, sweet!.md",
-    "fullApplets/O_C.wiki/Sequins.md",
-    "fullApplets/O_C.wiki/Scenes.md",
-    "fullApplets/O_C.wiki/References.md",
-    "fullApplets/O_C.wiki/Quantermain.md",
-    "fullApplets/O_C.wiki/Quadraturia.md",
-    "fullApplets/O_C.wiki/Piqued.md",
-    "fullApplets/O_C.wiki/Possible Future Enhancements.md",
-    "fullApplets/O_C.wiki/Harrington 1200.md",
-    "fullApplets/O_C.wiki/Dialectic Ping-Pong.md",
-    "fullApplets/O_C.wiki/CopierMaschine.md",
-    "fullApplets/O_C.wiki/Automatonnetz.md",
-    "fullApplets/O_C.wiki/Acid Curds.md",
-    "fullApplets/O_C.wiki/Quadraturia - toBeChecked.md",
-    "Untitled.md",
-    "fullApplets/O_C.wiki/Acid Curds _ toBeRedone.md",
-    "fullApplets/O_C.wiki/00_General.md",
-    "hemiApplets/Metronome.md",
-    "system - MIDI-Input.md",
+    "hemiApplets/BugCrack.md",
+    "hemiApplets/Brancher.md",
+    "hemiApplets/BootsNCat.md",
+    "hemiApplets/Binary-Counter.md",
+    "hemiApplets/AttenOff.md",
+    "hemiApplets/ASR.md",
+    "hemiApplets/ADSR-EG 1.md",
+    "hemiApplets/ADSR-EG.md",
+    "hemiApplets/AD-EG.md",
+    "hemiApplets/_Footer.md",
+    "fullApplets/Original Apps/Untitled.md",
     "fullApplets/*Captain.md",
-    "fullApplets/*Neural Net.md",
-    "Clock-Setup.md",
-    "fullApplets/Calibr8or.md",
-    "fullApplets/O_C.wiki",
+    "fullApplets/Original Apps/zz_Credits, thanks, acknowledgements, and sources of inspiration.md",
+    "fullApplets/Original Apps/Low-rents.md",
+    "fullApplets/Original Apps/Meta-Q.md",
+    "fullApplets/Original Apps/Viznutcracker, sweet!.md",
+    "fullApplets/Original Apps/Sequins.md",
+    "fullApplets/Original Apps/Scenes.md",
+    "fullApplets/Original Apps/References.md",
+    "fullApplets/Original Apps/Quantermain.md",
+    "fullApplets/Original Apps/Quadraturia.md",
+    "fullApplets/Original Apps/Piqued.md",
+    "fullApplets/Original Apps/Possible Future Enhancements.md",
+    "fullApplets/Original Apps/Harrington 1200.md",
+    "fullApplets/Original Apps/Dialectic Ping-Pong.md",
+    "fullApplets/Original Apps/CopierMaschine.md",
+    "fullApplets/Original Apps",
     "fullApplets",
     "hemiApplets"
   ]
