@@ -1,22 +1,18 @@
 {
   "main": {
-    "id": "19e0f601f24e5a21",
+    "id": "b7db1b0923475295",
     "type": "split",
     "children": [
       {
-        "id": "a0575412a0db4bda",
+        "id": "3091132b465e7f7c",
         "type": "tabs",
         "children": [
           {
-            "id": "066adeb954988dd3",
+            "id": "5df754d2f7700bb0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hemisphere-Applets/Deprecated/Dr.-Crusher.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -25,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "d7a6facc757d776b",
+    "id": "a77e834097702dc0",
     "type": "split",
     "children": [
       {
-        "id": "cf95085936c994b8",
+        "id": "56efc620cbad6473",
         "type": "tabs",
         "children": [
           {
-            "id": "ed40e6625e7a8070",
+            "id": "20dc4d15c4f602f9",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,22 +39,22 @@
             }
           },
           {
-            "id": "fac99f7550cc9c4e",
+            "id": "5aedbde35972a348",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "5bc7186e05fd1a87",
+            "id": "35bbc72acd124af4",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,23 +65,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 457.51103591918945
   },
   "right": {
-    "id": "e9642c496e79b325",
+    "id": "2bd876b0c2aa96f5",
     "type": "split",
     "children": [
       {
-        "id": "ace9687858ed8400",
+        "id": "b87adfdc2e8de7bd",
         "type": "tabs",
         "children": [
           {
-            "id": "213e032c6652cf46",
+            "id": "46f5a0778e3905e0",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hemisphere-Applets/Deprecated/Dr.-Crusher.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,44 +92,41 @@
             }
           },
           {
-            "id": "51e665b976aad03e",
+            "id": "92d23553c5880cb7",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hemisphere-Applets/Deprecated/Dr.-Crusher.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "21b2a8858b32354a",
+            "id": "1d1d1f76bdf35f2e",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
           {
-            "id": "42b3cdff982bd7ca",
+            "id": "e63edec7f4c8a241",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Hemisphere-Applets/Deprecated/Dr.-Crusher.md"
-              }
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,11 +138,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ed40e6625e7a8070",
+  "active": "5df754d2f7700bb0",
   "lastOpenFiles": [
-    "Hemisphere-Applets/Deprecated",
-    "hemiApplets/Dr.-Crusher.md",
+    "0 - Home.md",
     "tags.md",
+    "fullApplets/Original Apps/zz_Credits, thanks, acknowledgements, and sources of inspiration.md",
+    "fullApplets/Original Apps/Viznutcracker, sweet!.md",
+    "fullApplets/Original Apps/Untitled.md",
+    "fullApplets/Original Apps/Sequins.md",
+    "fullApplets/Original Apps/Scenes.md",
+    "fullApplets/Original Apps/References.md",
+    "fullApplets/Original Apps/Quantermain.md",
+    "fullApplets/Original Apps/Quadraturia.md",
+    "fullApplets/Original Apps/Possible Future Enhancements.md",
+    "fullApplets/Original Apps/Piqued.md",
+    "fullApplets/Original Apps/Meta-Q.md",
+    "fullApplets/Original Apps/Low-rents.md",
+    "fullApplets/Original Apps/Harrington 1200.md",
+    "fullApplets/Original Apps/Dialectic Ping-Pong.md",
+    "fullApplets/Original Apps/CopierMaschine.md",
+    "fullApplets/Original Apps/Automatonnetz.md",
+    "fullApplets/Original Apps/Acid Curds.md",
+    "fullApplets/Original Apps/00_General.md",
     "Settings/Hemisphere-Config.md",
     "Settings/EEPROM-Save.md",
     "Settings/Clock-Setup.md",
@@ -160,29 +169,13 @@
     "Hemisphere-Icons/vOct.png",
     "Hemisphere-Icons/gate.png",
     "Hemisphere-Icons",
+    "Hemisphere-Applets/Deprecated/Dr.-Crusher.md",
     "Hemisphere-Applets/Voltage.md",
-    "Hemisphere-Applets/VectorMod.md",
-    "Hemisphere-Applets/VectorLFO.md",
-    "Hemisphere-Applets/VectorEG.md",
-    "Hemisphere-Applets/VectMorph.md",
-    "Hemisphere-Applets/Tuner.md",
-    "Hemisphere-Applets/Trigger-Sequencer.md",
-    "Hemisphere-Applets/Trigger-Sequencer-16.md",
-    "Hemisphere-Applets/Trending.md",
-    "Hemisphere-Applets/Threshold-Logic-Neuron.md",
-    "Hemisphere-Applets/TB-3PO.md",
-    "Hemisphere-Applets/Switch.md",
-    "Hemisphere-Applets/Stairs.md",
-    "Hemisphere-Applets/Squanch---Shifting-Quantizer.md",
-    "Hemisphere-Applets/Slew.md",
-    "Hemisphere-Applets/Skewed-LFO.md",
-    "Hemisphere-Applets/Shuffle.md",
-    "Hemisphere-Applets/ShiftGate.md",
-    "Hemisphere-Applets/Sequence5.md",
+    "Hemisphere-Applets/Deprecated",
     "Hemisphere-Applets",
     "Apps",
-    "hemiApplets",
     "fullApplets/Original Apps",
-    "fullApplets"
+    "fullApplets",
+    "hemiApplets"
   ]
 }
