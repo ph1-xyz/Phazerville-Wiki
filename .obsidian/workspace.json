@@ -37,8 +37,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hemiApplets/Voltage.md",
+                "file": "hemiApplets/ADSR-EG.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
@@ -73,7 +74,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#dualOutput triggerable",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -90,11 +91,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 457.51103591918945
   },
   "right": {
     "id": "2bd876b0c2aa96f5",
@@ -110,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hemiApplets/Voltage.md",
+                "file": "hemiApplets/ADSR-EG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hemiApplets/Voltage.md",
+                "file": "hemiApplets/ADSR-EG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hemiApplets/Voltage.md"
+                "file": "hemiApplets/ADSR-EG.md"
               }
             }
           }
@@ -159,8 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,8 +173,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c622c000b4025216",
+  "active": "5aedbde35972a348",
   "lastOpenFiles": [
+    "fullApplets/Original Apps/Viznutcracker, sweet!.md",
+    "Untitled.md",
+    "fullApplets/Original Apps/Quantermain.md",
+    "fullApplets/Original Apps/Meta-Q.md",
+    "fullApplets/Original Apps/Dialectic Ping-Pong.md",
+    "fullApplets/Original Apps/Automatonnetz.md",
+    "hemiApplets/Voltage.md",
     "hemiApplets/VectorMod.md",
     "hemiApplets/VectorLFO.md",
     "hemiApplets/VectorEG.md",
@@ -193,13 +201,6 @@
     "hemiApplets/Sequence5.md",
     "hemiApplets/Scope.md",
     "hemiApplets/Schmitt-Trigger.md",
-    "hemiApplets/Scale-Duet-Quantizer.md",
-    "hemiApplets/RunglBook.md",
-    "hemiApplets/Pigeons.md",
-    "hemiApplets/Palimpsest-Accent-Sequencer.md",
-    "hemiApplets/Neural-Net.md",
-    "hemiApplets/Mixer:Balance.md",
-    "hemiApplets/MIDI-Out.md",
     "fullApplets/Original Apps",
     "fullApplets",
     "hemiApplets"
