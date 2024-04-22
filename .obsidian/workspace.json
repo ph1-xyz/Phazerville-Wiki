@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "b7db1b0923475295",
+    "id": "19e0f601f24e5a21",
     "type": "split",
     "children": [
       {
-        "id": "92089ae0b505272a",
+        "id": "a0575412a0db4bda",
         "type": "tabs",
         "children": [
           {
-            "id": "f4bc7c90d30241be",
+            "id": "066adeb954988dd3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hemisphere-Applets/AttenOff.md",
+                "file": "Hemisphere-Applets/Deprecated/Dr.-Crusher.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a77e834097702dc0",
+    "id": "d7a6facc757d776b",
     "type": "split",
     "children": [
       {
-        "id": "56efc620cbad6473",
+        "id": "cf95085936c994b8",
         "type": "tabs",
         "children": [
           {
-            "id": "20dc4d15c4f602f9",
+            "id": "ed40e6625e7a8070",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,50 +43,49 @@
             }
           },
           {
-            "id": "5aedbde35972a348",
+            "id": "fac99f7550cc9c4e",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#polarizer",
-                "matchingCase": true,
+                "query": "",
+                "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "35bbc72acd124af4",
+            "id": "5bc7186e05fd1a87",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
   "right": {
-    "id": "2bd876b0c2aa96f5",
+    "id": "e9642c496e79b325",
     "type": "split",
     "children": [
       {
-        "id": "b87adfdc2e8de7bd",
+        "id": "ace9687858ed8400",
         "type": "tabs",
         "children": [
           {
-            "id": "46f5a0778e3905e0",
+            "id": "213e032c6652cf46",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hemisphere-Applets/AttenOff.md",
+                "file": "Hemisphere-Applets/Deprecated/Dr.-Crusher.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,19 +97,19 @@
             }
           },
           {
-            "id": "92d23553c5880cb7",
+            "id": "51e665b976aad03e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hemisphere-Applets/AttenOff.md",
+                "file": "Hemisphere-Applets/Deprecated/Dr.-Crusher.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "1d1d1f76bdf35f2e",
+            "id": "21b2a8858b32354a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -121,21 +120,21 @@
             }
           },
           {
-            "id": "e63edec7f4c8a241",
+            "id": "42b3cdff982bd7ca",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hemisphere-Applets/AttenOff.md"
+                "file": "Hemisphere-Applets/Deprecated/Dr.-Crusher.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,38 +146,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f4bc7c90d30241be",
+  "active": "ed40e6625e7a8070",
   "lastOpenFiles": [
-    "Hemisphere-Applets/Envelope-Follower.md",
-    "Hemisphere-Applets/DrumMap.md",
+    "Hemisphere-Applets/Deprecated",
+    "hemiApplets/Dr.-Crusher.md",
     "tags.md",
-    "Hemisphere-Applets/Sequence5.md",
-    "Hemisphere-Applets/Scale-Duet-Quantizer.md",
-    "Hemisphere-Applets/Pigeons.md",
-    "Hemisphere-Applets/Enigma,-Jr..md",
-    "Hemisphere-Applets/DivSeq.md",
-    "Hemisphere-Applets/CV-Recorder.md",
-    "Hemisphere-Applets/Gated-VCA.md",
-    "Hemisphere-Applets/DualTM.md",
-    "Hemisphere-Applets/AttenOff.md",
-    "Hemisphere-Applets/Dual-Quantizer.md",
-    "Hemisphere-Applets/Compare.md",
-    "Hemisphere-Applets/Chordinate.md",
-    "Hemisphere-Applets/Calibr8.md",
-    "Hemisphere-Applets/Squanch---Shifting-Quantizer.md",
-    "Hemisphere-Applets/ClockDivider.md",
-    "Hemisphere-Applets/Ebb-&-LFO.md",
-    "Hemisphere-Applets/Palimpsest-Accent-Sequencer.md",
-    "Hemisphere-Applets/TB-3PO.md",
-    "Hemisphere-Applets/Schmitt-Trigger.md",
-    "Hemisphere-Applets/Logic.md",
-    "Hemisphere-Applets/BugCrack.md",
-    "Home.md",
-    "Apps/Waveform-Editor.md",
-    "Hemisphere-Icons/vOct.png",
-    "Hemisphere-Icons",
+    "Settings/Hemisphere-Config.md",
+    "Settings/EEPROM-Save.md",
+    "Settings/Clock-Setup.md",
     "Settings",
+    "Phazerville Wiki/Welcome.md",
+    "Phazerville Wiki",
+    "Hemisphere-Icons/vOct.png",
+    "Hemisphere-Icons/gate.png",
+    "Hemisphere-Icons",
+    "Hemisphere-Applets/Voltage.md",
+    "Hemisphere-Applets/VectorMod.md",
+    "Hemisphere-Applets/VectorLFO.md",
+    "Hemisphere-Applets/VectorEG.md",
+    "Hemisphere-Applets/VectMorph.md",
+    "Hemisphere-Applets/Tuner.md",
+    "Hemisphere-Applets/Trigger-Sequencer.md",
+    "Hemisphere-Applets/Trigger-Sequencer-16.md",
+    "Hemisphere-Applets/Trending.md",
+    "Hemisphere-Applets/Threshold-Logic-Neuron.md",
+    "Hemisphere-Applets/TB-3PO.md",
+    "Hemisphere-Applets/Switch.md",
+    "Hemisphere-Applets/Stairs.md",
+    "Hemisphere-Applets/Squanch---Shifting-Quantizer.md",
+    "Hemisphere-Applets/Slew.md",
+    "Hemisphere-Applets/Skewed-LFO.md",
+    "Hemisphere-Applets/Shuffle.md",
+    "Hemisphere-Applets/ShiftGate.md",
+    "Hemisphere-Applets/Sequence5.md",
+    "Hemisphere-Applets",
     "Apps",
-    "Hemisphere-Applets"
+    "hemiApplets",
+    "fullApplets/Original Apps",
+    "fullApplets"
   ]
 }
