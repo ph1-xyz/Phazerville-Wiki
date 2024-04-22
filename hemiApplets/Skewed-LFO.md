@@ -4,6 +4,15 @@ https://youtu.be/N0Cii0Hq2Ls
 
 Skewed LFO is a low frequency oscillator with a waveshape that's adjustable from sawtooth, to triangle, to ramp.
 
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
+
 Controls
 * Digital Ins: A clock at Digital 1 resets the LFO
 * CV Ins: CV 1 modifies the rate, and CV 2 modifies the skew

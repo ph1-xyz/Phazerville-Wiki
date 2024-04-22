@@ -2,6 +2,15 @@
 
 Squanch is a pitch-shifting quantizer with a single input and two pitch-shifted outputs. It can be used as a voltage adder.
 
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
+
 Controls
 * Digital Ins: A clock pulse at Digital 1 causes Squanch to sample the signal at CV 1 and quantize it. A gate at Digital 2 adds one octave to the output at A/C.
 * CV Ins: CV 1 is the signal to be quantized. CV 2 is a bi-polar shift input that adds (or subtracts, if negative) voltage to or from the output at B/D.

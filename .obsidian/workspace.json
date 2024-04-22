@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hemiApplets/Burst.md",
+                "file": "hemiApplets/Envelope-Follower.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c622c000b4025216",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "hemiApplets/Voltage.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hemiApplets/Burst.md",
+                "file": "hemiApplets/Voltage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hemiApplets/Burst.md",
+                "file": "hemiApplets/Voltage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hemiApplets/Burst.md"
+                "file": "hemiApplets/Voltage.md"
               }
             }
           }
@@ -160,34 +172,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "744da600edee79d1",
+  "active": "c622c000b4025216",
   "lastOpenFiles": [
-    "hemiApplets/BugCrack.md",
-    "hemiApplets/Brancher.md",
-    "hemiApplets/BootsNCat.md",
-    "hemiApplets/Binary-Counter.md",
-    "hemiApplets/AttenOff.md",
-    "hemiApplets/ASR.md",
-    "hemiApplets/ADSR-EG 1.md",
-    "hemiApplets/ADSR-EG.md",
-    "hemiApplets/AD-EG.md",
-    "hemiApplets/_Footer.md",
-    "fullApplets/Original Apps/Untitled.md",
-    "fullApplets/*Captain.md",
-    "fullApplets/Original Apps/zz_Credits, thanks, acknowledgements, and sources of inspiration.md",
-    "fullApplets/Original Apps/Low-rents.md",
-    "fullApplets/Original Apps/Meta-Q.md",
-    "fullApplets/Original Apps/Viznutcracker, sweet!.md",
-    "fullApplets/Original Apps/Sequins.md",
-    "fullApplets/Original Apps/Scenes.md",
-    "fullApplets/Original Apps/References.md",
-    "fullApplets/Original Apps/Quantermain.md",
-    "fullApplets/Original Apps/Quadraturia.md",
-    "fullApplets/Original Apps/Piqued.md",
-    "fullApplets/Original Apps/Possible Future Enhancements.md",
-    "fullApplets/Original Apps/Harrington 1200.md",
-    "fullApplets/Original Apps/Dialectic Ping-Pong.md",
-    "fullApplets/Original Apps/CopierMaschine.md",
+    "hemiApplets/VectorMod.md",
+    "hemiApplets/VectorLFO.md",
+    "hemiApplets/VectorEG.md",
+    "hemiApplets/VectMorph.md",
+    "hemiApplets/Trigger-Sequencer-16.md",
+    "hemiApplets/Trigger-Sequencer.md",
+    "hemiApplets/Trending.md",
+    "hemiApplets/Threshold-Logic-Neuron.md",
+    "hemiApplets/TB-3PO.md",
+    "hemiApplets/Switch.md",
+    "hemiApplets/Stairs.md",
+    "hemiApplets/Squanch---Shifting-Quantizer.md",
+    "hemiApplets/Slew.md",
+    "hemiApplets/Skewed-LFO.md",
+    "hemiApplets/Shuffle.md",
+    "hemiApplets/ShiftGate.md",
+    "hemiApplets/Sequence5.md",
+    "hemiApplets/Scope.md",
+    "hemiApplets/Schmitt-Trigger.md",
+    "hemiApplets/Scale-Duet-Quantizer.md",
+    "hemiApplets/RunglBook.md",
+    "hemiApplets/Pigeons.md",
+    "hemiApplets/Palimpsest-Accent-Sequencer.md",
+    "hemiApplets/Neural-Net.md",
+    "hemiApplets/Mixer:Balance.md",
+    "hemiApplets/MIDI-Out.md",
     "fullApplets/Original Apps",
     "fullApplets",
     "hemiApplets"

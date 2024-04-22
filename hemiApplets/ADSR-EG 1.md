@@ -2,11 +2,11 @@ ADSR EG is a linear envelope generator with two independent channels.
 
 ### I/O
 
-|                |              1/3           |                   2/4                |
-| -------------- |:---------------------------:|:-------------------------------------:|
-| Trig (Digital) |  Channel A Gate             |      Channel B Gate                    |
-| CV In          | Env. A Attack modulation (bipolar) |     Env. B Release modulation (bipolar)       |
-| Output         |         Envelope A           |         Envelope B           |
+|        |                1/3                 |                 2/4                 |
+| ------ | :--------------------------------: | :---------------------------------: |
+| TRIG   |           Channel A Gate           |           Channel B Gate            |
+| CV INs | Env. A Attack modulation (bipolar) | Env. B Release modulation (bipolar) |
+| OUTs   |             Envelope A             |             Envelope B              |
 
 Note that CV inputs modify the attack and release rates over a range of about -2.5 volts to about 2.5 volts. There is a small center detent in the middle of the range, at which point no modification will be made.
 

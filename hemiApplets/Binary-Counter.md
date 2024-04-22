@@ -4,11 +4,11 @@
 
 ### I/O
 
-|                |              1/3      |    2/4          |
-| -------------- |:---------------------:|:---------------:|
-| Trig (Digital) |  Bit 3                | Bit 2           |
-| CV In          |  Bit 1                | Bit 0           |
-| Output         |  Binary sum of inputs | Count of inputs |
+|        |         1/3          |       2/4       |
+| ------ | :------------------: | :-------------: |
+| TRIG   |        Bit 3         |      Bit 2      |
+| CV INs |        Bit 1         |      Bit 0      |
+| OUTs   | Binary sum of inputs | Count of inputs |
 
 **Binary Sum (Outputs A/C)**: each bit contributes a value based on its bit number. Approximate voltages are as follows:
 * Bit 0 contributes .33V

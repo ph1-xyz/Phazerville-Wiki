@@ -4,11 +4,11 @@ Burst is a burst generator based loosely on the Ladik S-075.
 
 ### I/O
 
-|                |              1/3           |                   2/4                |
-| -------------- |:---------------------------:|:-------------------------------------:|
-| Trig (Digital) |  Clock (optional)   | Start burst sequence |
-| CV In          | Number of triggers per burst |      Spacing (bipolar)       |
-| Output         |          Burst triggers           |         Burst gate (high until end of burst)          |
+|        |             1/3              |                 2/4                  |
+| ------ | :--------------------------: | :----------------------------------: |
+| TRIG   |       Clock (optional)       |         Start burst sequence         |
+| CV INs | Number of triggers per burst |          Spacing (bipolar)           |
+| OUTs   |        Burst triggers        | Burst gate (high until end of burst) |
 
 ### UI Parameters
 * Triggers per burst (1-12)

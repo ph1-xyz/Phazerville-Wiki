@@ -6,11 +6,11 @@ When an incoming clock is received at the digital input, that clock may or may n
 
 ### I/O
 
-|                |              1/3           |                   2/4                |
-| -------------- |:---------------------------:|:-------------------------------------:|
-| Trig (Digital) |  Channel 1 Clock   |  Channel 2 Clock |
-| CV In          | Ch 1 Probability modulation (bipolar) |    Ch 2 Probability modulation (bipolar)       |
-| Output         |          Ch 1 Clock          |         Ch 2 Clock          |
+|        |                  1/3                  |                  2/4                  |
+| ------ | :-----------------------------------: | :-----------------------------------: |
+| TRIG   |            Channel 1 Clock            |            Channel 2 Clock            |
+| CV INs | Ch 1 Probability modulation (bipolar) | Ch 2 Probability modulation (bipolar) |
+| OUTs   |              Ch 1 Clock               |              Ch 2 Clock               |
 
 
 ### UI Parameters

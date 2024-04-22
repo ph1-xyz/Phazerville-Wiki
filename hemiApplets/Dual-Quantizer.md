@@ -6,11 +6,11 @@ See it in action: https://youtu.be/GkV-rB4ntho
 
 ### I/O
 
-|                |              1/3           |                   2/4                |
-| -------------- |:---------------------------:|:-------------------------------------:|
-| Trig (Digital) |  Ch 1 Clock   | Ch 2 Clock |
-| CV In          | Ch 1 Unquantized CV |     Ch 2 Unquantized CV       |
-| Output         |          Ch 1 Quantized CV           |        Ch 2 Quantized CV          |
+|        |         1/3         |         2/4         |
+| ------ | :-----------------: | :-----------------: |
+| TRIG   |     Ch 1 Clock      |     Ch 2 Clock      |
+| CV INs | Ch 1 Unquantized CV | Ch 2 Unquantized CV |
+| OUTs   |  Ch 1 Quantized CV  |  Ch 2 Quantized CV  |
 
 Note: Each channel begins in continuous operation. That is, the incoming CV is quantized at a rate of about 16667 times per second. This might result in undesirable slippage between notes, so clocked operation is available on a per-channel basis.
 

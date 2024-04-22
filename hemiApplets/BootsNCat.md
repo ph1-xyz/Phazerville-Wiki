@@ -4,11 +4,11 @@
 
 ### I/O
 
-|                |              1/3           |                   2/4                |
-| -------------- |:---------------------------:|:-------------------------------------:|
-| Trig (Digital) |  Bass drum trigger   | Snare drum trigger |
-| CV In          | Bass drum attenuation |      Snare drum attenuation       |
-| Output         |          Bass drum (or mix)           |        Snare drum (or mix)        |
+|        |          1/3          |          2/4           |
+| ------ | :-------------------: | :--------------------: |
+| TRIG   |   Bass drum trigger   |   Snare drum trigger   |
+| CV INs | Bass drum attenuation | Snare drum attenuation |
+| OUTs   |  Bass drum (or mix)   |  Snare drum (or mix)   |
 
 Note that triggering the envelope in reverse does not change the CV modulation controls, meaning that CV 1 controls the effective "attack" segment regardless of direction.
 

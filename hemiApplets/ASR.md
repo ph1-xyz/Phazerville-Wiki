@@ -6,11 +6,11 @@ When selected in one hemisphere (Unlinked Mode), it has two indexed outputs. Whe
 
 ### I/O (Unlinked Mode)
 
-|                |              1/3            |                   2/4                                    |
-| -------------- |:---------------------------:|:--------------------------------------------------------:|
-| Trig (Digital) | Clock (Advance buffer)      | Gate freeze writing buffer                         |
-| CV In          | Signal to be sampled        | Index (n) modulation (bipolar between -32 and 32 steps)  |
-| Output         | Most recent value in buffer | Buffer value n steps back                         |
+|        |             1/3             |                           2/4                           |
+| ------ | :-------------------------: | :-----------------------------------------------------: |
+| TRIG   |   Clock (Advance buffer)    |               Gate freeze writing buffer                |
+| CV INs |    Signal to be sampled     | Index (n) modulation (bipolar between -32 and 32 steps) |
+| OUTs   | Most recent value in buffer |                Buffer value n steps back                |
 
 ### I/O (Linked Mode)
 When linked, the scale may be different for each hemisphere, but the base index will be the same (and may be modulated independently).

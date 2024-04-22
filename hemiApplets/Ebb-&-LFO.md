@@ -4,6 +4,15 @@ This is a single Tides-like oscillator. Both inputs and outputs are configurable
 
 It can function like a looping envelope generator or an audio-rate oscillator, with modulatable parameters for morphing the contour.
 
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
+
 ### Digital Inputs
 * Clock Sync
 * Reset

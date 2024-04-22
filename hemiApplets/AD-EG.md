@@ -4,11 +4,11 @@
 
 ### I/O
 
-|                |             1/3             |                  2/4                  |
-| -------------- | :-------------------------: | :-----------------------------------: |
-| Trig (Digital) |  Triggers the AD envelope   | Triggers the envelope in reverse (DA) |
-| CV In          | Attack modulation (bipolar) |      Decay modulation (bipolar)       |
-| Output         |          Envelope           |         End of Cycle trigger          |
+|        |             1/3             |                  2/4                  |
+| ------ | :-------------------------: | :-----------------------------------: |
+| TRIGs  |  Triggers the AD envelope   | Triggers the envelope in reverse (DA) |
+| CV INs | Attack modulation (bipolar) |      Decay modulation (bipolar)       |
+| OUTs   |          Envelope           |         End of Cycle trigger          |
 
 
 Note that triggering the envelope in reverse does not change the CV modulation controls, meaning that CV 1 controls the effective "attack" segment regardless of direction.

@@ -5,11 +5,11 @@ Calculate can perform two separate arithmetical operations on two CV inputs: eac
 
 ### I/O
 
-|                |              1/3           |                   2/4                |
-| -------------- |:---------------------------:|:-------------------------------------:|
-| Trig (Digital) |  S&H input 1 (S&H mode) or clock a random voltage (Rnd mode)  | S&H input 2 or clock a random voltage |
-| CV In          | Operand A |      Operand B       |
-| Output         |          Channel 1 calculation results          |         Channel 2 calculation results         |
+|        |                             1/3                             |                  2/4                  |
+| ------ | :---------------------------------------------------------: | :-----------------------------------: |
+| TRIG   | S&H input 1 (S&H mode) or clock a random voltage (Rnd mode) | S&H input 2 or clock a random voltage |
+| CV INs |                          Operand A                          |               Operand B               |
+| OUTs   |                Channel 1 calculation results                |     Channel 2 calculation results     |
 
 
 ### UI Parameters

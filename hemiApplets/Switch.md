@@ -4,6 +4,15 @@ https://youtu.be/juu65pJyXlY
 
 Switch is a two-channel switch with two switching methods: sequential and gated.
 
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
+
 Controls
 * Digital Ins: A clock at Digital 1 switches the A/C output between Signal 1 and Signal 2. A gate at Digital 2 switches the B/D output to Signal 2 .
 * CV Ins: CV 1 is Signal 1, and CV 2 is Signal 2

@@ -2,6 +2,15 @@
 
 _Palimpsest_ is an accent sequencer that composes a pattern by way of a repeated sequence of trigger impressions.
 
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
+
 Controls
 * Digital Ins: Clock to Digital 1 advances the sequence step. Digital 2 is the "Brush" input.
 * CV Ins: CV 1 modulates Decompose, and CV 2 modulates Compose

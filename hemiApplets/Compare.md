@@ -4,11 +4,11 @@ Compare is a comparator applet with complementary gate outputs, indicating when 
 
 ### I/O
 
-|                |              1/3           |                   2/4                |
-| -------------- |:---------------------------:|:-------------------------------------:|
-| Trig (Digital) |  No effect  | No effect |
-| CV In          | Input signal (A) |      Comparison voltage level (B) modulation (bipolar)       |
-| Output         |          Gate if A>B           |         Gate if A≤B          |
+|        |       1/3        |                        2/4                        |
+| ------ | :--------------: | :-----------------------------------------------: |
+| TRIG   |    No effect     |                     No effect                     |
+| CV INs | Input signal (A) | Comparison voltage level (B) modulation (bipolar) |
+| OUTs   |   Gate if A>B    |                    Gate if A≤B                    |
 
 
 ### UI Parameters

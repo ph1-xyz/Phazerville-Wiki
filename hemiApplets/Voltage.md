@@ -2,6 +2,15 @@
 
 Voltage is a dual gate-activated fixed-voltage emitter.
 
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
+
 Controls
 * Digital Ins: Gate for each channel
 * CV Outs: For each channel, outputs specified voltage or 0V, depending on gate state

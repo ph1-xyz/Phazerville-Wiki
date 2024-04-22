@@ -4,11 +4,11 @@ Ever just need a button, to trigger something or toggle something? Me too! Butto
 
 ### I/O
 
-|                |              1/3           |                   2/4                |
-| -------------- |:---------------------------:|:-------------------------------------:|
-| Trig (Digital) |  Press button 1   | Press button 2 |
-| CV In          | No effect |     No effect       |
-| Output         |          Trigger/Gate 1           |         Trigger/Gate 2          |
+|        |      1/3       |      2/4       |
+| ------ | :------------: | :------------: |
+| TRIG   | Press button 1 | Press button 2 |
+| CV INs |   No effect    |   No effect    |
+| OUTs   | Trigger/Gate 1 | Trigger/Gate 2 |
 
 ### UI Parameters
 * Channel selection (scroll clockwise)

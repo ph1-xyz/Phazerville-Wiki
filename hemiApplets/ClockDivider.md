@@ -4,11 +4,11 @@ Complex clock divisions / multiplications made easy! ClockDiv is a dual, complex
 
 ### I/O
 
-|                |              1/3           |                   2/4                |
-| -------------- |:---------------------------:|:-------------------------------------:|
-| Trig (Digital) |  Clock input   | Reset |
-| CV In          | Ch 1 div/mult factor 1 modulation (bipolar) |      Ch 2 div/mult factor 1 modulation (bipolar)       |
-| Output         |          Ch 1 div/mult result             |         Ch 2 div/mult result          |
+|        |                     1/3                     |                     2/4                     |
+| ------ | :-----------------------------------------: | :-----------------------------------------: |
+| TRIG   |                 Clock input                 |                    Reset                    |
+| CV INs | Ch 1 div/mult factor 1 modulation (bipolar) | Ch 2 div/mult factor 1 modulation (bipolar) |
+| OUTs   |            Ch 1 div/mult result             |            Ch 2 div/mult result             |
 
 
 ### UI Parameters

@@ -2,6 +2,15 @@
 
 EnvFollow is an envelope follower and ducker.
 
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
+
 Controls
 * CV Inputs: Signal inputs for channels 1 and 2
 * Outputs: Output 1's output increases as the amplitude of Input 1 increases. Output 2's output decreases as the amplitude of Input 2 increases.

@@ -4,11 +4,11 @@ Chordinate is a quantizer with a scale mask: outputting a basis pitch (i.e. the 
 
 ### I/O
 
-|                |              1/3           |                   2/4                |
-| -------------- |:---------------------------:|:-------------------------------------:|
-| Trig (Digital) |  Sample & hold root note (CV 1)   | Sample & hold scale degree (CV2) |
-| CV In          | Basis pitch |      Scale degree offset (bipolar)     |
-| Output         |        Basis pitch (thru)           |         Scale degree pitch          |
+|        |              1/3               |               2/4                |
+| ------ | :----------------------------: | :------------------------------: |
+| TRIG   | Sample & hold root note (CV 1) | Sample & hold scale degree (CV2) |
+| CV INs |          Basis pitch           |  Scale degree offset (bipolar)   |
+| OUTs   |       Basis pitch (thru)       |        Scale degree pitch        |
 
 _Note that sending a trigger to either digital input will initiate a clocked S&H mode, which will persist until power cycling. Root note and scale degree may be held independently, allowing for syncopated voicing changes_
 

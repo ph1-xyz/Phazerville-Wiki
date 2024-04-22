@@ -6,11 +6,11 @@ Hear it in action: https://youtu.be/ToZaxJ_7NpM
 
 ### I/O
 
-|                |              1/3           |                   2/4                |
-| -------------- |:---------------------------:|:-------------------------------------:|
-| Trig (Digital) |  Kick drum trigger   | Snare drum trigger |
-| CV In          | Kick drum modulation (assignable) |      Snare drum modulation (assignable)      |
-| Output         |          Kick drum           |         Snare drum         |
+|        |                1/3                |                2/4                 |
+| ------ | :-------------------------------: | :--------------------------------: |
+| TRIG   |         Kick drum trigger         |         Snare drum trigger         |
+| CV INs | Kick drum modulation (assignable) | Snare drum modulation (assignable) |
+| OUTs   |             Kick drum             |             Snare drum             |
 
 
 ### UI Parameters

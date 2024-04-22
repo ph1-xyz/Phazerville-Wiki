@@ -4,11 +4,11 @@ CV Recorder is a two-track 384-step CV recorder with smoothing (linear interpola
 
 ### I/O
 
-|                |              1/3           |                   2/4                |
-| -------------- |:---------------------------:|:-------------------------------------:|
-| Trig (Digital) |  Advance sequencer   | Reset |
-| CV In          | Track 1 Input |      Track 2 Input       |
-| Output         |          Track 1           |         Track 2         |
+|        |        1/3        |      2/4      |
+| ------ | :---------------: | :-----------: |
+| TRIG   | Advance sequencer |     Reset     |
+| CV INs |   Track 1 Input   | Track 2 Input |
+| OUTs   |      Track 1      |    Track 2    |
 
 
 ### UI Parameters
