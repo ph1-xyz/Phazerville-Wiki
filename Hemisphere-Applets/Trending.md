@@ -1,6 +1,15 @@
-#dualInput/inCVs #dualOutput #generator/CV 
+#dualCVInput #dualOutput #CVgenerator 
 
 Trending is a dual slope detector with assignable outputs.
+
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
 
 Controls
 * Inputs: CV 1 and CV 2 are the incoming signals for each channel

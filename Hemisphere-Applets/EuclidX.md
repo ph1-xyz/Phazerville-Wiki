@@ -1,6 +1,15 @@
-#generator/trigger #dualOutput 
+#triggerGenerator #dualOutput 
 
 A deluxe Euclidean pattern generator, two channels, up to 32 steps each. Using UI code from qiemem; named after adegani's version of the applet with the flexible CV Input routing. The extra zero-padding parameter makes it worthy of the *X* ;-)
+
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
 
 Each channel has four parameters:
 * Length

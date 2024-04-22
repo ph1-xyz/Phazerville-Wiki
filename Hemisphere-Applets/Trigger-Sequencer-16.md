@@ -1,6 +1,15 @@
-#CH1/trig/mainClock #CH2/trig/reset #generator/trigger #generator/CV/sequencer 
+#masterClockOnCH1 #resetOnCH2 #triggerGenerator #sequencer 
 
 Trigger Sequencer 16 is a 16-step trigger sequencer. It's visually and functionally similar to Trigger Sequencer, except it's 1x16 instead of 2x8.
+
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
 
 Controls
 * Digital Ins: A clock at Digital 1 advances the sequence. A trigger at Digital 2 resets sequence.

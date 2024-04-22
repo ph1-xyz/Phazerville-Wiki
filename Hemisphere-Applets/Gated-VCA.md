@@ -1,6 +1,15 @@
-#dualInput/inCVs #dualOutput/CVs #VCA
+#dualInput #dualOutput #VCA
 
 Gated VCA is a VCA for CV, with the ability to gate the first output. It can sort of be used for audio, but works best as an extra CV VCA.
+
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
 
 Controls
 * Digital Ins: Digital 1 gates Output A, Digital 2 reverse-gates Output B

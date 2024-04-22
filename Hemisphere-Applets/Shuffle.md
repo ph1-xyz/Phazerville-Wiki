@@ -1,6 +1,15 @@
-#CH1/trig/mainClock #CH2/gate #CH2/trig/reset #generator/trigger 
+#masterClockOnCH1 #gateOnCH2 #resetOnCH2 #triggerGenerator 
 
 Shuffle is a two-step clock offset. Each step can be delayed by between 0% and 99% of the incoming clock tempo.
+
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
 
 Controls:
 * Digital Ins: Digital 1 is the clock, and a trigger to Digital 2 resets to the first-numbered step

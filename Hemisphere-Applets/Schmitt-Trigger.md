@@ -1,6 +1,15 @@
-#dualInput/inCVs #generator/gate  #dualOutput 
+#dualCVInput #gateGenerator #dualOutput 
 
 This applet is a dual Schmitt Trigger with a programmable threshold range.
+
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
 
 Controls
 * CV Inputs: Input for each channel

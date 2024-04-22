@@ -1,6 +1,15 @@
-#CH1/trig/mainClock #dualInput/inTrigs/asTrigs #secondaryOut/trig
+#masterClockOnCH1 #dualTriggerInput
 
 _Palimpsest_ is an accent sequencer that composes a pattern by way of a repeated sequence of trigger impressions.
+
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
 
 Controls
 * Digital Ins: Clock to Digital 1 advances the sequence step. Digital 2 is the "Brush" input.

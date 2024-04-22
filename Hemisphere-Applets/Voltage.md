@@ -1,6 +1,15 @@
-#utility #dualInput/inTrigs/asGates #dualInput/inCVs/none #dualOutput/CVs #generator/CV 
+#utility #dualInput #dualOutput #gate 
 
 Voltage is a dual gate-activated fixed-voltage emitter.
+
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
 
 Controls
 * Digital Ins: Gate for each channel

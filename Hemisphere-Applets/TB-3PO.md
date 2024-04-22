@@ -1,6 +1,15 @@
-#generator/CV/sequencer #generator/CV #generator/gate  #CH2/trig/reset #CH1/trig/mainClock #aleatoric 
+#sequencer #CVgenerator #gateGenerator  #resetOnCH2 #masterClockOnCH1 #probability 
 
 TB-3PO is a TB-303 style, pitch CV and gate pattern generator robot, capable of fixed-time, exponential slides on the pitch CV for that secret TB sauce. It will do mono-pitched style 303 lines on one end, or full-range, Turing Machine style stuff on the other, all designed and tuned for musicality and calls/responses in live wiggling.
+
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
 
 * Video overview: https://www.youtube.com/watch?v=AHC2zWnkjJY
 * Synth Dad Tutorial: https://youtu.be/m08NMHuhFnE

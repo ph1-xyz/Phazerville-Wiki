@@ -1,9 +1,17 @@
-#generator/audio #secondaryOut/trig/EOC #dualInput/inTrigs/asGates #dualInput/inCVs/asAudio
-
+#audioInput #audioGenerator #BoC-EoC
 
 https://youtu.be/p1SUj-F7i28
 
 LoFi Tape is an audio-rate looper for audio or CV.
+
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
 
 Controls
 * Digital Ins: Both digital ins expect a gate signal. Digital 1 pauses playback while the gate is high. Digital 2 records from CV 1 while the gate is high.

@@ -1,8 +1,17 @@
-#generator/CV/sequencer #CH1/trig/mainClock  #CH2/trig/reset 
+#sequencer #masterClockOnCH1  #resetOnCH2 
 
 https://youtu.be/zsqAbNRgHJI
 
 Sequence5 is a five-step quantized sequencer.
+
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
 
 Contols
 * Digital Ins: A clock at Digital 1 advances the sequencer, and a clock at Digital 2 resets to the first step

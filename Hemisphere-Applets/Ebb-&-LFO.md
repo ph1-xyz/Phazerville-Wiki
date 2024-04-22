@@ -1,8 +1,17 @@
-#generator/audio #generator/LFO #CH2/trig/reset #CH1/sync 
+#audioGenerator #LFO #resetOnCH2 #syncable 
 
 This is a single Tides-like oscillator. Both inputs and outputs are configurable. The outputs are visualized on the screen.
 
 It can function like a looping envelope generator or an audio-rate oscillator, with modulatable parameters for morphing the contour.
+
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
 
 ### Digital Inputs
 * Clock Sync

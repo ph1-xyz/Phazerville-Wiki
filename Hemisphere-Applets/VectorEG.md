@@ -1,6 +1,15 @@
-#generator/envelope #dualInput/inTrigs/asTrigs #dualInput/inTrigs/asGates #dualOutput/envelopes #dualChannels 
+#envelopeGenerator #triggerable #gate #dualInput #dualOutput #independentChannels 
 
 VectorEG is a dual envelope generator based on Vector Oscillator waveforms. There is a variety of built-in waveforms from which to choose, or you can create your own with the [Waveform Editor](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Waveform-Editor).
+
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
 
 Controls
 * Digital Ins: A gate at each input starts and sustains the corresponding EG.

@@ -1,6 +1,15 @@
-#dualInput/inCVs/asAudio #dualOutput/CVs #generator/envelope #encoder/performanceReady
+#audioInput #envelopeGenerator 
 
 EnvFollow is an envelope follower and ducker.
+
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
 
 Controls
 * CV Inputs: Signal inputs for channels 1 and 2

@@ -1,6 +1,15 @@
-#CH1/trig/mainClock #CH2/gate  
+#masterClockOnCH1 #gateOnCH2  
 
 RunglBook is a chaotic shift-register modulation based on Rob Hordijk's rungler circuit.
+
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
 
 Controls
 * Digital Ins: Digital 1 is the clock, and Digital 2 freezes the shift register to writing

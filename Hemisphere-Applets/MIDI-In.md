@@ -4,6 +4,15 @@ https://youtu.be/Hfowo8vF7CE
 
 MIDI In is a monophonic MIDI-to-CV interface that uses the USB port on the back of the Ornament and Crime module. The MIDI interface will appear in your computer as "Hemisphere".
 
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
+
 Controls
 * Outputs: Assignable
 * Encoder Push: Cycle cursor between MIDI channel, Out A assignment, and Out B assignment

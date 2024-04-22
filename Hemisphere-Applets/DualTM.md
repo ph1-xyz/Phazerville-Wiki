@@ -1,6 +1,15 @@
-#generator/CV/quantized #generator/CV #generator/trigger #generator/gate #generator/CV/sequencer #aleatoric #slew #dualChannels #CH1/trig/mainClock #CH2/gate
+#quantizedPitch #CVgenerator #sequencer #probability #gateable #slew #independentChannels #masterClockOnCH1 #gateOnCH2 
 
 Adapted from the original [**ShiftReg**](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Shift-Register-(formerly-Turing)) applet, this pair of 32-bit shift registers is designed to be the ultimate source of generative sequences. Digital inputs 1 & 2 are still _Clock_ & _p-gate_, respectively. The CV inputs and outputs are assignable.
+
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
 
 The **Slew** parameter allows extreme smoothing on the output stage for portamento and gentle modulation. It acts as a Decay tail on the Trigger output modes. With CV input modulation of Slew, you can modulate the smoothing - CV control over decay envelopes, or variable portamento.
 

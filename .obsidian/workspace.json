@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hemisphere-Applets/Deprecated/Dr.-Crusher.md",
+                "file": "Hemisphere-Applets/DualTM.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hemisphere-Applets/Deprecated/Dr.-Crusher.md",
+                "file": "Hemisphere-Applets/DualTM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hemisphere-Applets/Deprecated/Dr.-Crusher.md",
+                "file": "Hemisphere-Applets/DualTM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hemisphere-Applets/Deprecated/Dr.-Crusher.md"
+                "file": "Hemisphere-Applets/DualTM.md"
               }
             }
           }
@@ -146,8 +146,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ed40e6625e7a8070",
+  "active": "066adeb954988dd3",
   "lastOpenFiles": [
+    "Hemisphere-Applets/Dual-Quantizer.md",
+    "Hemisphere-Applets/DrumMap.md",
+    "Hemisphere-Applets/CV-Recorder.md",
+    "Hemisphere-Applets/Clock-Skipper.md",
+    "Hemisphere-Applets/Carpeggio.md",
+    "fullApplets/Original Apps/References.md",
+    "fullApplets/Original Apps/Scenes.md",
+    "fullApplets/Original Apps/Sequins.md",
+    "fullApplets/Original Apps/Automatonnetz.md",
+    "fullApplets/Original Apps/Untitled.md",
+    "fullApplets/Original Apps/Dialectic Ping-Pong.md",
+    "fullApplets/Original Apps/Low-rents.md",
+    "fullApplets/Original Apps/Meta-Q.md",
+    "fullApplets/Original Apps/Piqued.md",
+    "fullApplets/Original Apps/Quadraturia.md",
+    "fullApplets/Original Apps/Viznutcracker, sweet!.md",
+    "fullApplets/Original Apps/Possible Future Enhancements.md",
+    "Hemisphere-Applets/Shuffle.md",
+    "Hemisphere-Applets/Sequence5.md",
+    "Hemisphere-Applets/Brancher.md",
+    "Hemisphere-Applets/Deprecated/Dr.-Crusher.md",
     "Hemisphere-Applets/Deprecated",
     "hemiApplets/Dr.-Crusher.md",
     "tags.md",
@@ -155,30 +176,10 @@
     "Settings/EEPROM-Save.md",
     "Settings/Clock-Setup.md",
     "Settings",
-    "Phazerville Wiki/Welcome.md",
     "Phazerville Wiki",
     "Hemisphere-Icons/vOct.png",
     "Hemisphere-Icons/gate.png",
     "Hemisphere-Icons",
-    "Hemisphere-Applets/Voltage.md",
-    "Hemisphere-Applets/VectorMod.md",
-    "Hemisphere-Applets/VectorLFO.md",
-    "Hemisphere-Applets/VectorEG.md",
-    "Hemisphere-Applets/VectMorph.md",
-    "Hemisphere-Applets/Tuner.md",
-    "Hemisphere-Applets/Trigger-Sequencer.md",
-    "Hemisphere-Applets/Trigger-Sequencer-16.md",
-    "Hemisphere-Applets/Trending.md",
-    "Hemisphere-Applets/Threshold-Logic-Neuron.md",
-    "Hemisphere-Applets/TB-3PO.md",
-    "Hemisphere-Applets/Switch.md",
-    "Hemisphere-Applets/Stairs.md",
-    "Hemisphere-Applets/Squanch---Shifting-Quantizer.md",
-    "Hemisphere-Applets/Slew.md",
-    "Hemisphere-Applets/Skewed-LFO.md",
-    "Hemisphere-Applets/Shuffle.md",
-    "Hemisphere-Applets/ShiftGate.md",
-    "Hemisphere-Applets/Sequence5.md",
     "Hemisphere-Applets",
     "Apps",
     "hemiApplets",

@@ -1,8 +1,17 @@
-#CH1/trig/mainClock #CH2/trig/reset #generator/trigger #generator/CV/sequencer 
+#masterClockOnCH1 #resetOnCH2 #triggerGenerator #sequencer 
 
 https://youtu.be/qPRspJApd1Y
 
 Trigger Sequencer is a dual eight-step trigger sequencer.
+
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
 
 Controls
 * Digital Ins: A clock at Digital 1 advances both sequences. A trigger at Digital 2 resets both sequences to the top.

@@ -1,8 +1,17 @@
-#logic #dualInput/inTrigs/asGates #CH1/CV/asGate #CH2/CV/none #generator/gate 
+#logic #gate #dualInput #multiInput 
 
 https://youtu.be/NdHY-eDipkY
 
 Threshold Logic Neuron is a three-input programmable logic gate.
+
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
 
 Controls
 * Digital Ins: Logical states of Dendrites 1 and 2
