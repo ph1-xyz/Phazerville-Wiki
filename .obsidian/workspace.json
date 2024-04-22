@@ -11,12 +11,8 @@
             "id": "5df754d2f7700bb0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0 - Home.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0 - Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0 - Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "0 - Home.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -148,21 +140,19 @@
   },
   "active": "5df754d2f7700bb0",
   "lastOpenFiles": [
-    "Original Apps/zz_Credits, thanks, acknowledgements, and sources of inspiration.md",
-    "hemiApplets/ADSR-EG.md",
-    "fullApplets/Original Apps/Viznutcracker, sweet!.md",
-    "Untitled.md",
-    "fullApplets/Original Apps/Quantermain.md",
-    "fullApplets/Original Apps/Meta-Q.md",
-    "fullApplets/Original Apps/Dialectic Ping-Pong.md",
-    "fullApplets/Original Apps/Automatonnetz.md",
+    "system - MIDI-Input.md",
+    "system - Hemisphere-Config.md",
+    "system - EEPROM-Save.md",
+    "system - Clock-Setup.md",
+    "hemiApplets/_Philosophy.md",
+    "hemiApplets/_Footer.md",
     "hemiApplets/Voltage.md",
     "hemiApplets/VectorMod.md",
     "hemiApplets/VectorLFO.md",
     "hemiApplets/VectorEG.md",
     "hemiApplets/VectMorph.md",
-    "hemiApplets/Trigger-Sequencer-16.md",
     "hemiApplets/Trigger-Sequencer.md",
+    "hemiApplets/Trigger-Sequencer-16.md",
     "hemiApplets/Trending.md",
     "hemiApplets/Threshold-Logic-Neuron.md",
     "hemiApplets/TB-3PO.md",
@@ -174,8 +164,19 @@
     "hemiApplets/Shuffle.md",
     "hemiApplets/ShiftGate.md",
     "hemiApplets/Sequence5.md",
+    "hemiApplets/Scope.md",
+    "hemiApplets/Schmitt-Trigger.md",
+    "hemiApplets",
+    "Original Apps",
+    "Settings",
+    "Phazerville Wiki",
+    "Hemisphere-Icons/vOct.png",
+    "Hemisphere-Icons/gate.png",
+    "Hemisphere-Icons",
+    "Hemisphere-Applets/Deprecated",
+    "Hemisphere-Applets",
+    "Apps",
     "fullApplets/Original Apps",
-    "fullApplets",
-    "hemiApplets"
+    "fullApplets"
   ]
 }
