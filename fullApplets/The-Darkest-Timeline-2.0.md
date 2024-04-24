@@ -87,6 +87,8 @@ Outputs:
 * Output C: Trigger: Probability Timeline, Normal Universe
 * Output D: Trigger: Probability Timeline, Alternate Universe (complementary probability of Output C)
 
+* Encoder: Set A4 frequency
+* Encoder push: Reset tuner
 ### Panel Control of Playback
 
 * Left Encoder: Change sequence length (clockwise to decrease, counterclockwise to increase) from 1 to 32 steps

@@ -1,6 +1,8 @@
+#sequencer #CVgenerator 
+
 _Sequins_ is a basic, **dual-channel sequencer**.
 
-The app provides four 16-step sequences per channel, and CV-control over various channel parameters, including scale mask, octave, pulsewidth, clock multiplication and division. The four sequences can be **chained** in various ways, providing sequences from **4 to up to 64 notes**. The sequence data is stored along with the other settings (whenever settings are saved).
+The app provides four 16-step sequences per channel and CV-control over various channel parameters, including scale mask, octave, pulsewidth, clock multiplication and division. The four sequences can be **chained** in various ways, providing sequences from **4 to up to 64 notes**. The sequence data is stored along with the other settings (whenever settings are saved).
 
 ### Controls
 
@@ -15,6 +17,15 @@ The app provides four 16-step sequences per channel, and CV-control over various
 | PRESS      | toggle octave up (parameter menu) | enter CV menu                                                                   |
 | LONG PRESS | invoke screensaver                | toggle sequence-select behaviour (instant update vs. update at end-of-sequence) |
 
+### I/O
+
+|     | 1                 | 2                                  | 3                                           | 4                                           |
+| --- | ----------------- | ---------------------------------- | ------------------------------------------- | ------------------------------------------- |
+| TR  | clock input #1    | aux clock input #1 / reset/mute #1 | clock input #2                              | aux clock input #2 / reset/mute #2          |
+| CV  | (mappable)        | (mappable)                         | (mappable)                                  | (mappable)                                  |
+| OUT | CV outputs #1, #2 | CV outputs #1, #2                  | aux outputs #1, #2 (default to gate output) | aux outputs #1, #2 (default to gate output) |
+
+### Description
 - the **sequence editor** works similarly to the scale editor in the quantizer modes:
     - in the main menu, select which sequence to edit by adjusting the `sequence #` parameter.
     - then right-click on the item displayed right below (`--> edit`) to **open the sequence-editor**.
@@ -27,7 +38,6 @@ The app provides four 16-step sequences per channel, and CV-control over various
     - in the sequence-editor, you can use the **up/down** buttons to select which sequence to edit (`#1` - `#4`). (this makes it possible to edit sequences ‘offline’, ie make adjustments to, say, sequence #2 while sequence #1 is playing).
     - **copy+paste**: in the sequence-editor, long-press the left encoder to **copy** the selected sequence. select a different sequence slot, then long-press the down button to **paste** it into that slot. copy+paste works across channels. (note: once copied (or pasted), sequence data will be stored in a temporary buffer for about 15 seconds, after which it’ll expire.)
 - the `playmode` and `direction` settings offer various ways of moving through the sequence(s):
-    
     - `-` (default): advance by trigger, using the chosen sequence and direction settings.
     - `SEQ+1 - SEQ+3`: ditto, but **cycling** through 2, 3, or 4 adjacent sequences (= allows up to 64 notes).
     - `TR+1 - TR+3`: ditto, but **jumps** to the next sequence only _if/when_ a trigger is received at the **aux.** trigger inputs.
@@ -38,13 +48,6 @@ The app provides four 16-step sequences per channel, and CV-control over various
     
 - the secondary/aux. clock inputs (TR2, TR4) can be used to either **cycle** through the sequences (see above), or they can be selected as a **reset/mute** signal (`reset/mute`). the options are: `RST2`, `RST4` (reset) and `=HI2`, `=LO2`, `=HI4`, and `=LO4` (mute when aux. clock goes high, respectively low.). NB: When using a clock divider or the like (or anything that will introduce latency relative to the main clock inputs TR1/TR3), it can/will make sense to increase the trigger-to-processing latency (see the `Trigger delay` setting). This will make sure the auxiliary trigger (or control voltage) is processed within the current update window. (Also see _Quantermain_ above for an extended discussion of the trigger delay setting).
 
-### Inputs and outputs
-
-|     | 1                 | 2                                  | 3                                           | 4                                           |
-| --- | ----------------- | ---------------------------------- | ------------------------------------------- | ------------------------------------------- |
-| TR  | clock input #1    | aux clock input #1 / reset/mute #1 | clock input #2                              | aux clock input #2 / reset/mute #2          |
-| CV  | (mappable)        | (mappable)                         | (mappable)                                  | (mappable)                                  |
-| OUT | CV outputs #1, #2 | CV outputs #1, #2                  | aux outputs #1, #2 (default to gate output) | aux outputs #1, #2 (default to gate output) |
 
 ### Available settings (per-channel)
 
@@ -78,46 +81,33 @@ The app provides four 16-step sequences per channel, and CV-control over various
 
 **Note**: There is a bug in the v1.3.3 firmware which prevents the gate auxiliary output from working unless the `mult/div` for that channel is set to `x2` or above. This bug was fixed in v1.3.3b firmware.
 
-
 ### CV menu
-
 - **enter** the CV menu by pushing the down button:
     - use the right encoder to assign CV input channels 1-4 to a channel parameter (currently available parameters are: `transposition` (in octaves), `scale mask`, `sequence number` (1-4), `sequence length`, `direction`, `multiplier/divisor` and `pulsewidth`. The quantiser/sampling `trigger delay` (see notes for `Trigger delay` in _Quantermain_) and the `clock src` (clock source) can also be specified in this sub-menu, as well as CV input mappings to these envelope parameters: `att dur`, `dec dur`, `sus lvl`, `rel dur` and `env loops`. By using CV to control `env loops`, a sort of psuedo-ratchetting effect can be obtained. Other envelope behaviours can also be specified (see the _Piqued_ app for details): `att rest`, `att fall gt` and `dec/rel reset`.
     - **return** to the main menu by either pressing the **up** or **down** buttons, or by moving the cursor to an empty field and then pressing the right encoder button.
     - **clear** all mappings (per channel) by long-pressing the down button (in CV menu)
 
-|Control|Function|
-|---|---|
-|Left encoder (turn)|select channel|
-|Left encoder (press)|re-sync channels (reset)|
-|Left encoder (long press)|copy selected scale to other channel|
-|Right encoder (turn)|Navigation mode: move up and down through the menu items. Edit mode: increase or decrease the value being edited|
-|Right encoder (press)|toggle editing mode, if applicable; return to main menu otherwise|
-|Right encoder (long press)|app selection menu|
-|Up button|return to main menu|
-|Down button|return to main menu|
-|Up button (long press)|screensaver|
-|Down button (long press)|clear CV mappings|
 
-#### sequence editor
+|       | Left Encoder                         | Right Encoder                                                                                                    |
+| ----- | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------- |
+| TURN  | select channel                       | Navigation mode: move up and down through the menu items. Edit mode: increase or decrease the value being edited |
+| PRESS | re-sync channels (reset)             | Toggle between menu navigation (selection) mode and value editing mode                                           |
+| LONG  | copy selected scale to other channel | app selection menu                                                                                               |
 
-|Control|Function|
-|---|---|
-|Left encoder (turn)|select step|
-|Left encoder (press)|activate/de-active step|
-|Right encoder (turn)|1) adjust pitch in semitones; **push left encoder switch** while turning to **fine-tune**. 2) adjust sequence **length** by pointing the cursor to the far right, then turn; **push left encoder switch** while turning to also **clear** the sequence mask (when expanding the pattern)|
-|Right encoder (press)|exit editor|
-|Up button|go to next sequence (edit ‘offline’)|
-|Down button|go to previous sequence (edit ‘offline’)|
-|Left encoder (long press)|**copy** selected pattern|
-|Down button long press|**paste** previously copied sequence|
-|Down button **and** Left encoder long press|**clear** sequence (including pitch data)|
-|Right encoder (long press)|– (app selection menu)|
-|Up button (long press)|– (screensaver)|
+|            | Up Button           | Down Button         |
+| ---------- | ------------------- | ------------------- |
+| PRESS      | return to main menu | return to main menu |
+| LONG PRESS | invoke screensaver  | clear CV mappings   |
 
-**Tips:**
+### Sequence Editor
 
-- if identical sequences are set up on both sequencer channels, and the same clock input is used to drive both channels, then [Steve Reich “Piano Phase”](https://en.wikipedia.org/wiki/Piano_Phase) type effcts can be acheived by setting the `mult/div` setting for one channel to, say, `/32` (divide by 32), and to `/31` on the other channel, and then using a fast clock. The two sequences will slowly move out of phase. By varying the division up and done in one channel, the two sequences can be moved in and out of phase as required.
-- If you set the `aux. mode` to one of the envelope types (as an alternative to just gate or trigger out), then an additional setting `--> loops` will appear in the menu. This setting defaults to 1, but you can increase that, and then each time the envelope triggers, it will loop that set number of times. Tthat gives you a fixed ratchet-like effect, which might be useful in some circumstances.
-    - However, in the CV assignment menu (see above), you can assign an input CV to the loops parameter using the `env loops ->` setting. If you do that, and also set `--> loops` to 1 in the main menu and you can then use an external voltage (which could be a gate signal, suitably attenuated) to vary the number of loops for each new step in the sequence between 1 and 127 (usually you would want between 1 and 3 or 4). Of course, the voltage to do that can come from the other channel of Sequins, so you can set the number of envelope loops at each step in channel A by a sequence in channel B, clocked from the same source, and cross-patched to one of the CV inputs configured to affect the loops parameter for channel A. Or you can use external voltages, of course, including controllers such as joysticks etc.
-    - You can do something similar in the Piqued app, because there is a Loops parameter for the looping envelope types, and you can put that under external CV control.
+|       | Left Encoder              | Right Encoder                                                                                                                                                                                                                                                                            |
+| ----- | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| TURN  | select step               | 1) adjust pitch in semitones; **push left encoder switch** while turning to **fine-tune**. 2) adjust sequence **length** by pointing the cursor to the far right, then turn; **push left encoder switch** while turning to also **clear** the sequence mask (when expanding the pattern) |
+| PRESS | activate/de-active step   | exit editor                                                                                                                                                                                                                                                                              |
+| LONG  | **copy** selected pattern | – (app selection menu)                                                                                                                                                                                                                                                                   |
+
+|            | Up Button                            | Down Button                              | Down Button + Left Encoder                |
+| ---------- | ------------------------------------ | ---------------------------------------- | ----------------------------------------- |
+| PRESS      | go to next sequence (edit ‘offline’) | go to previous sequence (edit ‘offline’) |                                           |
+| LONG PRESS | – (screensaver)                      | **paste** previously copied sequence     | **clear** sequence (including pitch data) |

@@ -1,3 +1,5 @@
+#chordGenerator #sampleAndHold #quantizer #rootNote #sequencer 
+
 _Acid Curds_ is a basic chord sequencer.
 
 The app provides **four 8-step chord progressions** (in total), and CV-control over various parameters, including chord type, progression length, direction, voicing, inversion, etc. The four chord progressions can be **chained** in various ways, providing progressions from **1 to up to 32 chords**. The chords/sequence data is stored along with the other settings (whenever settings are saved).
@@ -17,6 +19,8 @@ _Acid Curds_ can be used as either a basic quantizer / sample-and-hold type thin
 | PRESS      | toggle up/down by one octave | go to CV menu    |
 | LONG PRESS | screensaver                  | clear CV mapping |
 
+### I/O
+
 Here is the basic i/o mapping; the CV inputs are freely assignable:
 
 |     | 1                      | 2                                                        | 3                                                                      | 4                 |
@@ -24,8 +28,9 @@ Here is the basic i/o mapping; the CV inputs are freely assignable:
 | TR  | main clock / S+H input | chord advance trigger (if selected via `chords trg src`) | playmode trigger `TR3+1 - TR3+3`, CV-address trigger (`S+H#1 - S+H#4`) | progression reset |
 | CV  | assignable             | assignable                                               | assignable                                                             | assignable        |
 | OUT | base note OUT          | chord OUT                                                | chord OUT                                                              | chord OUT         |
+### Description
 
-- the **chords editor** works much like the scale and sequence editors in Copiermaschine, Sequins, etc:
+- the **chords editor** works much like the scale and sequence editors in [[CopierMaschine]], [[Sequins]], etc:
     - in the main menu, select which progression (#1-#4) to edit by adjusting the `progression` parameter.
     - then right-click on the item `chords -->` to **open the chords-editor**:
         - adjust the progression **length** by pointing the cursor to the far right (using the left encoder), then turn the right encoder.
@@ -33,7 +38,7 @@ Here is the basic i/o mapping; the CV inputs are freely assignable:
         - turn the left encoder to either select which chord (step) to edit, or to select which step-feature to edit.
         - pushing the left encoder **toggles** between chord-select and feature-select.
         - push the right encoder to close the editor again.
-- a chord (or step) consists of five features: quality/type (`Q`), voicing (`V`), inversion (`I`), base note (`B`), and the register/octave (`O`). most of the parameter values should be fairly self-explanatory.
+- a chord (or step) consists of five features: quality/type (`Q`), voicing (`V`), inversion (`I`), base note (`B`), and the register/octave (`O`); most of the parameter values should be fairly self-explanatory.
 - the ‘base note’ (or root note) of a chord can be set to either `CV`, in which case a chord will be formed based on the voltage present at input CV1 (TR1 in that case is used as the S+H clock, the chords progression will advance depending on the `chords trg src` setting); or, it can be set to a fixed value: `#1`, `#2`, `#3`, etc (these values are given in scale degrees, e.g. choosing `#3` = the third note of a given scale).
     
 - the `playmode` and `direction` settings offer various ways of moving through the sequence(s)

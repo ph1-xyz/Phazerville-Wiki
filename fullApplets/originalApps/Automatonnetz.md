@@ -1,5 +1,7 @@
+#chordGenerator #sampleAndHold #quantizer #rootNote #sequencer 
 
-The *Automatonnetz*, coded up by Patrick Dowling, combines the neo-Riemannian triad chord transformations of *Harrington 1200*, also running in the Ornament & Crime module, inspired by Noise Engineering Tonnetz Sequent module, combined with the *Exfilnator* vector sequencer idea expressed by fcd72 (Frank) of d:Machinery.
+
+The *Automatonnetz*, coded up by Patrick Dowling, combines the neo-Riemannian triad chord transformations of *[[Harrington 1200]]*, also running in the Ornament & Crime module, inspired by Noise Engineering Tonnetz Sequent module, combined with the *Exfilnator* vector sequencer idea expressed by fcd72 (Frank) of d:Machinery.
 
 Neo-Riemannian transformations are applied to sequences determined by the "navigation" of a 5x5 grid of cells.
 
@@ -72,7 +74,7 @@ The implementation computes these in a single transform step however, not sequen
 
 ### Screensaver display
 
-Similar to Harrington 1200 app, the current triad (output as pitch CVs on the B, C and D sockets) is shown graphically on a pitch circle on the left. On the right, the last few vector moves are shown as a "snake". The current output triad is also displayed.
+Similar to [[Harrington 1200]] app, the current triad (output as pitch CVs on the B, C and D sockets) is shown graphically on a pitch circle on the left. On the right, the last few vector moves are shown as a "snake". The current output triad is also displayed.
 
 ### Tips
 

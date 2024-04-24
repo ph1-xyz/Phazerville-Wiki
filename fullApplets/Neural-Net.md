@@ -1,25 +1,34 @@
+#logic
+
 https://github.com/Chysn/O_C-HemisphereSuite/wiki/Neural-Net
 
-Neural Net is a highly-configurable logic processor with six _Neurons_, each of which can contain one of [11 different logic gates](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Neural-Net#logic-gate-reference), including a Threshold Logic Neuron. Sources for each logic gate can be any of the eight inputs, any of the six Neurons, or a consistent ON/OFF value. Four Setups can be saved for later use, and Setups can be saved and loaded via MIDI system exclusive.
+Neural Net is a highly-configurable logic processor with six Neurons, each of which can contain one of [11 different logic gates](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Neural-Net#logic-gate-reference), including a *Threshold Logic Neuron*. Sources for each logic gate can be any of the eight inputs, any of the six Neurons, or a consistent ON/OFF value.
 
-## Basic Controls and Navigation
+Four Setups can be saved for later use, and Setups can be saved and loaded via MIDI system exclusive.
 
-[](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Neural-Net#basic-controls-and-navigation)
+### I/O
 
-Neural Net has two basic setup screens, the Selection Screen (which shows all six Neurons), and the Edit Screen (which allows editing and monitoring of a single Neuron). The controls work exactly the same way on both screens, but some changes are only visible from the Edit Screen.
+|     | 1                         | 2                         | 3                         | 4                         |
+| --- | ------------------------- | ------------------------- | ------------------------- | ------------------------- |
+| TR  | **DIG 1** - Logic Gate IN | **DIG 2** - Logic Gate IN | **DIG 3** - Logic Gate IN | **DIG 4** - Logic Gate IN |
+| CV  | **CV 1** - Logic Gate IN  | **CV 2** - Logic Gate IN  | **CV 3** - Logic Gate IN  | **CV 4** - Logic Gate IN  |
+| OUT |                           |                           |                           |                           |
 
-- Left Encoder: Specifies what is being edited. It can be any of the six Neurons, or the Output assignments.
-- Left Encoder Press: Alternates between the Selection Screen and the Edit Screen.
-- Left Encoder Long-Press: Toggles the All Connections display.
-- Right Encoder: Changes the value at the cursor.
-- Right Encoder Press: Advances the cursor.
-- Up/Down Buttons: Selects which Setup (from 1-4) is active. If the down button is long-pressed, the active Setup may be copied to another Setup.
+|       | Left Encoder                                                                                | Right Encoder                                                       |
+| ----- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| TURN  | Specifies what is being edited. It can be any of the six Neurons, or the Output assignments | Changes the value at the cursor                                     |
+| PRESS | Alternates between the Selection Screen and the Edit Screen                                 | Advances the cursor                                                 |
+| LONG  | Turn on the All Connections screen                                                          | Go to the main menu; current Setup's data is also dumped via SysEx. |
 
-## Selection Screen
+|            | Up Button                                | Down Button                                 |
+| ---------- | ---------------------------------------- | ------------------------------------------- |
+| PRESS      | Selects which Setup (from 1-4) is active | Selects which Setup (from 1-4) is active    |
+| LONG PRESS |                                          | Active Setup cab be copied to another Setup |
 
-[](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Neural-Net#selection-screen)
+Neural Net has two basic setup screens, the [Selection Screen](fullApplets/Neural-Net#selection-screen) (which shows all six Neurons), and the [Edit Screen](fullApplets/Neural-Net#edit-screen) (which allows editing and monitoring of a single Neuron). The controls work exactly the same way on both screens, but some changes are only visible from the [Edit Screen](fullApplets/Neural-Net#edit-screen).
 
-The Selection Screen shows an overview of all six Neurons, all inputs, and all outputs. Use the left encoder to choose a different Neuron, or the outputs.
+## selection-screen
+The *Selection Screen* shows an overview of all six Neurons, all inputs, and all outputs. Use the left encoder to choose a different Neuron, or the outputs.
 
 The inputs are on the left side, with the Digital inputs (1-4) under the D, and the Control Voltage inputs (1-4) under the V. When an input is high, its corresponding number's display is reversed.
 
@@ -33,10 +42,7 @@ The six Neurons are in the center, with Neurons #1, #3, and #5 at the top, and N
 
 Long-press the left encoder to turn on All Connections. This will show source and assignment lines for all Neurons and outputs. Long-press the left encoder again to turn off All Connections.
 
-## Edit Screen
-
-[](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Neural-Net#edit-screen)
-
+## edit-screen
 Press the left encoder button to alternate between the Selection Screen and the Edit Screen.
 
 The Edit Screen is split into two halves. The left half of the screen shows the logic gate type and the Neuron's parameters. The right half of the screen shows the logic gate symbol, along with its inputs and output state. For the Threshold Logic Neuron, the right half of the screen also allows editing of weights and threshold.
@@ -44,8 +50,6 @@ The Edit Screen is split into two halves. The left half of the screen shows the 
 Press the right encoder button to advance the cursor, and turn the right encoder to change the value. The following sources are available: **Dig 1, Dig 2, Dig 3, Dig 4, CV 1, CV 2, CV 3, CV 4, Neuron 1, Neuron 2, Neuron 3, Neuron 4, ON, and OFF**.
 
 ### Edit Screen Parameter Names
-
-[](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Neural-Net#edit-screen-parameter-names)
 
 The meanings of the parameters you'll see on the Edit Screen are below. See [Logic Gate Reference](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Neural-Net#logic-gate-reference) for details about what the settings actually do.
 
@@ -59,13 +63,9 @@ The meanings of the parameters you'll see on the Edit Screen are below. See [Log
 
 ### Output Assignment
 
-[](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Neural-Net#output-assignment)
-
 When the outputs are selected, the Edit Screen shows Outputs A-D, with a Neuron assigned to each. The state of the selected Neurons will be sent to the specified outputs.
 
 ## Logic Gate Reference
-
-[](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Neural-Net#logic-gate-reference)
 
 - **NOT** is a unary (single-input) gate whose state is the opposite of its operand.
 - **AND** is a binary (two-input) gate whose state is ON if and only if both of its operands are ON.
@@ -81,22 +81,14 @@ When the outputs are selected, the Edit Screen shows Outputs A-D, with a Neuron 
 
 ## Setups
 
-[](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Neural-Net#setups)
-
 Neural Net has four independent Setups. A Setup consists of information for Neuron logic gate assignments, source assignments, and output assignments. Use the Up and Down buttons to change the active Setup. The active Setup number is shown at the top of all of the Setup screens.
 
 ### Copying Setups
-
-[](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Neural-Net#copying-setups)
-
 To copy the information for the active Setup to another Setup, long-press the Down button. When you release the button, a Copy screen will open. Choose the copy's destination with the Up and Down buttons, and then push the right encoder ("[Copy]") to execute the copy. To leave the Copy screen without changing any data, push the left encoder ("[Cancel]") or long-press the Down button again.
 
 If you select a Setup as its own copy destination, the display will change to a SysEx dump screen. The right encoder option becomes "[Dump]". If you push the right encoder, Neural Net will send a system exclusive file containing the data for the active Setup.
 
 ### Saving Setups
-
-[](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Neural-Net#saving-setups)
-
 There are two ways to save Setup data.
 
 **Save all four Setups in the module:** Long-press the left encoder to get to the main menu, then long-press the left encoder again to save data for all apps. A solid rectangle will expand from the middle of the screen to confirm the save operation. The Ornament and Crime module will recall the saved Setups on power-up.

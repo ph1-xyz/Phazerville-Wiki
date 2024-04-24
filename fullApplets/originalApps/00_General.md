@@ -127,7 +127,7 @@ Each app has two display pages, a settings mode and a "screensaver" mode. The ap
  
 ***
 
-[[zz_Credits, thanks, acknowledgements, and sources of inspiration]]
+[[zz_credits-thanks-acknowledgements-inspirationSources]]
  
 ***
 

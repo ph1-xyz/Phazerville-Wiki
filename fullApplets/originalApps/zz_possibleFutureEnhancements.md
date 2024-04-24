@@ -15,7 +15,7 @@ Harrington 1200
 Low-rents
 Meta-Q
 Piqued
-### Possible future enhancements 
+### ???
 
  - ~~add a configurable delay (between receipt of trigger and start of attack segment of envelope) for each channel~~, ~~possibly externally CVable (done, but not currently under external CV control)~~ (done in v1.1)
 
@@ -32,15 +32,20 @@ Piqued
  - ~~add some trigger processors, such as a Euclidean pattern generator, so that a regular clock/trigger input signal can be "filtered" into a rhythmic pattern of generated envelopes.~~ - done!
 
  - add "anti-Euclidean" (i.e. Golomb ruler) and "divided" Euclidean patterns as shown in [this video](https://www.youtube.com/watch?v=_h7bInSc4h4) about the Shakmat Knight's Gallop module.
+ 
 Quadraturia
 Quantermain
 References
 Scenes
 Sequins
 Viznutcracker
-### Possible future enhancements 
+### ???
  - add more byte beat equations (16 more added in v1.1!)
  - investigate whether smoothing of the byte beat value stream is useful when they are used a modulation sources
  - investigate whether digital filtering of the byte beat audio stream is feasible, or useful
 
-
+### References
+ - lots of things! The current _References_ app is really just a placeholder. Some possibilities:
+   - simple approximate quad channel voltmeter which measures and displays voltage on each of the CV inputs (to nearest 0.01V (nearest 10 mV).
+   - quad channel BPM (beats per minute) meter using the trigger inputs
+   - quad channel frequency meter, using the CV inputs.

@@ -1,9 +1,7 @@
 _References_ is a simple utility app which outputs fixed reference voltages. These are handy when calibrating other modules, such as VCOs.
 
 Note that unlike all the other apps, the settings for _references_ are *not* saved and will revert tot he defaults eat time the module is powered on. This is to save EEPROM storage space - saved settings were not regarded as critical for this app.
-
 ### Controls
-
 
 |       | Left Encoder                                               | Right Encoder                                                                                                     |
 | ----- | ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
@@ -32,9 +30,3 @@ No inputs are used. Reference voltages for channels A to D appear on outputs A t
 ### Screensaver display
 
 The screen is divided into four channel lanes (columns), with the same layout as the _Quantermain_ screensaver, except that the output voltage (rounded to the nearest millivolt) is shown as the top of each lane (column). Note that the minus signs for negative voltages are quite small due to the limited display space, and can be quite hard to see.
-
-### Possible future enhancements 
- - lots of things! The current _References_ app is really just a placeholder. Some possibilities:
-   - simple approximate quad channel voltmeter which measures and displays voltage on each of the CV inputs (to nearest 0.01V (nearest 10 mV).
-   - quad channel BPM (beats per minute) meter using the trigger inputs
-   - quad channel frequency meter, using the CV inputs.

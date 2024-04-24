@@ -1,8 +1,10 @@
-This is a experimental implementation of several byte beats signal generators. "Byte beats" are equations, expressed usually as a single line of programme code, typically involving various bit-level operators, which when evaluated with an incrementing phase value at audio rates produce all manner of harsh digital noises, some of which sound musical, or at least, interesting. "Byte beats" were first [described](http://countercomplex.blogspot.com/2011/10/algorithmic-symphonies-from-one-line-of.html) in 2011 by viznut (aka Ville-Matias Heikkilä).
+#audioGenerator #LFO #independentChannels 
 
-The output, if used as an audio signal, usually needs to be fairly heavily filtered through a low-pass filter to remove at least some of the unpleasant digital "screech" due to  high-frequency aliasing and other effects which are characteristics of byte beats. This digital aliasing is a fundamental characteristic of the way byte beats work, and isn't due to any hardware limitations of the O+C module.
+This is an experimental implementation of several byte beats signal generators. "Byte beats" are equations, expressed usually as a single line of programme code, typically involving various bit-level operators, which when evaluated with an incrementing phase value at audio rates produce all manner of harsh digital noises, some of which sound musical, or at least, interesting; "Byte beats" were first [described](http://countercomplex.blogspot.com/2011/10/algorithmic-symphonies-from-one-line-of.html) in 2011 by viznut (aka Ville-Matias Heikkilä).
 
-The _Viznutcracker, sweet!_ app current provides access to 8 different byte beat equations, although it is anticipated that more will be added in further versions. The app provides four independent byte beat generators, on channels A to D, which all run independently. The equation, speed/frequency and three equation parameter values (p0, p1 and p2) can be set via the menus and/or voltage-controlled for each generator via mappable CV inputs.
+The _Viznutcracker, sweet!_ app allows to run a generator on each of the 4 channels, allowing to choose from 8 different byte beat equations; the equation, speed/frequency and three equation parameter values (p0, p1 and p2) can be set via the menus and/or voltage-controlled for each generator via mappable CV inputs.
+
+The output, if used as an audio signal, usually needs to be fairly heavily filtered through a low-pass filter to remove at least some of the unpleasant digital "screech" due to high-frequency aliasing and other effects which are characteristics of byte beats. This digital aliasing is a fundamental characteristic of the way byte beats work, and isn't due to any hardware limitations of the O+C module.
 
 Perhaps uniquely amongst byte beat generator modules, the _Viznutcracker, sweet!_ apps permits the byte beat generators to be run at very slow rates, and because the O+C module outputs are DC-coupled, they can therefore be used as sources of stepped control voltages. For example, the outputs can be fed into a quantiser (such as another O+C module) to create potentially interesting pitch sequences (possibly even melodies...). Furthermore, the app allows each byte beat equation to be incremented by an external clock/trigger input, so that these stepped voltages can be generated in synchrony with other external processes.
 
@@ -52,15 +54,6 @@ Perhaps uniquely amongst byte beat generator modules, the _Viznutcracker, sweet!
 
 [My God, it's full of stars!](https://www.youtube.com/watch?v=yEFw419Nbg8)
 
-### Tips
-
-  - as noted above, use the byte beat generators at very slow rates to generate DC control voltages. Feed these to a quantiser to produced pitch sequences, or pass them through a portamento or slew-limiting module to create interesting smooth modulation signals, or use them as-is, to modulate filters etc.
- 
-  - process the byte beats outputs running at audio rates through a low-pass or shelf filter to remove some of the high-pitched screech
-  
-  - process the output through band-pass filters (such as the [Mutable Instruments Shelves](http://mutable-instruments.net/modules/shelves) filter), or other complex filtering arrangements subject to slow modulation (by another O+C module, perhaps)
-  
-  - process the output through a VCA and/or filter with a percussive envelope to produce interesting, well, percussive sounds. Use the same trigger or gate signal used to fire the envelopes also reset the phase on the byte beat generator. Use slow modulation to slowly vary the frequency/rate, and/or to "scrub" loop start and end points in order to vary the nature of the percussive sound.
 
 ### Examples
   - [Viznutcracker, sweet!](https://soundcloud.com/bennelong-bicyclist/viznutcracker-sweet) - a track created using the _Viznutcracker, sweet!_ app as the only sound source, except for a bass drum from a Mutable Instruments Peaks module.

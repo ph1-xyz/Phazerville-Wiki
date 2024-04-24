@@ -14,7 +14,7 @@ Two independent function generators are provided (referred to here as Generator 
 | PRESS      | Increment frequency of currently selected generator  by 32 | Decrement frequency of currently selected generator by 32 |
 | LONG PRESS |                                                            |                                                           |
 
-Note that the output voltage range of the O+C module is asymmetrical (about -3V to +6V) - because it was designed to process pitch CVs. Therefore the output of the _Low-rents_ app is not centred about 0V.
+### I/O
 
 |     | 1                                                          | 2                                                          | 3                                                          | 4                                                                                      |
 | --- | ---------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------------------------------------------------------- |
@@ -22,6 +22,7 @@ Note that the output voltage range of the O+C module is asymmetrical (about -3V 
 | CV  | Frequency/speed of generator 1                             | Rho or c parameter for generator 1                         | Frequency/speed of generator 2                             | Rho or c parameter for generator 2                                                     |
 | OUT | Mappable outputs from the two generators (see table below) | Mappable outputs from the two generators (see table below) | Mappable outputs from the two generators (see table below) | Mappable outputs from the two generators (see table below)                             |
 
+Note that the output voltage range of the O+C module is asymmetrical (about -3V to +6V) - because it was designed to process pitch CVs. Therefore the output of the _Low-rents_ app is not centred about 0V.
 
 ### Settings
 
@@ -64,9 +65,5 @@ Note that the output voltage range of the O+C module is asymmetrical (about -3V 
 The Rho and c parameters for the Lorenz and Rössler attractors respectively determine the degree of variability in the chaotic generator system. Note that the values have been constrained so that the functions do not collapse, but some combinations of extreme settings may cause the generator functions to collapse completely. If this happens, change the Rho/c setting and send a rest pulse to the relevant trigger input to reset the function generator.
 
 ### Screensaver display
-
 The screensaver show the A and B outputs in a vectorscope (X/Y) display on the left half of the screen, and the C and D outputs as a vectorscope display on the right half of the screen.
  
-### Tips
-
-If you have an oscilloscope capable of displaying X/Y (vectorscope) signals, try patching pairs of the _x_, _y_ and _z_ outputs from either type of generator into it to observe the classic strange attractor patterns.
