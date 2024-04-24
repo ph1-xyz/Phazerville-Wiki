@@ -4,6 +4,15 @@ https://youtu.be/cVnJ3RqdbJU
 
 MIDI Out is a monophonic CV-to-MIDI interface that uses the USB port on the back of the Ornament and Crime module. The MIDI interface will appear in your computer as "Hemisphere".
 
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
+
 Controls
 * Digital Ins: Digital 1 is a gate. A new gate causes MIDI Out to send a new Note On message, with the note based on CV 1
 * CV Ins: CV 1 will be quantized to a MIDI note number, which will be sent when Digital 1 goes high. CV 2 is assignable.

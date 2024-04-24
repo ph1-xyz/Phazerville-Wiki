@@ -2,6 +2,15 @@
 
 ShiftGate is a dual shift register-based gate/trigger sequencer for creating aleatoric rhythm patterns.
 
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
+
 Controls
 * Digital Inputs: Digital 1 clocks the sequencer by shifting both registers to the left, and Digital 2 freezes the sequencer and locks out changes.
 * CV Inputs: Flip input for each channel. When CV is high, the bit rotating off the left side of the corresponding channel's register will be replaced at bit 0 with the opposite value.

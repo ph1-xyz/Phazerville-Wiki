@@ -4,11 +4,11 @@
 
 ### I/O
 
-|                |             1/3              |             2/4              |
-| -------------- | :--------------------------: | :--------------------------: |
-| Trig (Digital) |          No effect           | Mix CH1 into CH2 while Gated |
-| CV             |            CH1 IN            |            CH2 IN            |
-| Output         | Attenuverted CH1 IN + offset | Attenuverted CH2 IN + offset |
+|        |             1/3              |             2/4              |
+| ------ | :--------------------------: | :--------------------------: |
+| TRIG   |          No effect           | Mix CH1 into CH2 while Gated |
+| CV INs |            CH1 IN            |            CH2 IN            |
+| OUTs   | Attenuverted CH1 IN + offset | Attenuverted CH2 IN + offset |
 
 ### UI Parameters
 * CH1 Offset voltage

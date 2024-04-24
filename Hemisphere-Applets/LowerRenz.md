@@ -2,6 +2,15 @@
 
 LowerRenz is a single Lorenz-only modulation generator based on the O_C's own Low-Rentz Dual Lorenz/Rössler Generator, which is itself based on an Easter Egg from Mutable Instruments Streams.
 
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
+
 Controls
 * Digital Ins: A trigger at Digital 1 resets the generator, and a gate at Digital 2 freezes the outputs until the gate goes low.
 * CV Ins: CV 1 is bi-polar modulation for Frequency, and CV 2 is bi-polar modulation for Rho, whatever Rho is

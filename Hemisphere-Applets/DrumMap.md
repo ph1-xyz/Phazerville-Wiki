@@ -2,6 +2,16 @@
 
 DrumMap is a 2 channel port of the popular rhythm sequencer [Grids](https://mutable-instruments.net/modules/grids/), from Mutable Instruments. You are able to select any of the 3 parts to assign to each channel. In addition, the 2nd channel can be used as the accent channel of the 1st channel. Traverse a map of rhythms by X and Y coordinates!
 
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
+
+
 DrumMap expects a 32nd note clock (8ppqn) to operate normally, but can use other clock speeds to advance the sequencer at slower or faster rates.
 
 If you are unfamiliar with the premise of Grids, watch this video for an excellent explanation: https://www.youtube.com/watch?v=l5yN0N6aTws
@@ -12,11 +22,11 @@ See it in action: https://youtu.be/yLr3vQJm3wM
 
 ### I/O
 
-|                |              1/3           |                   2/4                |
-| -------------- |:---------------------------:|:-------------------------------------:|
-| Trig (Digital) |  Clock   | Reset |
-| CV In          | Assignable (Fill A, X position,) |      Assignable (Fill B, Y Position, Chaos)       |
-| Output         |          Ch 1 Trigger sequence           |         Ch 2 Trigger sequence           |
+|        |               1/3                |                  2/4                   |
+| ------ | :------------------------------: | :------------------------------------: |
+| TRIG   |              Clock               |                 Reset                  |
+| CV INs | Assignable (Fill A, X position,) | Assignable (Fill B, Y Position, Chaos) |
+| OUTs   |      Ch 1 Trigger sequence       |         Ch 2 Trigger sequence          |
 
 Note that alternate rhythms are available with the custom build flag "grids2".
 

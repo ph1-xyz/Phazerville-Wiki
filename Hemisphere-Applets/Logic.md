@@ -3,6 +3,15 @@ https://youtu.be/mHZCaMH_Dgk
 
 Logic is a two-input logic module that performs two logical operations at once.
 
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
+
 Controls
 * Digital Ins: Two logical operands, in the form of gate signals with high being True and low being False
 * CV Ins: Inputs 1 and 2 set the logical gate when the gate selected for the corresponding channel is "CV"

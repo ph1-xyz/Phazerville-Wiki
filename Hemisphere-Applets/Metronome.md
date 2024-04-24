@@ -1,5 +1,14 @@
 Metronome is a control system for the [Hemisphere internal clock](https://github.com/Chysn/O_C-HemisphereSuite/wiki/_Hemisphere-Basic-Instructions#5-internal-clock)
 
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
+
 Controls
 * CV Outs: Out 1 sends a clock pulse on the specified multiples of the beat, and Out 2 sends a clock pulse on each beat.
 * Encoder: Sets the tempo of the internal clock

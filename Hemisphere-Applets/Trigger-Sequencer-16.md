@@ -2,6 +2,15 @@
 
 Trigger Sequencer 16 is a 16-step trigger sequencer. It's visually and functionally similar to Trigger Sequencer, except it's 1x16 instead of 2x8.
 
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
+
 Controls
 * Digital Ins: A clock at Digital 1 advances the sequence. A trigger at Digital 2 resets sequence.
 * CV Ins: While a gate is present at CV 1, the A/C and B/D outputs are swapped

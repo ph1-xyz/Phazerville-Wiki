@@ -11,11 +11,11 @@ See it in action: https://youtu.be/J1OH-oomvMA?si=Z97wJ3HXe0HocaBa&t=357
 
 ### I/O
 
-|                |              1/3           |                   2/4                |
-| -------------- |:---------------------------:|:-------------------------------------:|
-| Trig (Digital) |  Clock   | Reset |
-| CV In          | Ch 1 mode: inverted (positive), XOR (negative) | Ch 2 mode: inverted, XOR |
-| Output         |          Ch 1 Trigger sequence           |         Ch 2 Trigger sequence           |
+|        |                      1/3                       |           2/4            |
+| ------ | :--------------------------------------------: | :----------------------: |
+| TRIG   |                     Clock                      |          Reset           |
+| CV INs | Ch 1 mode: inverted (positive), XOR (negative) | Ch 2 mode: inverted, XOR |
+| OUTs   |             Ch 1 Trigger sequence              |  Ch 2 Trigger sequence   |
 
 
 ### UI Parameters

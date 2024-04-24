@@ -2,6 +2,15 @@
 
 While Enigma imposes a track-song workflow, Enigma, Jr. allows you to organize your Turing Machines via CV. It allows playback and temporary manipulation of registers in your Enigma Register Library.
 
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
+
 Controls
 * Digital Ins: Digital 1 advances the register
 * CV Ins: CV 1 is a bi-polar modulation of the pitch, and CV 2 is the Organize modulation (see below)

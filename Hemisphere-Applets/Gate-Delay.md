@@ -2,6 +2,15 @@
 
 Gate Delay is a dual trigger/gate delay loosely based on the Ladik S-189.
 
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
+
 Controls
 * Digital Ins: Clock/Trigger input per channel
 * CV Ins: Bi-polar time modulation per channel

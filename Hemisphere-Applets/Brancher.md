@@ -4,11 +4,11 @@
 
 ### I/O
 
-|                |                1/3                 |    2/4     |
-| -------------- | :--------------------------------: | :--------: |
-| Trig (Digital) | Signal (clock or gate) for routing | No effect  |
-| CV In          |  Probability modulation (bipolar)  | No effect  |
-| Output         |             Output A/C             | Output B/D |
+|        |                1/3                 |    2/4     |
+| ------ | :--------------------------------: | :--------: |
+| TRIG   | Signal (clock or gate) for routing | No effect  |
+| CV INs |  Probability modulation (bipolar)  | No effect  |
+| OUTs   |             Output A/C             | Output B/D |
 
 ### UI Parameters
 * Probability

@@ -2,6 +2,15 @@
 
 Scope is a simple CV and clock monitoring tool.
 
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
+
 Controls
 * Digital Ins: Digital 1 is a clock for the BPM display. Digital 2 determines the wavelength for the visual display of CV 1 data (as of Hemisphere Suite 1.1)
 * CV Ins: CV 1 goes to the scope, and CV 2 goes to the numeric CV monitor

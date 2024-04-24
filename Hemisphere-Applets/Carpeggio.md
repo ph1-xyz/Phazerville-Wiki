@@ -4,11 +4,11 @@ Carpeggio is an arpeggiator/sequencer that uses coordinates on a 4x4 Cartesian p
 
 ### I/O
 
-|                |              1/3           |                   2/4                |
-| -------------- |:---------------------------:|:-------------------------------------:|
-| Trig (Digital) |  Advance to the next step (x, then y)   | Reset to (1,1) |
-| CV In          | X position |      Y position       |
-| Output         |          Quantized pitch CV          |         Modulation output proportional to x*y          |
+|        |                 1/3                  |                  2/4                  |
+| ------ | :----------------------------------: | :-----------------------------------: |
+| TRIG   | Advance to the next step (x, then y) |            Reset to (1,1)             |
+| CV INs |              X position              |              Y position               |
+| OUTs   |          Quantized pitch CV          | Modulation output proportional to x*y |
 
 ### UI Parameters
 * Chord

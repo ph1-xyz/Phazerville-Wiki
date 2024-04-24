@@ -4,6 +4,15 @@ https://youtu.be/qPRspJApd1Y
 
 Trigger Sequencer is a dual eight-step trigger sequencer.
 
+### I/O
+
+|        | 1/3 | 2/4 |
+| ------ | :-: | :-: |
+| TRIG   |     |     |
+| CV INs |     |     |
+| OUTs   |     |     |
+
+
 Controls
 * Digital Ins: A clock at Digital 1 advances both sequences. A trigger at Digital 2 resets both sequences to the top.
 * CV Ins: While a gate is present at CV 1, the A/C and B/D outputs are swapped
