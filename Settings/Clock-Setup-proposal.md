@@ -3,7 +3,7 @@
 ##### Externally Clocked
 Externally Clocked Icon to be used instead of Clock
 <!-- // { 0x02, 0x5e, 0x02, 0x5e, 0x02, 0x5e, 0x02, 0x5e }-->
-![[internallyClockedIconProposal.png]]
+![[externallyClockedIconProposal.png]]
 
 TR1/3 ins trigger or advance the app
 
@@ -22,7 +22,7 @@ MIDI CC Message or repurposed TR2/4 IN could work as
 ##### Internally Clocked
 Internally Clocked Icon to be used instead of Clock
 <!-- { 0xbe, 0x02, 0xb8, 0x03, 0x03, 0xb8, 0x02, 0xbe }-->
-![[externallyClockedIconProposal 1.png]]
+![[internallyClockedIconProposal.png]]
 
 App are triggered from Internal clock.
 - **Mult/div** of this clock are *shown*
@@ -57,6 +57,8 @@ Icon for SYNC?
 <!--  { 0x0f, 0x05, 0x77, 0x40, 0xef, 0x05, 0xc7, 0xf0 }-->
 ![[ppqnProposal4.png]]
 
+<!--  { 0x0f, 0x75, 0x57, 0xf0, 0x0f, 0xf5, 0x27, 0xe0 }-->
+![[ppqnProposal5.png]]
 ##### SWING
 Is this applied both in Externally- and Internally-clocked mode?
 
