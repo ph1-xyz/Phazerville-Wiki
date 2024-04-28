@@ -71,34 +71,34 @@ Each app has two display pages, a settings mode and a "screensaver" mode. The ap
 
 ***
 
-[[CopierMaschine]]
+[[Original Apps/CopierMaschine]]
 
 ***
-[[Harrington 1200]]
+[[Original Apps/Harrington 1200]]
 
 ***
-[[Automatonnetz]]
+[[Original Apps/Automatonnetz]]
 
 ***
-[[Quantermain]]
+[[Original Apps/Quantermain]]
 
 ***
-[[Quadraturia]]
+[[Original Apps/Quadraturia]]
 
 ***
-[[Low-rents]]
+[[Original Apps/Low-rents]]
 
 ***
-[[Piqued]]
+[[Original Apps/Piqued]]
 
 ***
-[[Dialectic Ping-Pong]]
+[[Original Apps/Dialectic Ping-Pong]]
 
 ***
-[[Viznutcracker, sweet!]]
+[[Original Apps/Viznutcracker, sweet!]]
 
 ***
-[[References]]
+[[Original Apps/References]]
 
 ***
 
@@ -127,7 +127,7 @@ Each app has two display pages, a settings mode and a "screensaver" mode. The ap
  
 ***
 
-[[zz_Credits, thanks, acknowledgements, and sources of inspiration]]
+[[Original Apps/zz_Credits, thanks, acknowledgements, and sources of inspiration]]
  
 ***
 

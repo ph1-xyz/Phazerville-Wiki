@@ -71,34 +71,34 @@ Each app has two display pages, a settings mode and a "screensaver" mode. The ap
 
 ***
 
-[[CopierMaschine]]
+[[Full Apps/Stock O_C Apps/CopierMaschine]]
 
 ***
-[[Harrington 1200]]
+[[Full Apps/Stock O_C Apps/Harrington 1200]]
 
 ***
-[[Automatonnetz]]
+[[Full Apps/Stock O_C Apps/Automatonnetz]]
 
 ***
-[[Quantermain]]
+[[Full Apps/Stock O_C Apps/Quantermain]]
 
 ***
-[[Quadraturia]]
+[[Full Apps/Stock O_C Apps/Quadraturia]]
 
 ***
-[[Low-rents]]
+[[Full Apps/Stock O_C Apps/Low-rents]]
 
 ***
-[[Piqued]]
+[[Full Apps/Stock O_C Apps/Piqued]]
 
 ***
-[[Dialectic Ping-Pong]]
+[[Full Apps/Stock O_C Apps/Dialectic Ping-Pong]]
 
 ***
-[[Viznutcracker, sweet!]]
+[[Full Apps/Stock O_C Apps/Viznutcracker, sweet!]]
 
 ***
-[[References]]
+[[Full Apps/Stock O_C Apps/References]]
 
 ***
 
@@ -127,7 +127,7 @@ Each app has two display pages, a settings mode and a "screensaver" mode. The ap
  
 ***
 
-[[zz_Credits, thanks, acknowledgements, and sources of inspiration]]
+[[Full Apps/Stock O_C Apps/zz_Credits, thanks, acknowledgements, and sources of inspiration]]
  
 ***
 
