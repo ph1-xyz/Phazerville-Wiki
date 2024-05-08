@@ -6,24 +6,20 @@ It can function like a looping envelope generator or an audio-rate oscillator, w
 
 ### I/O
 
-|        | 1/3 | 2/4 |
-| ------ | :-: | :-: |
-| TRIG   |     |     |
-| CV INs |     |     |
-| OUTs   |     |     |
+|        |                          1/3                          |    2/4     |
+| ------ | :---------------------------------------------------: | :--------: |
+| TRIG   |                         Clock                         |   Reset    |
+| CV INs | Assignable (Frequency, slope, shape, fold, amplitude) | Assignable |
+| OUTs   |                      Waveform A                       | Waveform B |
 
-
-### Digital Inputs
-* Clock Sync
-* Reset
-
-### CV Inputs
+### CV Inputs & UI Parameters
 These are also the corresponding on-screen parameters.
 Each input is assigned to one of:
 * Frequency (**Hz**) - tracks V/Oct for audio-rate operation
 * **Sl**ope - skews the waveform (much like the [SkewedLFO](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Skewed-LFO) applet)
 * **Sh**ape - morphs between various curved segment combos
 * **Fo**ld - wavefolder!
+* **Am**plitude
 
 ### Outputs
 Each output can be one of:

@@ -4,24 +4,17 @@ A deluxe Euclidean pattern generator, two channels, up to 32 steps each. Using U
 
 ### I/O
 
-|        | 1/3 | 2/4 |
-| ------ | :-: | :-: |
-| TRIG   |     |     |
-| CV INs |     |     |
-| OUTs   |     |     |
+|        |      1/3      |     2/4      |
+| ------ | :-----------: | :----------: |
+| TRIG   |     Clock     |    Reset     |
+| CV INs |  Assignable   |  Assignable  |
+| OUTs   | Ch 1 Triggers | Ch 2 Trigger |
 
-
-Each channel has four parameters:
-* Length
-* Hits
-* Offset (right-shift)
-* Padding (0's added to the end before Offset)
-
-There are two additional parameters for CV Input Modulation Targets. Bipolar voltages on each CV Input will modulate a single parameter on either channel.
-
-### Digital Inputs
-* 1: Clock
-* 2: Reset
+### UI Parameters
+* Pattern length
+* Pattern fill (hits)
+* Offset (right shift)
+* Padding (empty steps added to the pattern length)
 
 ### CV Inputs
 The CV inputs will modulate whatever parameter the tiny _1_ or _2_ is sitting next to.

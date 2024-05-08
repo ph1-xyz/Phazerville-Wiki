@@ -4,11 +4,11 @@ Adapted from the original [**ShiftReg**](https://github.com/Chysn/O_C-Hemisphere
 
 ### I/O
 
-|        | 1/3 | 2/4 |
-| ------ | :-: | :-: |
-| TRIG   |     |     |
-| CV INs |     |     |
-| OUTs   |     |     |
+|        |                                 1/3                                 |    2/4     |
+| ------ | :-----------------------------------------------------------------: | :--------: |
+| TRIG   |                                Clock                                |   p Gate   |
+| CV INs | Assignable (Slew, length, probability, range, transpose, crossfade) | Assignable |
+| OUTs   |                 Assignable (Pitch, mod, trig, gate)                 |            |
 
 
 The **Slew** parameter allows extreme smoothing on the output stage for portamento and gentle modulation. It acts as a Decay tail on the Trigger output modes. With CV input modulation of Slew, you can modulate the smoothing - CV control over decay envelopes, or variable portamento.

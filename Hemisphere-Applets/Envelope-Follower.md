@@ -1,21 +1,19 @@
 #dualInput/inCVs/asAudio #dualOutput/CVs #generator/envelope #encoder/performanceReady
 
-EnvFollow is an envelope follower and ducker.
+EnvFollow is a dual envelope follower / ducker, with adjustable gain and response speed
 
 ### I/O
 
-|        | 1/3 | 2/4 |
-| ------ | :-: | :-: |
-| TRIG   |     |     |
-| CV INs |     |     |
-| OUTs   |     |     |
-
-
-Controls
-* CV Inputs: Signal inputs for channels 1 and 2
-* Outputs: Output 1's output increases as the amplitude of Input 1 increases. Output 2's output decreases as the amplitude of Input 2 increases.
-* Encoder: Gain per channel
-
-Since audio signals are typically much lower than the typical CV range, a gain of up to 31x is provided.
+|        |       1/3       |       2/4       |
+| ------ | :-------------: | :-------------: |
+| TRIG   |    No effect    |    No effect    |
+| CV INs | Channel 1 Input | Channel 2 Input |
+| OUTs   |   Envelope 1    |   Envelope 2    |
+### UI Parameters
+* Mode Selection
+	* Follow: Envelope output matches input signal amplitude
+	* Duck: Envelope output inverse of input signal amplitude
+* Gain (higher values produce an envelope that is more sensitive to the input signal), up to 31x
+* Response speed (both channels)
 
 EnvFollow is in Hemisphere Suite starting at v1.4.
