@@ -2,7 +2,7 @@
 
 This is a single Tides-like oscillator. Both inputs and outputs are configurable. The outputs are visualized on the screen.
 
-It can function like a looping envelope generator or an audio-rate oscillator, with modulatable parameters for morphing the contour.
+It can function like a looping envelope generator or an audio-rate oscillator, with modulatable parameters for morphing the contour. Triggers to input 1/3 may function as tap tempo. Enable "One Shot" to output a single waveform cycle
 
 ### I/O
 
@@ -19,7 +19,9 @@ Each input is assigned to one of:
 * **Sl**ope - skews the waveform (much like the [SkewedLFO](https://github.com/Chysn/O_C-HemisphereSuite/wiki/Skewed-LFO) applet)
 * **Sh**ape - morphs between various curved segment combos
 * **Fo**ld - wavefolder!
-* **Am**plitude
+* One shot
+* Level / **Am**plitude
+
 
 ### Outputs
 Each output can be one of:
@@ -29,4 +31,4 @@ Each output can be one of:
 * Gate **Lo**w - starts high, goes low at the end of the Attack phase
 
 # Credits
-The original applet and backend _tideslite_ algorithm were written by **qiemem** (Bryan Head)
+The original applet and backend _tideslite_ algorithm were written by **qiemem** (Bryan Head). In Phazerville from v1.6

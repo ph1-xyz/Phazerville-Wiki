@@ -1,6 +1,4 @@
-#generator/audio 
-
-Dr. Crusher is a single-channel sample rate and bit resolution reducer for CV or audio signals.
+Dr. LoFi is a single-channel sample rate and bit resolution reducer for CV or audio signals.
 
 ### I/O
 
@@ -20,5 +18,3 @@ Controls:
 Note that the maximum rate (16.7kHz) and resolution (14-bit) values are the maximum values available to the firmware, so some "crushing" will always be applied, no matter what, including when the "defeat" is activated and when monitoring Out B/D.
 
 If you're not getting any signal at lower bit resolutions, increase the input amplitude.
-
-Dr. Crusher is in Hemisphere Suite starting with v1.7.
